@@ -25,6 +25,11 @@ a {
                 font-size: 24px;
             }
         }
+        .hover-text.unavailable {
+            span {
+                color: #D62828;
+            }
+        }
         &:hover {
             .hover-text {
                 opacity: 0.87;
@@ -78,6 +83,11 @@ a {
             background-color: var(--primary-color);
             color: var(--white-color);
         }
+    }
+    .btn-proyecto.unavailable {
+        background-color: #D62828;
+        color: var(--white-color);
+        cursor: inherit;
     }
 }
 @media screen and (max-width: 992px) {
