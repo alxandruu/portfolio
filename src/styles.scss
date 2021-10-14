@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+:root {
+    --primary-color: #294d4a;
+    --tertiary-color: #17bebb;
+    --white-color: #eaf7cf;
+}
+*::-moz-selection {
+    background-color: #17bebb;
+    color: white;
+}
+*::selection {
+    background-color: #17bebb;
+    color: white;
+}
+* {
+    text-align: justify;
+}
