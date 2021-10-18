@@ -1,11 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Solway&display=swap");
 :root {
-    --primary-color: #294d4a;
-    --tertiary-color: #17bebb;
-    --white-color: #eaf7cf;
+    --primary-color: #034c3c;
+    --secondary-color: #c1292e;
+    --tertiary-color: #3ab795;
+    --fourth-color: #f0f2a6;
+    --white-color: #fff;
+    --body-color: #fffffc;
 }
+#body {
+    background-color: var(--body-color) !important;
+}
+
 *::-moz-selection {
     background-color: #17bebb;
     color: white;

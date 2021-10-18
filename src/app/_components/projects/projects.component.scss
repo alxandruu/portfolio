@@ -1,0 +1,64 @@
+a {
+    text-decoration: none;
+}
+
+// Projects Styles
+#projects-ensemble {
+    .project {
+        border-radius: 10px;
+        padding: 0.5rem;
+        border: 2px dotted var(--primary-color);
+        .links {
+            font-size: 2.5rem;
+            text-align: center;
+            a {
+                color: var(--primary-color);
+                &:hover {
+                    color: var(--tertiary-color);
+                }
+            }
+            .unavailable {
+                color: var(--primary-color);
+                font-weight: bold;
+                font-size: 2rem;
+                text-align: center;
+            }
+
+            a + a {
+                margin-left: 2rem;
+            }
+        }
+        .image {
+            img {
+                border-radius: 10px;
+            }
+        }
+        .title {
+            font-size: 2.3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            font-family: "Gemunu Libre", sans-serif;
+        }
+        .description {
+            font-size: 0.9rem;
+            color: var(--primary-color);
+        }
+        .techs {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+            font-weight: bold;
+            span {
+                margin: 0.1rem;
+            }
+        }
+    }
+}
+
+//Media Querys
+@media screen and (max-width: 991.5px) {
+    #projects-ensemble {
+        & > div + div {
+            margin-top: 1rem;
+        }
+    }
+}

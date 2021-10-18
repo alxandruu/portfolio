@@ -1,0 +1,327 @@
+// GLOBAL
+a {
+    text-decoration: none;
+}
+img {
+    object-fit: cover;
+}
+
+// Photo, Name and Contact Information
+.person-image {
+    height: 100%;
+    border-radius: 10px;
+    img {
+        border: 2px dotted var(--primary-color);
+        border-radius: 10px;
+    }
+}
+.person-info {
+    #name {
+        font-size: 3rem;
+        font-family: "Solway", serif;
+        span {
+            color: var(--primary-color);
+            &:nth-child(1) {
+                background-color: var(--primary-color);
+                color: var(--body-color);
+            }
+        }
+        border-bottom: 3px solid var(--primary-color);
+    }
+    #contact_data {
+        div {
+            margin-top: 0.35rem;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+
+            i + span {
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+//Summar Information
+.summary {
+    & > div:first-child {
+        border-right: 5px dotted var(--primary-color);
+    }
+    .title {
+        font-size: 2.3rem;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+    & > div > div + div {
+        margin-top: 0.5rem;
+    }
+    #description {
+        #description-content {
+            padding: 0.5rem;    
+            border: 2px dotted var(--primary-color);
+            border-radius: 10px;
+            div+div{
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    // Skills Information
+    #skills {
+        #skills-ensemble {
+            .skill-group {
+                font-size: 1.1rem;
+                color: var(--primary-color);
+                .skill-title {
+                    font-weight: bold;
+                    color: var(--primary-color);
+                }
+            }
+            .skill-group + .skill-group {
+                margin-top: 0.5rem;
+            }
+        }
+    }
+
+    //Hobbies Information
+    #hobbies {
+        #hobbies-ensemble {
+            display: flex;
+            flex-wrap: wrap;
+            .hobby-group {
+                padding: 0.5rem;
+                margin: 0.3rem;
+                min-width: 100px;
+                color: var(--primary-color);
+
+                .hobby-icon {
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 auto;
+                }
+                .hobby-name {
+                    font-size: 1.1rem;
+                    text-align: center;
+                    font-weight: bold;
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+    }
+
+    // Work Experience Information
+    #work-experience {
+        #work-ensemble {
+            .work-group {
+                color: var(--primary-color);
+                .work-duration {
+                    text-align: right;
+                    font-size: 0.9rem;
+                    .place {
+                        font-weight: bold;
+                    }
+                    .date {
+                        margin-left: 0.5rem;
+                        background-color: var(--primary-color);
+                        color: var(--body-color);
+                        border-radius: 5px;
+                    }
+                }
+                .work-info {
+                    .work-company {
+                        text-align: right;
+                        a {
+                            color: var(--primary-color);
+                            &:hover {
+                                color: var(--tertiary-color);
+                            }
+                        }
+                    }
+                    .work-title {
+                        font-size: 1.6rem;
+                        text-align: right;
+                    }
+                }
+                .work-description {
+                    border: 2px dotted var(--primary-color);
+                    border-radius: 10px;
+                    text-align: justify;
+                }
+            }
+            .work-group + .work-group {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    // Education Information
+    #education {
+        #education-ensemble {
+            .education-group {
+                color: var(--primary-color);
+                .education-duration {
+                    text-align: right;
+                    font-size: 0.9rem;
+                    .place {
+                        font-weight: bold;
+                    }
+                    .date {
+                        margin-left: 0.5rem;
+                    }
+                }
+                .education-info {
+                    border: 2px dotted var(--primary-color);
+                    border-radius: 10px;
+                    .education-title {
+                        text-align: right;
+                        font-size: 1.6rem;
+                        color: var(--primary-color);
+                    }
+                    .education-school {
+                        text-align: right;
+                        a {
+                            color: var(--primary-color);
+                            &:hover {
+                                color: var(--tertiary-color);
+                            }
+                        }
+                    }
+                }
+            }
+            .education-group + .education-group {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+// Media Querys
+@media screen and (max-width: 991.5px) {
+    .person-info {
+        #name {
+            font-size: 2rem;
+            margin-top: 1rem;
+        }
+        #contact_data {
+            display: flex;
+            flex-wrap: wrap;
+            & > div {
+                margin: 0.5rem;
+                text-align: center;
+                i + span {
+                    margin-left: 0.5rem;
+                }
+            }
+        }
+    }
+    .summary {
+        .title {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        & > div:first-child {
+            border: none;
+        }
+
+        #skills {
+            #skills-ensemble {
+                .skill-group {
+                    .skill-title {
+                        text-decoration: underline;
+                    }
+                    .skill-title,
+                    .skill-description {
+                        display: block;
+                    }
+                }
+            }
+        }
+        #hobbies {
+            #hobbies-ensemble {
+                justify-content: center;
+                .hobby-group {
+                    margin: 0.5rem;
+                    min-width: auto;
+                }
+            }
+        }
+        #work-experience {
+            .title {
+                text-align: center !important;
+            }
+            #work-ensemble {
+                .work-group {
+                    .work-duration {
+                        direction: rtl;
+                        text-align: left !important;
+                        .place,
+                        .date {
+                            display: inline-block;
+                        }
+                        .date {
+                            margin-left: 0;
+                        }
+                        .place {
+                            margin-left: 0.5rem;
+                        }
+                    }
+                    .work-title,
+                    .work-company,
+                    .work-description {
+                        text-align: left !important;
+                    }
+                }
+            }
+        }
+        #education {
+            .title {
+                text-align: center !important;
+            }
+            #education-ensemble {
+                .education-group {
+                    .education-duration {
+                        direction: rtl;
+                        text-align: left !important;
+                        .place,
+                        .date {
+                            display: inline-block;
+                        }
+                        .date {
+                            margin-left: 0;
+                        }
+                        .place {
+                            margin-left: 0.5rem;
+                        }
+                    }
+                    .education-title,
+                    .education-school {
+                        text-align: left !important;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 550.5px) {
+    .person-info {
+        #name {
+            font-size: 1.2rem;
+        }
+        #contact_data {
+            & > div {
+                font-size: 1rem;
+            }
+        }
+    }
+    .summary {
+        font-size: 0.9rem;
+        .title {
+            font-size: 2rem;
+        }
+        .work-title,
+        .education-title {
+            font-size: 1.3rem !important;
+        }
+        .work-company,
+        .education-school {
+            font-size: 0.9rem !important;
+        }
+    }
+}
