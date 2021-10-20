@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { ApiService } from './_services/api.service';
+
 
 
 @Component({
@@ -8,17 +10,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  data: any;
-  constructor(private http: HttpClient) {
+  configData: any = [];
 
-    let url: string = `${window.location.protocol}//${window.location.hostname}:${location.port}/assets/data/data.json`;
-    this.http.get(url).subscribe((res) => {
-      this.data = res;
-     
-    })
+  constructor(private api: ApiService) {
+
   }
 
   ngOnInit(): void {
+    this.api.getData("config.json").subscribe(data => {
+      this.configData = data;
+    })
   }
 
 }

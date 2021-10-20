@@ -17,11 +17,12 @@ a {
                     color: var(--tertiary-color);
                 }
             }
-            .unavailable {
-                color: var(--primary-color);
-                font-weight: bold;
-                font-size: 2rem;
-                text-align: center;
+            a.unavailable {
+                color: var(--secondary-color);
+                &:hover {
+                    color: #f0151c;
+                    cursor: pointer;
+                }                
             }
 
             a + a {

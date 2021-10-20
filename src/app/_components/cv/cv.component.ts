@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApiService } from 'src/app/_services/api.service';
 
 @Component({
   selector: 'app-cv',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cv.component.scss']
 })
 export class CvComponent implements OnInit {
-
-  constructor() { }
+  cv: any = [];
+  constructor(private api: ApiService) { }
 
   ngOnInit(): void {
+    this.api.getData("curriculum.json").subscribe(data => {
+      this.cv = data;
+    })
   }
 
 }

@@ -73,6 +73,13 @@ img {
                     font-weight: bold;
                     color: var(--primary-color);
                 }
+                .skill-description {
+                    span + span {
+                        &::before {
+                            content: " | ";
+                        }
+                    }
+                }
             }
             .skill-group + .skill-group {
                 margin-top: 0.5rem;
@@ -95,12 +102,15 @@ img {
                     width: 40px;
                     height: 40px;
                     margin: 0 auto;
+                    img {
+                        filter: invert(20%) sepia(48%) saturate(1318%) hue-rotate(128deg) brightness(95%) contrast(98%);
+                    }
                 }
                 .hobby-name {
                     font-size: 1.1rem;
                     text-align: center;
                     font-weight: bold;
-                    margin-top: 0.5rem;
+                    margin-top: 0.8rem;
                 }
             }
         }
