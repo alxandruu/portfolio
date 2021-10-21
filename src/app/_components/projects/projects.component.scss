@@ -5,49 +5,59 @@ a {
 // Projects Styles
 #projects-ensemble {
     .project {
-        border-radius: 10px;
         padding: 0.5rem;
-        border: 2px dotted var(--primary-color);
-        .links {
-            font-size: 2.5rem;
-            text-align: center;
-            a {
+        border-radius: 15px;
+        box-shadow: var(--box-shadow) 0px 5px 15px;
+        height: 100%;
+        .project-header {
+            font-size: 2.1rem;
+
+            border-bottom: 2px dotted var(--primary-color);
+            .title {
+                font-weight: bold;
                 color: var(--primary-color);
-                &:hover {
-                    color: var(--tertiary-color);
+                font-family: "Gemunu Libre", sans-serif;
+            }
+            .links {
+                text-align: center;
+                a {
+                    color: var(--primary-color);
+
+                    &:hover {
+                        color: var(--tertiary-color);
+                    }
+                    i {
+                    }
+                }
+                a.unavailable {
+                    color: var(--danger-color);
+                    &:hover {
+                        color: var(--danger-hover-color);
+                        cursor: pointer;
+                    }
+                }
+
+                a + a {
+                    margin-left: 1rem;
                 }
             }
-            a.unavailable {
-                color: var(--secondary-color);
-                &:hover {
-                    color: #f0151c;
-                    cursor: pointer;
-                }                
-            }
-
-            a + a {
-                margin-left: 2rem;
-            }
         }
+
         .image {
             img {
                 border-radius: 10px;
             }
         }
-        .title {
-            font-size: 2.3rem;
-            font-weight: bold;
-            color: var(--primary-color);
-            font-family: "Gemunu Libre", sans-serif;
-        }
+
         .description {
             font-size: 0.9rem;
             color: var(--primary-color);
         }
         .techs {
             font-size: 0.9rem;
-            color: var(--secondary-color);
+            color: var(--danger-color);
             font-weight: bold;
+
             span {
                 margin: 0.1rem;
             }

@@ -1,5 +1,19 @@
 [
     {
+        "titulo": "Personal Website",
+        "descripcion": "Aplicacion o Página web donde poder crear tu propio portfolio. Es adaptable a cualquier persona. Escalable. Responsive en cualquier dispositivo.",
+        "img_url": "personal_website.svg",
+        "techs": [
+            "Angular",
+            "TypeScript",
+            "JSON",
+            "SCSS",
+            "Bootstrap"
+        ],
+        "url_code": "https://alxandruu.netlify.app",
+        "url_view": "https://github.com/alxandruu/web-portfolio"
+    },
+    {
         "titulo": "Attia APP",
         "descripcion": "Aplicación web en la que se puede gestionar los datos de una empresa. Cada usuario puede configurarse su perfil (cambiando la contraseña, la imágen de perfil,...). Diferentes roles de acceso con distantas funcionalidades. Un inicio de sesion seguro.",
         "img_url": "attiapp.jpg",
