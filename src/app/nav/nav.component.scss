@@ -1,0 +1,45 @@
+* {
+    font-size: 1.15rem;
+    color: var(--dark-color);
+}
+a {
+    text-decoration: none;
+}
+
+#logo {
+    span {
+        font-weight: bold;
+        transform: rotate(0deg);
+        transition: transform 0.5s ease;
+    }
+    &:hover {
+        span {
+            transform: rotateX(-180deg);
+            transition: transform 0.6s ease;
+        }
+    }
+}
+#menu {
+    li {
+        a {
+            &.text:hover {
+                color: var(--dark-color);
+                border-bottom: 1px solid var(--dark-color);
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+            a.text {
+                color: var(--dark-color);
+                border-bottom: 1px solid var(--dark-color);
+            }
+            span {
+                border-bottom: 1px solid var(--dark-color);
+            }
+        }
+    }
+    li + li {
+        margin-left: 1rem;
+    }
+}

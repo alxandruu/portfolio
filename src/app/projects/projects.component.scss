@@ -1,0 +1,13 @@
+.section {
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        span {
+            border-bottom: 4px solid var(--dark-color);
+        }
+    }
+}
+.link {
+    text-decoration: none;
+    color: var(--dark-color);
+}

@@ -1,28 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Solway&display=swap");
 :root {
-    --primary-color: #034c3c;
-    --secondary-color: #c1292e;
-    --tertiary-color: #3ab795;
-    --fourth-color: #f0f2a6;
-    --white-color: #fff;
-    --body-color: #fffffc;
-    --box-shadow: rgba(3, 76, 60, 0.35);
-    --danger-color: #c1292e;
-    --danger-hover-color: #f0151c;
+    --dark-color: #2a2d34;
+    --light-color: #f2fbe0;
 }
-#body {
-    background-color: var(--body-color) !important;
+body {
+    background-color: rgba($color: #f2fbe0, $alpha: 0.6) !important;
 }
 
-*::-moz-selection {
-    background-color: #17bebb;
-    color: white;
-}
-*::selection {
-    background-color: #17bebb;
-    color: white;
-}
 * {
     text-align: justify;
+    &:not(i) {
+        font-family: "Lato", sans-serif;
+    }
+}
+
+ul {
+    list-style: none;
 }

@@ -3,9 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProjectsComponent } from './_components/projects/projects.component';
-import { CvComponent } from './_components/cv/cv.component';
-import { NavbarComponent } from './_components/navbar/navbar.component';
+
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { PrComponent } from './projects/_components/pr/pr.component';
+import { PrViewComponent } from './projects/_components/pr-view/pr-view.component';
+
 
 
 
@@ -17,9 +21,11 @@ import { NavbarComponent } from './_components/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
+    HomeComponent,
+    NavComponent,
     ProjectsComponent,
-    CvComponent,
+    PrComponent,
+    PrViewComponent,
   ],
   imports: [
     BrowserModule,

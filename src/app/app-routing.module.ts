@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CvComponent } from './_components/cv/cv.component';
-import { ProjectsComponent } from './_components/projects/projects.component';
+import { HomeComponent } from './home/home.component';
+import { PrViewComponent } from './projects/_components/pr-view/pr-view.component';
+import { ProjectsComponent } from './projects/projects.component';
+
 
 const routes: Routes = [
-  { path: '', redirectTo: 'projects', pathMatch: 'full' },
-  { path: 'cv', component: CvComponent },
+  { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
-  { path: '**', redirectTo: 'projects', pathMatch: 'full' },
+  { path: 'pr', component: PrViewComponent }
 ];
 
 @NgModule({
