@@ -10,16 +10,8 @@ import { ApiService } from './_services/api.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  configData: any = [];
+  constructor(private api: ApiService) {}
 
-  constructor(private api: ApiService) {
-
-  }
-
-  ngOnInit(): void {
-    this.api.getData("config.json").subscribe(data => {
-      this.configData = data;
-    })
-  }
+  ngOnInit(): void {}
 
 }
