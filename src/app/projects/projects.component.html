@@ -3,18 +3,12 @@
         <div class="title"><span class="pb-1">Big Projects</span></div>
         <div class="content my-4">
             <div class="row">
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
+                <div class="col-xl-3" *ngFor="let p of big_projects">
+                    <a [routerLink]="['/projects', p.id]" class="link">
+                        <app-pr [pr]=p></app-pr>
+                    </a>
                 </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
+
             </div>
         </div>
     </div>
@@ -23,18 +17,12 @@
         <div class="title"><span class="pb-1">Small Projects</span></div>
         <div class="content my-4">
             <div class="row">
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
+                <div class="col-xl-3" *ngFor="let p of small_projects">
+                    <a [routerLink]="['/projects', p.id]" class="link">
+                        <app-pr [pr]=p></app-pr>
+                    </a>
                 </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
-                <div class="col-xl-3">
-                    <app-pr></app-pr>
-                </div>
+
             </div>
         </div>
     </div>

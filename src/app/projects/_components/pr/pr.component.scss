@@ -1,7 +1,4 @@
 .project {
-    text-decoration: none;
-    color: var(--dark-color);
-
     & > div {
         transform: scale(1);
         transition: transform 0.3s ease;

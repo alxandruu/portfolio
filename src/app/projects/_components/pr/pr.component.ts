@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-pr',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pr.component.scss']
 })
 export class PrComponent implements OnInit {
-
+  @Input() pr: any = [];
   constructor() { }
 
   ngOnInit(): void {
