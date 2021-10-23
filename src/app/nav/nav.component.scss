@@ -43,3 +43,53 @@ a {
         margin-left: 1rem;
     }
 }
+
+#mobile_menu {
+    display: none;
+    button {
+        i {
+            font-size: 1.5rem;
+        }
+    }
+    ul {
+        background-color: var(--dark-color);
+        border-radius: 10px;
+        position: absolute;
+        width: 200px;
+        left: -175px;
+        top: 50px;
+        z-index: 1;
+        display: none;
+        li {
+            width: 100%;
+            text-align: center;
+            * {
+                color: var(--light-color);
+            }
+
+            margin: 1.5rem 0;
+
+            a {
+                &:active {
+                    border-bottom: 2px solid var(--light-color);
+                }
+            }
+        }
+        &.show {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 650.5px) {
+    #div {
+        width: 100% !important;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    #menu {
+        display: none !important;
+    }
+    
+}

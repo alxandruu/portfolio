@@ -9,7 +9,9 @@ a {
 .breadcumb {
     font-size: 1.35rem;
 }
-
+#pr-view-content {
+    width: 50%;
+}
 .description::first-letter {
     margin-left: 1rem;
     font-size: 1.1rem;
@@ -19,7 +21,6 @@ a {
         background-color: var(--dark-color);
         color: #fff;
         border-radius: 5px;
-        
     }
     font-size: 1.1rem;
 }
@@ -31,5 +32,11 @@ a {
             height: auto;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
+    }
+}
+@media screen and (max-width: 767.5px) {
+    #pr-view-content {
+        width: 100%;
+        padding: 0 1rem;
     }
 }

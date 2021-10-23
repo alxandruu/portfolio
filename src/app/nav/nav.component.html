@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between align-items-center py-3">
+<div class="d-flex justify-content-between align-items-center py-3 w-75 mx-auto" id="div">
     <div class="d-flex ">
         <a id="logo" class="d-flex align-items-center p-0" href="">
             <span class="ms-2"><i class="fas fa-bed me-2"></i> Alexandru Botas</span>
@@ -7,8 +7,20 @@
             <li><a [routerLink]="['/projects']" class="text">Projects</a></li>
             <li><a href="#contact" class="text">Contact</a></li>
         </ul>
-    </div>
 
+    </div>
+    <div id="mobile_menu" class="position-relative">
+        <button class="btn " (click)="hamburguer()">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class=" border px-4 py-2 " id="hamb_menu">
+            <li><a [routerLink]="['/projects']" class="mobile-text">Projects</a></li>
+            <li><a href="#contact" class="mobile-text">Contact</a></li>
+            <li><a href="https://github.com/alxandruu" class="mobile-text"><i
+                        class="fab fa-github me-2"></i><span>Github</span></a>
+            </li>
+        </ul>
+    </div>
     <ul class="d-flex align-items-center p-0 m-0" id="menu">
         <li><a href="https://github.com/alxandruu"><i class="fab fa-github me-2"></i><span>Github</span></a></li>
     </ul>
