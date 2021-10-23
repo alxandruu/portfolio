@@ -6,10 +6,9 @@ import { ProjectsComponent } from './_components/projects/projects.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'projects/:id', component: PrViewComponent },
-  { path: 'pr', component: PrViewComponent }
+  { path: '', component: HomeComponent},
+  { path: 'projects', component: ProjectsComponent},
+  { path: 'projects/:id', component: PrViewComponent}
 ];
 
 @NgModule({

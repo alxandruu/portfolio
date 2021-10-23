@@ -6,8 +6,13 @@
     <div class="details m-3">
         <div class="mt-2">
             <span class="title p-1">Website</span>
-            <span class="ms-2"><a href="{{project.website}}">{{project.website}}<i
-                        class="fas fa-link ms-2"></i></a></span>
+            <span class="ms-2"><a href="{{project.website}}" class="website-link"
+                    *ngIf="project.website!='' else notdeployed "><span class="href">{{project.website}}</span><i
+                        class="fas fa-link mx-2"></i><span class="href_name">{{project.name}}</span></a>
+                <ng-template #notdeployed>
+                    <span class="notdeployed">Not Deployed</span>
+                </ng-template>
+            </span>
         </div>
         <div class="mt-2">
             <span class="title p-1">Platform</span>

@@ -10,6 +10,10 @@ a {
         border-bottom: 1px solid #e8d33f;
     }
 }
+.notdeployed {
+    color: #d7263d;
+    font-weight: bold;
+}
 
 // Breadcumb
 .breadcumb {
@@ -37,6 +41,11 @@ a {
             }
         }
     }
+    .website-link {
+        .href_name {
+            display: none;
+        }
+    }
 }
 
 // Preview Images
@@ -55,5 +64,15 @@ a {
     #pr-view-content {
         width: 100%;
         padding: 0 1rem;
+    }
+}
+@media screen and (max-width: 395.5px) {
+    .website-link {
+        .href {
+            display: none;
+        }
+        .href_name {
+            display: inline-block !important;
+        }
     }
 }
