@@ -1,0 +1,31 @@
+// Global
+#projects-content {
+    width: 75%;
+}
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+// Sections
+.section {
+    .title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        span {
+            border-bottom: 4px solid var(--dark-color);
+        }
+    }
+}
+
+//Media Queries
+@media screen and (max-width: 1199.5px) {
+    #projects-content {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 767.5px) {
+    #projects-content {
+        width: 100%;
+    }
+}

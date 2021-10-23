@@ -8,7 +8,7 @@ import { Project } from '../_interfaces/project';
 })
 export class ApiService {
   projects: Project[] = [
-    { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage all the data of a business.", website: "https://github.com/alxandruu/attiapp", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg"] },
+    { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage all the data of a business.", website: "https://github.com/alxandruu/attiapp", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg","preview_1.jpeg","preview_2.jpeg","preview_3.jpeg","preview_4.jpeg","preview_5.jpeg"]},
     { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Online Version of a popular board game called 'El juego de la Oca', this version is only for two players.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"] },
     { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "Clothes online commerce where you can find minimalism designs.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg"] },
   ];

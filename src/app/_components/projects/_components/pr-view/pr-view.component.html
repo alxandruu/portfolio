@@ -3,24 +3,24 @@
     <div class="description">
         {{project.description}}
     </div>
-    <div class="details mx-4 mt-4">
+    <div class="details m-3">
         <div class="mt-2">
             <span class="title p-1">Website</span>
-            <span class="ms-2"><a href="https://github.com/alxandruu/attiapp">{{project.website}} <i
-                        class="fas fa-location-arrow ms-2"></i></a></span>
+            <span class="ms-2"><a href="{{project.website}}">{{project.website}}<i
+                        class="fas fa-link ms-2"></i></a></span>
         </div>
         <div class="mt-2">
             <span class="title p-1">Platform</span>
-            <span class="ms-2"><span *ngFor="let pl of project.platform">{{pl}}</span></span>
+            <span class="ms-2 platform-group"><span *ngFor="let pl of project.platform">{{pl}}</span></span>
         </div>
         <div class="mt-2">
             <span class="title p-1">Stack</span>
-            <span class="ms-2"><span *ngFor="let st of project.stack">{{st}} </span></span>
+            <span class="ms-2 stack-group"><span *ngFor="let st of project.stack">{{st}}</span></span>
         </div>
     </div>
     <div class="images mt-5">
         <div class="mt-4" *ngFor="let img of project.imgs">
-            <img src="assets/img/projects/{{img}}" alt="Attiapp Image #1">
+            <img src="assets/img/projects/{{project.id}}/{{img}}" alt="Attiapp Image #1">
         </div>
     </div>
 </div>

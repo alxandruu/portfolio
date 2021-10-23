@@ -1,3 +1,7 @@
+// Global
+#pr-view-content {
+    width: 50vw;
+}
 a {
     text-decoration: none;
     color: #d17b0f;
@@ -6,34 +10,47 @@ a {
         border-bottom: 1px solid #e8d33f;
     }
 }
+
+// Breadcumb
 .breadcumb {
     font-size: 1.35rem;
 }
-#pr-view-content {
-    width: 50%;
-}
+
+// Description
 .description::first-letter {
-    margin-left: 1rem;
-    font-size: 1.1rem;
+    margin-left: 0.75rem;
 }
+
+// Details
 .details {
+    font-size: 1.1rem;
     .title {
         background-color: var(--dark-color);
         color: #fff;
         border-radius: 5px;
     }
-    font-size: 1.1rem;
+    .platform-group,
+    .stack-group {
+        span + span {
+            &::before {
+                content: " / ";
+            }
+        }
+    }
 }
+
+// Preview Images
 .images {
     & > div {
         img {
             width: 100%;
             border-radius: 15px;
-            height: auto;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         }
     }
 }
+
+//Media Queries
 @media screen and (max-width: 767.5px) {
     #pr-view-content {
         width: 100%;
