@@ -7,6 +7,8 @@
 }
 #home {
     width: 50vw;
+    opacity: 0;
+    animation: slide-in 1s ease-in forwards;
 }
 
 // Header Section
@@ -53,6 +55,8 @@
     }
     #social_media {
         a {
+            transform: scale(1);
+            transition: transform 0.3s ease;
             text-decoration: none;
             font-size: 1.05rem;
             border-radius: 10px;
@@ -64,10 +68,13 @@
             i {
                 font-size: 1.25rem;
             }
+            &:hover {
+                transform: scale(0.95);
+                transition: transform 0.3s ease;
+            }
         }
     }
 }
-
 
 // Media Queries
 @media screen and (max-width: 768.5px) {

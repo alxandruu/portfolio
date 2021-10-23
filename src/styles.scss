@@ -18,3 +18,12 @@ body {
 ul {
     list-style: none;
 }
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
