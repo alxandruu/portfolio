@@ -14,7 +14,8 @@ export class NavComponent implements OnInit {
 
   public hamburguer(): void {
     document.querySelector("#hamb_menu")?.classList.toggle("show");
+    document.querySelector('.hambBtn')?.classList.toggle('active');
   }
 
-  
+
 }
