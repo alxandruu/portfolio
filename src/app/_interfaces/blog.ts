@@ -1,8 +1,15 @@
 export interface Blog {
-    id: number;
+    id: string;
     date: string;
+    type: string;
     image: string;
     title: string;
-    content: string;
+    description: string;
+    content: Section[];
 }
+interface Section {
+    class: string;
+    text: string;
+}
+
 

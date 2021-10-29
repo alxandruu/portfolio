@@ -3,17 +3,12 @@
         <div class="title mb-2"><span>Latest Posts</span></div>
         <div class="content ">
             <div class="row">
-                <div class="col-xl-4 pt-4">
-                    <a [routerLink]="['/blogv']">
-                        <app-bl></app-bl>
+                <div class="col-xl-4 pt-4" *ngFor="let b of latestblogs">
+                    <a [routerLink]="['/blog', b.id]">
+                        <app-bl [bl]=b></app-bl>
                     </a>
                 </div>
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
-                </div>
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
-                </div>
+
             </div>
         </div>
     </div>
@@ -24,17 +19,10 @@
         <div class="title mb-2"><span>All Posts</span></div>
         <div class="content ">
             <div class="row">
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
-                </div>
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
-                </div>
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
-                </div>
-                <div class="col-xl-4 pt-4">
-                    <app-bl></app-bl>
+                <div class="col-xl-4 pt-4" *ngFor="let b of allblogs">
+                    <a [routerLink]="['/blog', b.id]">
+                        <app-bl [bl]=b></app-bl>
+                    </a>
                 </div>
             </div>
         </div>

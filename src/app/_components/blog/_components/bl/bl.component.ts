@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bl',
@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bl.component.scss']
 })
 export class BlComponent implements OnInit {
-
-  constructor() { }
+  @Input() bl: any = [];
+  constructor() {}
 
   ngOnInit(): void {
   }
