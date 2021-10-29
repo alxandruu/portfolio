@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Project } from '../_interfaces/project';
-
+import { Blog } from '../_interfaces/blog';
 
 
 @Injectable({
@@ -12,6 +12,7 @@ export class ApiService {
     { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Online Version of a popular spanish board game, this version is only for two players.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"] },
     { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "Online commerce where you can find minimalism clothes and accesories.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg"] },
   ];
+
   constructor() {
   }
 

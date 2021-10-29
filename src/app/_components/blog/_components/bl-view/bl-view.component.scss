@@ -1,0 +1,56 @@
+// Global
+#bl-view-content {
+    width: 50vw;
+    animation: slide-in 0.8s ease-in forwards;
+}
+a {
+    text-decoration: none;
+    color: #d17b0f;
+    &:hover {
+        color: #e8d33f;
+        border-bottom: 1px solid #e8d33f;
+    }
+}
+
+// Breadcumb
+.breadcumb {
+    font-size: 1.35rem;
+}
+
+// Date
+.date {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+//Languages
+.languages {
+    & > div {
+        display: inline-block;
+        border-radius: 10px;
+        border-radius: 10px;
+        background-color: var(--dark-color);
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        color: var(--light-color);
+        font-weight: bold;
+        transform: scale(1);
+        transition: transform 0.3s ease;
+        font-size: 0.9rem;
+        &:hover {
+            cursor: pointer;
+            transform: scale(0.9);
+            transition: transform 0.4s ease;
+        }
+    }
+    & > div + div {
+        margin-left: 0.75rem;
+    }
+}
+// Preview Images
+.images {
+    img {
+        width: 100%;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+}

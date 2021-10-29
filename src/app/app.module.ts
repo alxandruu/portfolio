@@ -10,6 +10,9 @@ import { NavComponent } from './_components/nav/nav.component';
 import { ProjectsComponent } from './_components/projects/projects.component';
 import { PrComponent } from './_components/projects/_components/pr/pr.component';
 import { PrViewComponent } from './_components/projects/_components/pr-view/pr-view.component';
+import { BlogComponent } from './_components/blog/blog.component';
+import { BlComponent } from './_components/blog/_components/bl/bl.component';
+import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
 
 
 
@@ -27,6 +30,9 @@ import { PrViewComponent } from './_components/projects/_components/pr-view/pr-v
     ProjectsComponent,
     PrComponent,
     PrViewComponent,
+    BlogComponent,
+    BlComponent,
+    BlViewComponent,
   ],
   imports: [
     BrowserModule,
