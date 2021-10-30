@@ -14,14 +14,6 @@ import { BlogComponent } from './_components/blog/blog.component';
 import { BlComponent } from './_components/blog/_components/bl/bl.component';
 import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
 
-
-
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
