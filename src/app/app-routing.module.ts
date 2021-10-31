@@ -5,15 +5,19 @@ import { PrViewComponent } from './_components/projects/_components/pr-view/pr-v
 import { ProjectsComponent } from './_components/projects/projects.component';
 import { BlogComponent } from './_components/blog/blog.component';
 import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
+import { ResourcesComponent } from './_components/resources/resources.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'projects/:id', component: PrViewComponent },
-  { path: '**', redirectTo: '' },
+  {
+    path: 'resources', component: ResourcesComponent
+  },
   // { path: 'blog', component: BlogComponent },
   // { path: 'blog/:id', component: BlViewComponent },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Project } from '../_interfaces/project';
 import { Blog } from '../_interfaces/blog';
+import { Resource } from '../_interfaces/resource';
 
 
 @Injectable({
@@ -121,6 +122,32 @@ export class ApiService {
     }
   ]
 
+  private resources: Array<Resource> = [
+    {
+      name: 'Recordcast',
+      img: 'recordcast.jpg',
+      description: 'Records the screen and also allows to edit videos without needing to install it, all through the browser. Ideal for occasional use and on special occasions.',
+      url: 'https://www.recordcast.com/'
+    },
+    {
+      name: 'SmallPDF',
+      img: 'smallpdf.png',
+      description: 'Offers different functions to handle PDFs. From edit and sign them, to compress or convert them into other file types. And so on.',
+      url: 'https://smallpdf.com/'
+    },
+    {
+      name: 'AlternativeTo',
+      img: 'alternativeto.jpg',
+      description: 'Web platform where you can filter and find programs similar to another. For example, finding a free program similar to Photoshop.',
+      url: 'https://alternativeto.net/'
+    },
+    {
+      name: 'Snapdrop',
+      img: 'snapdrop.jpg',
+      description: 'Web application where you can send files or messages securely, between devices connected on the same network.',
+      url: 'https://snapdrop.net/'
+    }
+  ]
   constructor() {
   }
 
@@ -165,5 +192,10 @@ export class ApiService {
       }
     }
     return null;
+  }
+
+  getResources(): Array<Resource> {
+    const resources = this.resources;
+    return resources;
   }
 }

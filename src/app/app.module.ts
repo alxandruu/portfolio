@@ -13,6 +13,7 @@ import { PrViewComponent } from './_components/projects/_components/pr-view/pr-v
 import { BlogComponent } from './_components/blog/blog.component';
 import { BlComponent } from './_components/blog/_components/bl/bl.component';
 import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
+import { ResourcesComponent } from './_components/resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.
     BlogComponent,
     BlComponent,
     BlViewComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,
