@@ -15,8 +15,8 @@ const routes: Routes = [
   {
     path: 'resources', component: ResourcesComponent
   },
-  // { path: 'blog', component: BlogComponent },
-  // { path: 'blog/:id', component: BlViewComponent },
+   { path: 'blog', component: BlogComponent },
+   { path: 'blog/:id', component: BlViewComponent },
   { path: '**', redirectTo: '' },
 ];
 
