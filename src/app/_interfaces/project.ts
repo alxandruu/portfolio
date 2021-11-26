@@ -8,4 +8,5 @@ export interface Project {
     platform: string[];
     stack: string[];
     imgs: string[];
+    in_development: boolean;
 }
