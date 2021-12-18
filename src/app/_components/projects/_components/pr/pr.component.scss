@@ -25,3 +25,11 @@
         font-size: 0.9rem;
     }
 }
+
+@media screen and (max-width: 1199.5px) {
+    .project {
+        img {
+            height: 200px;
+        }
+    }
+}

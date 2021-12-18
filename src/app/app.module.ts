@@ -14,6 +14,7 @@ import { BlogComponent } from './_components/blog/blog.component';
 import { BlComponent } from './_components/blog/_components/bl/bl.component';
 import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
 import { ResourcesComponent } from './_components/resources/resources.component';
+import { CreationsComponent } from './_components/creations/creations.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ResourcesComponent } from './_components/resources/resources.component'
     BlComponent,
     BlViewComponent,
     ResourcesComponent,
+    CreationsComponent,
   ],
   imports: [
     BrowserModule,
