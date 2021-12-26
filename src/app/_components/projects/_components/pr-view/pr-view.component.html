@@ -7,7 +7,7 @@
         <div class="mt-2">
             <span class="title p-1">Website</span>
             <span class="ms-2">
-                <a href="{{project.website}}" class="website-link" *ngIf="project.website!='' else notdeployed ">
+                <a href="{{project.website}}" class="website-link" *ngIf="project.website!='' else notdeployed " target="_blank" rel="noopener noreferrer">
                     <span class="href">{{project.website}}</span>
                     <i class="fas fa-link mx-2"></i>
                     <span class="href_name">{{project.name}}</span>
