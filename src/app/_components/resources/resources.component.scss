@@ -33,11 +33,14 @@ a {
     .rs {
         transform: scale(1);
         transition: transform 0.3s ease;
-        &:hover {
-            cursor: pointer;
-            transform: scale(0.9);
-            transition: transform 0.4s ease;
+        @media screen and (min-width: 1200px) {
+            &:hover {
+                cursor: pointer;
+                transform: scale(0.9);
+                transition: transform 0.4s ease;
+            }
         }
+
         height: 100%;
     }
 }
@@ -45,7 +48,18 @@ a {
 //Media Queries
 @media screen and (max-width: 1199.5px) {
     #resources-content {
+        img {
+            height: 200px;
+        }
         width: 50%;
+    }
+    .section {
+        .rs {
+            &:active {
+                transform: scale(0.9);
+                transition: transform 0.4s ease;
+            }
+        }
     }
 }
 @media screen and (max-width: 767.5px) {
