@@ -1,6 +1,6 @@
 <div class="project">
     <div>
-        <img *ngIf="pr.img!=''; else indBlock" src="assets/img/projects/{{pr.id}}/{{pr.img}}" alt="Project Image Attiapp" class="mb-3">
+        <img *ngIf="pr.img!=''; else indBlock" src="assets/img/projects/{{pr.id}}/{{pr.img}}" alt="Project Image Attiapp" class="mb-3 unselectable">
         <ng-template #indBlock>
             <img  src="assets/img/projects/pred.png" alt="Project Image Attiapp" class="mb-3 unselectable">
         </ng-template>
