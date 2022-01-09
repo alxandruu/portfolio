@@ -16,9 +16,12 @@ const routes: Routes = [
   {
     path: 'resources', component: ResourcesComponent
   },
-  {
-    path: 'creations', component: CreationsComponent
-  },
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog/:id', component: BlViewComponent },
+
+  // {
+  //   path: 'creations', component: CreationsComponent
+  // },
   { path: '**', redirectTo: '' },
 ];
 
