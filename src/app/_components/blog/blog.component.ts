@@ -15,6 +15,7 @@ export class BlogComponent implements OnInit {
     this.ts.setTitle("Gabriel Alexandru | Blog");
     this.latestblogs = this.api.getBlog(3);
     this.allblogs = this.api.getBlog();
+    
   }
 
   ngOnInit(): void {

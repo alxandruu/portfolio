@@ -18,7 +18,7 @@ export class ApiService {
   blog: Blog[] = [
     {
       id: 'pwa-or-exe',
-      date: '09.12.2020',
+      date: new Date('12.09.2020'),
       type: 'tech',
       image: 'proto.jpg',
       title: 'Why do I prefer PWAs, rather than .EXE?',
@@ -45,7 +45,7 @@ export class ApiService {
     },
     {
       id: 'dollarFiat',
-      date: '12.12.2020',
+      date: new Date('12.12.2020'),
       type: 'economy',
       image: 'dollar.jpg',
       title: 'The meaning of Money',
@@ -71,7 +71,7 @@ export class ApiService {
     },
     {
       id: 'bitcoin',
-      date: '23.12.2020',
+      date: new Date('12.23.2020'),
       type: 'economy',
       image: 'bitcoin.jpg',
       title: 'What offers Crypto? And why is important for the future?',
@@ -97,7 +97,7 @@ export class ApiService {
     },
     {
       id: 'madridcity',
-      date: '29.12.2020',
+      date: new Date('12.29.2020'),
       type: 'Travel',
       image: 'madrid.jpg',
       title: 'Places to visit in Madrid',
@@ -178,13 +178,14 @@ export class ApiService {
   }
 
   getBlog(index: number = 0) {
-    const blog = this.blog;
+    const blog = this.blog.sort((a, b) => b.date.getTime() - a.date.getTime());
     if (index == 0) {
       return blog;
     } else {
       return blog.slice(0, index);
     }
   }
+
   getOneBlog(id: string): any {
     const blog = this.blog;
     for (let i = 0; i < blog.length; i++) {

@@ -1,7 +1,8 @@
 <div class="blog position-relative">
     <div>
         <div class="mb-1 mx-2">
-            <div class="date">{{bl.date}}</div>
+            <div class="date">{{("0" + bl.date.getDate()).slice(-2)}}.{{("0" + (bl.date.getMonth() +
+                1)).slice(-2)}}.{{bl.date.getFullYear()}}</div>
         </div>
         <div class="image mb-3 position-relative">
             <img src="assets/img/blog/{{bl.image}}" alt="Bog Image Proto" class="unselectable">
