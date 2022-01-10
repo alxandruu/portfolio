@@ -18,7 +18,7 @@ export class ApiService {
   blog: Blog[] = [
     {
       id: 'pwa-or-exe',
-      date: new Date('12.09.2020'),
+      date: new Date('01.09.2022'),
       type: 'tech',
       image: 'proto.jpg',
       title: 'Why do I prefer PWAs, rather than .EXE?',
