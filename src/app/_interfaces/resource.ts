@@ -3,4 +3,5 @@ export interface Resource {
     img: string;
     description: string;
     url: string;
+    category: string;
 }
