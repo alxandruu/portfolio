@@ -15,6 +15,7 @@ import { BlComponent } from './_components/blog/_components/bl/bl.component';
 import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
 import { ResourcesComponent } from './_components/resources/resources.component';
 import { CreationsComponent } from './_components/creations/creations.component';
+import { ResourceFilterPipe } from './_pipes/resourceFilter.pipe';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { CreationsComponent } from './_components/creations/creations.component'
     BlViewComponent,
     ResourcesComponent,
     CreationsComponent,
+    ResourceFilterPipe
   ],
   imports: [
     BrowserModule,
