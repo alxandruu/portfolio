@@ -32,7 +32,6 @@ export class ResourcesComponent implements OnInit {
   filterByCategory(id: string) {
     this.id = id;
     this.le = this.resources.length;
-    document.querySelector(".category.active")?.classList.toggle("show");
-    document.querySelector('.hambBtn')?.classList.toggle('active');
+    
   }
 }

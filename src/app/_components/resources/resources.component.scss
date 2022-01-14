@@ -3,31 +3,50 @@
     width: 75%;
     opacity: 0;
     animation: slide-in 1s ease-in forwards;
-    .title {
-        font-size: 2rem;
-        font-weight: bold;
+    .header {
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .t-resources {
+            @media screen and (max-width: 767.5px) {
+                display: none;
+            }
+        }
     }
-    .category {
-        background-color: var(--dark-color);
-        color: var(--light-color);
-        border-radius: 5px;
-        text-transform: capitalize;
-        font-size: 1.05rem;
-        transform: scale(1);
-        transition: transform 0.3s ease;
 
-        @media screen and (max-width: 767.5px) {
-            font-size: 0.7rem;
+    .category-filter {
+        @media screen and (min-width: 767.5px) {
+            justify-content: right;
         }
-        &.active {
-            background-color: var(--light-color);
-            border: 1px solid var(--dark-color);
-            color: var(--dark-color);
-        }
-        &:hover {
-            cursor: pointer;
-            transform: scale(0.9);
-            transition: transform 0.4s ease;
+        .category {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            border-radius: 5px;
+            text-transform: capitalize;
+            font-size: 1.05rem;
+            transform: scale(1);
+            transition: transform 0.3s ease;
+
+            @media screen and (max-width: 767.5px) {
+                font-size: 0.7rem;
+                &:active {
+                    transform: scale(0.9);
+                    transition: transform 0.1s ease;
+                }
+            }
+            &.active {
+                background-color: var(--light-color);
+                border: 1px solid var(--dark-color);
+                color: var(--dark-color);
+            }
+            @media screen and (min-width: 767.5px) {
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(0.9);
+                    transition: transform 0.4s ease;
+                }
+            }
         }
     }
 }
@@ -74,7 +93,6 @@ a {
                 transition: transform 0.4s ease;
             }
         }
-
         height: 100%;
     }
 }
@@ -85,7 +103,7 @@ a {
         img {
             height: 200px;
         }
-        width: 50%;
+       
     }
     .section {
         .rs {

@@ -1,9 +1,9 @@
 <div class="mx-auto p-2" id="resources-content">
-    <div class="d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center justify-content-between  header">
         <div class="title">Resources</div>
-        <div>Total resources: {{resources.length}}</div>
+        <div class="t-resources">Total resources: {{resources.length}}</div>
     </div>
-    <div class=" mt-2 d-flex align-items-center justify-content-end">
+    <div class=" mt-2 d-flex align-items-center flex-wrap category-filter">
         <div class="category py-1 px-2 m-1" (click)="filterByCategory('')">All Categories</div>
         <div class="category py-1 px-2 m-1" *ngFor="let c of categories" (click)="filterByCategory(c.id)">{{c.name}}
         </div>
@@ -15,7 +15,7 @@
                 <div class="rs">
                     <a href="{{r.url}}" target="_blank" rel="noopener noreferrer">
                         <div class="position-relative">
-                            <img src="{{r.img}}" class="unselectable">
+                            <img src="{{r.img}}" class="unselectable" loading="lazy">
                             <span
                                 class="position-absolute end-0 bottom-0 px-3 py-2 subject">{{this.getCategoryName(r.category).name}}</span>
                         </div>
