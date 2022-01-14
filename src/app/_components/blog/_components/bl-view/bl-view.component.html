@@ -19,10 +19,16 @@
                 {{s.text}}
             </div>
             <ng-template #imageBlock>
-                <div class="images my-4">
-                    <img src="assets/img/blog/{{s.text}}" class="unselectable">
+                <div class="image my-4" *ngIf="s.class=='image' else headerBlock">
+                    <img src="assets/img/blog/{{s.text}}" class="unselectable" loading="lazy">
                 </div>
+                <ng-template #headerBlock>
+                    <div class="h-text mt-4 mb-2" *ngIf="s.class=='header'">
+                      {{s.text}}
+                    </div>
+                </ng-template>
             </ng-template>
+
         </div>
 
     </div>

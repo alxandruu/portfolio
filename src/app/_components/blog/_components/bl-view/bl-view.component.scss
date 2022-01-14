@@ -55,7 +55,7 @@ a {
     }
 }
 // Preview Images
-.images {
+.image {
     img {
         width: 100%;
         border-radius: 15px;
@@ -63,6 +63,11 @@ a {
     }
 }
 
+//Preview Header 
+.h-text {
+   font-size: 1.75rem;
+   font-weight: bold;
+}
 //Media Queries
 @media screen and (max-width: 767.5px) {
     #bl-view-content {
