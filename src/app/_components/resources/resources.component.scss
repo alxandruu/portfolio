@@ -14,13 +14,19 @@
             }
         }
     }
+
+    .t-resources.mobile-version,
+    .category-filter-active.mobile-version {
+        display: none;
+    }
+
     .category-filter-active {
         font-size: 1.25rem;
         font-weight: bold;
         color: var(--dark-color);
     }
+
     .category-filter-active.mobile-version {
-        display: none;
         font-size: 1.25rem;
         letter-spacing: 1px;
     }
@@ -128,7 +134,8 @@ a {
         .category-filter-active {
             display: none;
         }
-        .category-filter-active.mobile-version {
+        .category-filter-active.mobile-version,
+        .t-resources.mobile-version {
             display: block;
         }
         .filter-row {

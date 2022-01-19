@@ -294,8 +294,17 @@ export class ApiService {
     return null;
   }
 
-  getResources(): Array<Resource> {
+  getResources(id: string = ''): Array<Resource> {
     const resources = this.resources;
-    return resources;
+    if (id != '' && id != this.categories[0].id) {
+      const filterResources = resources.filter(r => {
+        let category = r.category;
+        return category.includes(id);
+      });
+      return filterResources;
+    } else {
+      return resources;
+    }
+
   }
 }

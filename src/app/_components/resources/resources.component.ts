@@ -31,7 +31,7 @@ export class ResourcesComponent implements OnInit {
 
   filterByCategory(id: string) {
     this.id = id;
-  
+    this.le = this.api.getResources(id).length;
     
   }
 }

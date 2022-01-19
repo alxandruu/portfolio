@@ -1,7 +1,7 @@
 <div class="mx-auto p-2" id="resources-content">
     <div class="d-flex align-items-center justify-content-between  header">
         <div class="title">Resources</div>
-        <div class="t-resources">Total resources: {{resources.length}}</div>
+        <div class="t-resources">{{le}} resources found</div>
     </div>
     <div class="mt-2 d-flex align-items-center flex-wrap justify-content-between mx-1 filter-row">
         <div class="category-filter-active">{{this.getCategoryName(id).name}}</div>
@@ -13,7 +13,10 @@
     </div>
     <hr />
     <div class="content">
-        <div class="category-filter-active mobile-version mx-2">{{this.getCategoryName(id).name}}</div>
+        <div class="mb-1 d-flex align-items-center justify-content-between">
+            <div class="category-filter-active mobile-version mx-2">{{this.getCategoryName(id).name}}</div>
+            <div class="t-resources mobile-version">{{le}} resources found</div>
+        </div>
         <div class="row ">
             <div class="col-xl-4 pt-4" *ngFor="let r of resources | resourceFilter:id; ">
                 <div class="rs">
