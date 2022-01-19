@@ -9,7 +9,7 @@ import { Resource } from '../_interfaces/resource';
 })
 export class ResourceFilterPipe implements PipeTransform {
     transform(resources: Resource[], id: string = ''): Resource[] {
-        if (id === '') {
+        if (id === '' || id === 'c0') {
             return resources;
         } else {
             const filterResources = resources.filter(r => {

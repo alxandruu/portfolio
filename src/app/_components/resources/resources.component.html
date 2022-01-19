@@ -3,13 +3,17 @@
         <div class="title">Resources</div>
         <div class="t-resources">Total resources: {{resources.length}}</div>
     </div>
-    <div class=" mt-2 d-flex align-items-center flex-wrap category-filter">
-        <div class="category py-1 px-2 m-1" (click)="filterByCategory('')">All Categories</div>
-        <div class="category py-1 px-2 m-1" *ngFor="let c of categories" (click)="filterByCategory(c.id)">{{c.name}}
+    <div class="mt-2 d-flex align-items-center flex-wrap justify-content-between mx-1 filter-row">
+        <div class="category-filter-active">{{this.getCategoryName(id).name}}</div>
+        <div class="d-flex align-items-center flex-wrap category-filter">
+            <div class="category py-1 px-2 m-1" *ngFor="let c of categories" (click)="filterByCategory(c.id)">
+                {{c.name}}
+            </div>
         </div>
     </div>
     <hr />
     <div class="content">
+        <div class="category-filter-active mobile-version mx-2">{{this.getCategoryName(id).name}}</div>
         <div class="row ">
             <div class="col-xl-4 pt-4" *ngFor="let r of resources | resourceFilter:id; ">
                 <div class="rs">

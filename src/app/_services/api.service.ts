@@ -17,6 +17,7 @@ export class ApiService {
   ];
 
   private categories: Category[] = [
+    { id: "c0", name: "All Categories" },
     { id: "c1", name: "TV Series" },
     { id: "c2", name: "Web Apps" },
     { id: "c3", name: "Videogames" },

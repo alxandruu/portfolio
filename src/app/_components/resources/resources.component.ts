@@ -12,7 +12,7 @@ export class ResourcesComponent implements OnInit {
   public resources: Array<Resource>;
   public categories;
   le: number;
-  id: string = '';
+  id: string = 'c0';
 
   constructor(private api: ApiService) {
     this.resources = this.api.getResources();
@@ -31,7 +31,7 @@ export class ResourcesComponent implements OnInit {
 
   filterByCategory(id: string) {
     this.id = id;
-    this.le = this.resources.length;
+  
     
   }
 }
