@@ -16,6 +16,7 @@ import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.
 import { ResourcesComponent } from './_components/resources/resources.component';
 import { CreationsComponent } from './_components/creations/creations.component';
 import { ResourceFilterPipe } from './_pipes/resourceFilter.pipe';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -30,12 +31,13 @@ import { ResourceFilterPipe } from './_pipes/resourceFilter.pipe';
     BlViewComponent,
     ResourcesComponent,
     CreationsComponent,
-    ResourceFilterPipe
+    ResourceFilterPipe,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [Title],
   bootstrap: [AppComponent]

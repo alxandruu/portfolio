@@ -19,7 +19,7 @@ export class ApiService {
   private categories: Category[] = [
     { id: "c0", name: "All Categories" },
     { id: "c1", name: "TV Series" },
-    { id: "c2", name: "Web Apps" },
+    { id: "c2", name: "Apps" },
     { id: "c3", name: "Videogames" },
     { id: "c4", name: "Books" },
     { id: "c5", name: "Films" },
@@ -138,6 +138,27 @@ export class ApiService {
   ]
 
   private resources: Array<Resource> = [
+    {
+      name: 'The Mitchells vs. the Machines',
+      img: 'https://img.search.brave.com/zKIITOhiqZl2wyAn_RCnHKILSs3NzVMq7RGQaMv_Ut8/rs:fit:1200:675:1/g:ce/aHR0cHM6Ly9hcmVh/anVnb25lcy5zcG9y/dC5lcy93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy9sb3Mt/bWl0Y2hlbGwtY29u/dHJhLWxhcy1tYXF1/aW5hcy5qcGVn',
+      description: "A robotic apocalypse puts a stop to their cross-country road trip. Now, the future of humanity depends on the Mitchells: the weirdest family in the world.",
+      url: 'https://www.imdb.com/title/tt7979580/',
+      category: "c5"
+    },
+    {
+      name: 'Blade Runner: Black Lotus',
+      img: 'https://th.bing.com/th/id/OIP.tUaZrRP1HKj0tBCEf7SkiwHaD8?pid=ImgDet&rs=1',
+      description: "Los Angeles, 2032. Elle, a young replicant with no memories and lethal abilities, goes in search of discovering her lost identity. His only clues are: a locked memory device and a tattoo of a black lotus on his right shoulder.",
+      url: 'https://www.imdb.com/title/tt9359796/',
+      category: "c1"
+    },
+    {
+      name: 'The Girl Next Door',
+      img: 'https://imgmedia.wapa.pe/420x210/wapa/migration/imagen/2018/03/13/noticia-recuerdas-la-chica-de-al-lado-dejo-la-actuacion-por-esta-razon.png',
+      description: "A teen's dream comes true when a former porn star moves in next door and they fall in love.",
+      url: 'https://www.imdb.com/title/tt0265208/',
+      category: "c5"
+    },
     {
       name: 'Recordcast',
       img: 'https://visiongeek.pe/wp-content/uploads/RecordCast-un-grabador-de-pantalla-en-linea-y-gratuito-730x412.jpg',
