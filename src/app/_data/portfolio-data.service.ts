@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Blog } from '../_interfaces/blog';
 import { Category } from '../_interfaces/category';
+import { Navbar } from '../_interfaces/navbar';
+import { Profile } from '../_interfaces/profile';
 import { Project } from '../_interfaces/project';
 import { Resource } from '../_interfaces/resource';
 
@@ -8,17 +10,114 @@ import { Resource } from '../_interfaces/resource';
   providedIn: 'root'
 })
 export class PortfolioDataService {
-  
+
   constructor() { }
-  
-  private _projects: Project[] = [
+
+  private _navbar: Array<Navbar> = [
+    {
+      lang: "en",
+      navs: [
+        { text: "Projects", url: "projects" },
+        { text: "Blog", url: "blog" },
+        { text: "Resources", url: "resources" },
+
+      ]
+    },
+    {
+      lang: "es",
+      navs: [
+        { text: "Proyectos", url: "projects" },
+        { text: "Blog", url: "blog" },
+        { text: "Recursos", url: "resources" },
+
+      ]
+    }
+  ]
+
+  private _profile: Array<Profile> = [
+    {
+      lang: "en",
+      name: "Gabriel Alexandru Botas",
+      img: "portfolio.jpg",
+      ocupation: "Full-Stack Developer",
+      about_me: {
+        header: "About Me",
+        texts: [
+          "Alexandru is a 21 years old boy who likes IT world. He has recently finished studies in Web Programming, where learned how to develop and deploy web applications.",
+          "He went from Romania to Spain when was 4 years old. During his life, has been moving from one place to another meeting different people and discovering interesting places. His first code was a \"Hello World!\" in Python, in that moment he realized that through programming you can create anything you want.",
+          "Recently has discovered a bit of economy and its ecosystem, through cryptocurrency, stocks and passive income; where has learnt what money (FIAT) means, how to obtain passive income through different investments, ETFs, Futures, blockchain, real estate, ..."
+        ]
+      },
+      hobbies: {
+        header: "Hobbies",
+        array: ["Art", "Music", "Videogames", "Films", "Travel"]
+      },
+      history: {
+        header: "History",
+        sections: [
+          { year: "2000", text: "Born in Galați, Romania" },
+          { year: "2019", text: "Completed an Intermediated Degree in Microcomputer Systems and Networks" },
+          { year: "2019", text: "Worked for 3 months in a Technological Consultancy as Technical Support" },
+          { year: "2021", text: "Completed a Higher Degree in Web Developing" },
+          { year: "2021", text: "Worked for 3 months in a Technological Consultancy as a PHP Programmer with Prestashop" },
+          { year: "2022", text: "Liferay 7.x Backend Programmer" },
+        ]
+      },
+      social_media: {
+        header: "Social Media / Contact Me",
+        sections: [
+          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
+          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
+          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
+        ]
+      }
+    }, {
+      lang: "es",
+      name: "Gabriel Alexandru Botas",
+      img: "portfolio.jpg",
+      ocupation: "Desarrollador Full-Stack",
+      about_me: {
+        header: "Sobre mí",
+        texts: [
+          "Alexandru es un chico de 21 años al que le gusta el mundo de la informática. Recientemente ha finalizado sus estudios de Programación Web, donde aprendió a desarrollar y desplegar aplicaciones web.",
+          "Se fue de Rumanía a España cuando tenía 4 años. Durante su vida, ha ido moviéndose de un lugar a otro conociendo diferentes personas y descubriendo lugares interesantes. Su primer código fue un \"¡Hola mundo!\" en Python, en ese momento se dio cuenta de que a través de la programación puedes crear cosas interesantes.",
+          "Recientemente ha descubierto el mundo de la economía, a través de las criptomonedas, acciones e ingresos pasivos; donde ha aprendido el significado del dinero (FIAT), cómo obtener ingresos pasivos a través de diferentes inversiones, ETFs, Futuros, blockchain, bienes inmuebles,... "
+        ]
+      },
+      hobbies: {
+        header: "Hobbies",
+        array: ["Arte", "Música", "Videojuegos", "Películas", "Viajes"]
+      },
+      history: {
+        header: "Historia",
+        sections: [
+          { year: "2000", text: "Nacido en Galați, Romania" },
+          { year: "2019", text: "Completado un CFGM en Sistemas Microinformáticos y Redes" },
+          { year: "2019", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Soporte Técnico" },
+          { year: "2021", text: "Completado un CFGS en Desarrollo de Aplicaciones Web" },
+          { year: "2021", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Programador PHP con Prestashop" },
+          { year: "2022", text: "Programador Liferay 7.x" },
+        ]
+      },
+      social_media: {
+        header: "Redes Sociales / Contacto",
+        sections: [
+          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
+          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
+          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
+        ]
+      }
+    }
+  ];
+
+  private _projects: Array<Project> = [
     { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage the essential information of a business.", website: "", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
     { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Online Version of a popular spanish board game, this version is only for two players.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"], in_development: false },
     { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "Online commerce where you can find minimalism clothes and accesories.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg"], in_development: false },
     { id: "gestor", type: "big", name: "Gestor", img: "", description: "Web Application where an employee can manage his HR information through different actions.", website: "", platform: ["Web Application"], stack: ["Angular", "Node", "MongoDB"], imgs: ["preview_1.jpeg", "preview_2.jpeg"], in_development: true },
   ];
 
-  private _categories: Category[] = [
+  private _categories: Array<Category> = [
     { id: "c0", name: "All Categories" },
     { id: "c1", name: "TV Series" },
     { id: "c2", name: "Apps" },
@@ -27,7 +126,7 @@ export class PortfolioDataService {
     { id: "c5", name: "Films" },
   ];
 
-  private _blog: Blog[] = [
+  private _blog: Array<Blog> = [
     {
       id: 'pwa-or-exe',
       date: new Date('01.09.2022'),
@@ -256,6 +355,31 @@ export class PortfolioDataService {
     }
   ];
 
+
+  public getProfile(lang: any = "en"): any {
+    const profiles = this._profile;
+    let profile = null;
+    for (let i = 0; i < profiles.length && !profile; i++) {
+      if (profiles[i].lang == lang) {
+        profile = profiles[i];
+      }
+    }
+
+    return profile;
+  }
+
+  public getNavbar(lang: any = "en"): any {
+    const navbar = this._navbar;
+    let navs = null;
+    for (let i = 0; i < navbar.length && !navs; i++) {
+      if (navbar[i].lang == lang) {
+        navs = navbar[i];
+      }
+    }
+
+    return navs;
+  }
+
   public get categories(): Category[] {
     return this._categories;
   }
@@ -287,4 +411,7 @@ export class PortfolioDataService {
   public set resources(value: Array<Resource>) {
     this._resources = value;
   }
+
+
+
 }

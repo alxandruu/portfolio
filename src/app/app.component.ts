@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UtilsService } from './_services/utils.service';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public year = new Date().getFullYear();
-  constructor() {}
 
-  ngOnInit(): void {}
+  constructor(ut: UtilsService) {
+    ut.webpageLanguage();
+  }
 
+  ngOnInit(): void { }
+
+  
 }

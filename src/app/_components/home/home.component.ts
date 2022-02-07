@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
+import { Profile } from 'src/app/_interfaces/profile';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  portfolio: Profile;
+
+  constructor(pd: PortfolioDataService) {
+
+    this.portfolio = pd.getProfile(localStorage.getItem("language"));
+  }
 
   ngOnInit(): void {
   }

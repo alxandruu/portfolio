@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
+import { Navbar } from 'src/app/_interfaces/navbar';
 
 @Component({
   selector: 'app-nav',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  navbar: Navbar;
+
+  constructor(pd: PortfolioDataService) {
+    this.navbar = pd.getNavbar(localStorage.getItem("language"));
+  }
 
   ngOnInit(): void {
+
   }
 
   public hamburguer(): void {
