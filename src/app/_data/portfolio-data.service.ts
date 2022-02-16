@@ -13,102 +13,7 @@ export class PortfolioDataService {
 
   constructor() { }
 
-  private _navbar: Array<Navbar> = [
-    {
-      lang: "en",
-      navs: [
-        { text: "Projects", url: "projects" },
-        { text: "Blog", url: "blog" },
-        { text: "Resources", url: "resources" },
-
-      ]
-    },
-    {
-      lang: "es",
-      navs: [
-        { text: "Proyectos", url: "projects" },
-        { text: "Blog", url: "blog" },
-        { text: "Recursos", url: "resources" },
-
-      ]
-    }
-  ]
-
-  private _profile: Array<Profile> = [
-    {
-      lang: "en",
-      name: "Gabriel Alexandru Botas",
-      img: "portfolio.jpg",
-      ocupation: "Full-Stack Developer",
-      about_me: {
-        header: "About Me",
-        texts: [
-          "Alexandru is a 21 years old boy who likes IT world. He has recently finished studies in Web Programming, where learned how to develop and deploy web applications.",
-          "He went from Romania to Spain when was 4 years old. During his life, has been moving from one place to another meeting different people and discovering interesting places. His first code was a \"Hello World!\" in Python, in that moment he realized that through programming you can create anything you want.",
-          "Recently has discovered a bit of economy and its ecosystem, through cryptocurrency, stocks and passive income; where has learnt what money (FIAT) means, how to obtain passive income through different investments, ETFs, Futures, blockchain, real estate, ..."
-        ]
-      },
-      hobbies: {
-        header: "Hobbies",
-        array: ["Art", "Music", "Videogames", "Films", "Travel"]
-      },
-      history: {
-        header: "History",
-        sections: [
-          { year: "2000", text: "Born in Galați, Romania" },
-          { year: "2019", text: "Completed an Intermediated Degree in Microcomputer Systems and Networks" },
-          { year: "2019", text: "Worked for 3 months in a Technological Consultancy as Technical Support" },
-          { year: "2021", text: "Completed a Higher Degree in Web Developing" },
-          { year: "2021", text: "Worked for 3 months in a Technological Consultancy as a PHP Programmer with Prestashop" },
-          { year: "2022", text: "Liferay 7.x Backend Programmer" },
-        ]
-      },
-      social_media: {
-        header: "Social Media / Contact Me",
-        sections: [
-          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
-          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
-          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
-        ]
-      }
-    }, {
-      lang: "es",
-      name: "Gabriel Alexandru Botas",
-      img: "portfolio.jpg",
-      ocupation: "Desarrollador Full-Stack",
-      about_me: {
-        header: "Sobre mí",
-        texts: [
-          "Alexandru es un chico de 21 años al que le gusta el mundo de la informática. Recientemente ha finalizado sus estudios de Programación Web, donde aprendió a desarrollar y desplegar aplicaciones web.",
-          "Se fue de Rumanía a España cuando tenía 4 años. Durante su vida, ha ido moviéndose de un lugar a otro conociendo diferentes personas y descubriendo lugares interesantes. Su primer código fue un \"¡Hola mundo!\" en Python, en ese momento se dio cuenta de que a través de la programación puedes crear cosas interesantes.",
-          "Recientemente ha descubierto el mundo de la economía, a través de las criptomonedas, acciones e ingresos pasivos; donde ha aprendido el significado del dinero (FIAT), cómo obtener ingresos pasivos a través de diferentes inversiones, ETFs, Futuros, blockchain, bienes inmuebles,... "
-        ]
-      },
-      hobbies: {
-        header: "Hobbies",
-        array: ["Arte", "Música", "Videojuegos", "Películas", "Viajes"]
-      },
-      history: {
-        header: "Historia",
-        sections: [
-          { year: "2000", text: "Nacido en Galați, Romania" },
-          { year: "2019", text: "Completado un CFGM en Sistemas Microinformáticos y Redes" },
-          { year: "2019", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Soporte Técnico" },
-          { year: "2021", text: "Completado un CFGS en Desarrollo de Aplicaciones Web" },
-          { year: "2021", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Programador PHP con Prestashop" },
-          { year: "2022", text: "Programador Liferay 7.x" },
-        ]
-      },
-      social_media: {
-        header: "Redes Sociales / Contacto",
-        sections: [
-          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
-          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
-          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
-        ]
-      }
-    }
-  ];
+ 
 
   private _projects: Array<Project> = [
     { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage the essential information of a business.", website: "", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
@@ -412,6 +317,101 @@ export class PortfolioDataService {
     this._resources = value;
   }
 
+  private _navbar: Array<Navbar> = [
+    {
+      lang: "en",
+      navs: [
+        { text: "Projects", url: "projects" },
+        { text: "Blog", url: "blog" },
+        { text: "Resources", url: "resources" },
 
+      ]
+    },
+    {
+      lang: "es",
+      navs: [
+        { text: "Proyectos", url: "projects" },
+        { text: "Blog", url: "blog" },
+        { text: "Recursos", url: "resources" },
+
+      ]
+    }
+  ]
+
+  private _profile: Array<Profile> = [
+    {
+      lang: "en",
+      name: "Gabriel Alexandru Botas",
+      img: "portfolio.jpg",
+      ocupation: "Full-Stack Developer",
+      about_me: {
+        header: "About Me",
+        texts: [
+          "Alexandru is a 21 years old boy who likes IT world. He has recently finished studies in Web Programming, where learned how to develop and deploy web applications.",
+          "He went from Romania to Spain when was 4 years old. During his life, has been moving from one place to another meeting different people and discovering interesting places. His first code was a \"Hello World!\" in Python, in that moment he realized that through programming you can create anything you want.",
+          "Recently has discovered a bit of economy and its ecosystem, through cryptocurrency, stocks and passive income; where has learnt what money (FIAT) means, how to obtain passive income through different investments, ETFs, Futures, blockchain, real estate, ..."
+        ]
+      },
+      hobbies: {
+        header: "Hobbies",
+        array: ["Art", "Music", "Videogames", "Films", "Travel"]
+      },
+      history: {
+        header: "History",
+        sections: [
+          { year: "2000", text: "Born in Galați, Romania" },
+          { year: "2019", text: "Completed an Intermediated Degree in Microcomputer Systems and Networks" },
+          { year: "2019", text: "Worked for 3 months in a Technological Consultancy as Technical Support" },
+          { year: "2021", text: "Completed a Higher Degree in Web Developing" },
+          { year: "2021", text: "Worked for 3 months in a Technological Consultancy as a PHP Programmer with Prestashop" },
+          { year: "2022", text: "Liferay 7.x Backend Programmer" },
+        ]
+      },
+      social_media: {
+        header: "Social Media / Contact Me",
+        sections: [
+          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
+          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
+          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
+        ]
+      }
+    }, {
+      lang: "es",
+      name: "Gabriel Alexandru Botas",
+      img: "portfolio.jpg",
+      ocupation: "Desarrollador Full-Stack",
+      about_me: {
+        header: "Sobre mí",
+        texts: [
+          "Alexandru es un chico de 21 años al que le gusta el mundo de la informática. Recientemente ha finalizado sus estudios de Programación Web, donde aprendió a desarrollar y desplegar aplicaciones web.",
+          "Se fue de Rumanía a España cuando tenía 4 años. Durante su vida, ha ido moviéndose de un lugar a otro conociendo diferentes personas y descubriendo lugares interesantes. Su primer código fue un \"¡Hola mundo!\" en Python, en ese momento se dio cuenta de que a través de la programación puedes crear cosas interesantes.",
+          "Recientemente ha descubierto el mundo de la economía, a través de las criptomonedas, acciones e ingresos pasivos; donde ha aprendido el significado del dinero (FIAT), cómo obtener ingresos pasivos a través de diferentes inversiones, ETFs, Futuros, blockchain, bienes inmuebles,... "
+        ]
+      },
+      hobbies: {
+        header: "Hobbies",
+        array: ["Arte", "Música", "Videojuegos", "Películas", "Viajes"]
+      },
+      history: {
+        header: "Historia",
+        sections: [
+          { year: "2000", text: "Nacido en Galați, Romania" },
+          { year: "2019", text: "Completado un CFGM en Sistemas Microinformáticos y Redes" },
+          { year: "2019", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Soporte Técnico" },
+          { year: "2021", text: "Completado un CFGS en Desarrollo de Aplicaciones Web" },
+          { year: "2021", text: "Trabajé durante 3 meses en una Consultoría Tecnológica como Programador PHP con Prestashop" },
+          { year: "2022", text: "Programador Liferay 7.x" },
+        ]
+      },
+      social_media: {
+        header: "Redes Sociales / Contacto",
+        sections: [
+          { icon: "fab fa-instagram", text: "@alxandru_", url: "https://www.instagram.com/alxandru_/" },
+          { icon: "fab fa-linkedin", text: "Gabriel Alexandru Botas", url: "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/" },
+          { icon: "fas fa-envelope-square", text: "bgabrielalexandru@gmail.com", url: "mailto:bgabrielalexandru@gmail.com" },
+        ]
+      }
+    }
+  ];
 
 }

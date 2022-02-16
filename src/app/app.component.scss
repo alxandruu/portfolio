@@ -9,5 +9,20 @@
 #footer {
     font-size: 0.85rem;
     color: #66676b;
+    .lang-selector {
+        font-size: 0.95rem;
+        color: var(--dark-color);
+        cursor: pointer;
+        &:hover {
+            color: #66676b;
+            transition: color 0.25s;
+            text-decoration: underline;
+        }
+        &.active {
+            font-weight: bold;
+        }
+    }
+    .lang-selector + .lang-selector {
+        margin-left: 1rem;
+    }
 }
-

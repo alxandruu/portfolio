@@ -9,11 +9,20 @@ import { UtilsService } from './_services/utils.service';
 export class AppComponent {
   public year = new Date().getFullYear();
 
-  constructor(ut: UtilsService) {
+
+  constructor(private ut: UtilsService) {
     ut.webpageLanguage();
+    ut.lang = sessionStorage.getItem("language");
   }
+
+
+
 
   ngOnInit(): void { }
 
-  
+  changeLang(key: string) {
+    this.ut.changeLanguage(key);
+    window.location.reload();
+  }
+
 }
