@@ -3,8 +3,7 @@
     width: 75%;
     opacity: 0;
     animation: slide-in 1s ease-in forwards;
-    .global-title{
-        display: none;
+    .title {
         font-size: 2rem;
         font-weight: bold;
     }
@@ -29,13 +28,10 @@ a {
 @media screen and (max-width: 1199.5px) {
     #projects-content {
         width: 50%;
-        .global-title {
-            display: block;
-        }
     }
     .section {
         border: none !important;
-        
+
         .title {
             text-align: center;
             font-size: 1.8rem;

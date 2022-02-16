@@ -1,3 +1,9 @@
+export interface ProjectGroup {
+    lang: String;
+    title: String;
+    data: Array<Project>;
+}
+
 export interface Project {
     id: string;
     type: string;

@@ -3,7 +3,7 @@ import { Blog } from '../_interfaces/blog';
 import { Category } from '../_interfaces/category';
 import { Navbar } from '../_interfaces/navbar';
 import { Profile } from '../_interfaces/profile';
-import { Project } from '../_interfaces/project';
+import { Project, ProjectGroup } from '../_interfaces/project';
 import { Resource } from '../_interfaces/resource';
 import { UtilsService } from '../_services/utils.service';
 
@@ -17,12 +17,7 @@ export class PortfolioDataService {
 
 
 
-  private _projects: Array<Project> = [
-    { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage the essential information of a business.", website: "", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
-    { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Online Version of a popular spanish board game, this version is only for two players.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"], in_development: false },
-    { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "Online commerce where you can find minimalism clothes and accesories.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg"], in_development: false },
-    { id: "gestor", type: "big", name: "Gestor", img: "", description: "Web Application where an employee can manage his HR information through different actions.", website: "", platform: ["Web Application"], stack: ["Angular", "Node", "MongoDB"], imgs: ["preview_1.jpeg", "preview_2.jpeg"], in_development: true },
-  ];
+
 
   private _categories: Array<Category> = [
     { id: "c0", name: "All Categories" },
@@ -289,6 +284,31 @@ export class PortfolioDataService {
     return navs;
   }
 
+
+  // Projects Functions
+  getProjects(): any {
+    const lang = this.ut.lang;
+    const projects = this._projects;
+    let project_group = null;
+    for (let i = 0; i < projects.length && !project_group; i++) {
+      if (projects[i].lang == lang) {
+        project_group = projects[i];
+      }
+    }
+
+    return project_group;
+  }
+
+  getProject(id: string): any {
+    const projects: ProjectGroup = this.getProjects();
+    for (let i = 0; i < projects.data.length; i++) {
+      if (projects.data[i].id == id) {
+        return projects.data[i];
+      }
+    }
+    return null;
+  }
+
   public get categories(): Category[] {
     return this._categories;
   }
@@ -303,14 +323,6 @@ export class PortfolioDataService {
 
   public set blog(value: Blog[]) {
     this._blog = value;
-  }
-
-  public get projects(): Project[] {
-    return this._projects;
-  }
-
-  public set projects(value: Project[]) {
-    this._projects = value;
   }
 
   public get resources(): Array<Resource> {
@@ -418,4 +430,27 @@ export class PortfolioDataService {
     }
   ];
 
+  private _projects: Array<ProjectGroup> = [
+    {
+      lang: "es",
+      title: "Proyectos",
+      data: [
+        { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Aplicación Web en la que manejar la información esencial de una empresa para poder gestionar digitalmente.", website: "", platform: ["Aplicación Web"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
+        { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Versión Online del popular juego de la Oca, solamente esta disponible para dos jugadores.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Aplicación Web"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"], in_development: false },
+        { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "E-Commerce donde puedes encontrar ropa y accesorios de diseño minimalista por un precio asequible.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Aplicación Web"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg"], in_development: false },
+        { id: "gestor", type: "big", name: "Gestor", img: "", description: "Aplicación Web donde un empleado manejar su información orientada a Recursos Humanos, a través de diferentes acciones. Como descargar nóminas o chatear con compañeros de trabajo.", website: "", platform: ["Aplicación Web"], stack: ["Angular", "Node", "MongoDB"], imgs: ["preview_1.jpeg", "preview_2.jpeg"], in_development: true },
+      ]
+    },
+    {
+      lang: "en",
+      title: "Projects",
+      data: [
+        { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage the essential information of a business.", website: "", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
+        { id: "ocaonline", type: "small", name: "La Oca Online", img: "laocaonline.jpg", description: "Online Version of a popular spanish board game, this version is only for two players.", website: "https://alxandruu.github.io/daw-laocaonline/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript"], imgs: ["laocaonline.jpg"], in_development: false },
+        { id: "minatoshop", type: "small", name: "Minato Shop", img: "minatoshop.jpg", description: "Online commerce where you can find minimalism clothes and accesories.", website: "https://alxandruu.github.io/daw-escaparatevirtual/", platform: ["Web Application"], stack: ["HTML", "CSS", "JavaScript", "JSON"], imgs: ["minatoshop.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg"], in_development: false },
+        { id: "gestor", type: "big", name: "Gestor", img: "", description: "Web Application where an employee can manage his HR information through different actions.", website: "", platform: ["Web Application"], stack: ["Angular", "Node", "MongoDB"], imgs: ["preview_1.jpeg", "preview_2.jpeg"], in_development: true },
+      ]
+    },
+
+  ];
 }

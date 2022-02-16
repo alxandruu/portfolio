@@ -1,19 +1,37 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../_services/api.service';
-import { Project } from '../../_interfaces/project';
+import { Project, ProjectGroup } from '../../_interfaces/project';
+import { animate, keyframes, query, stagger, style, transition, trigger } from '@angular/animations';
+import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  styleUrls: ['./projects.component.scss'],
+  animations: [
+    trigger('enterAnimation', [
+      transition('* => *', [
+        query(':enter', style({ opacity: 0 }), { optional: true }),
+        query(':enter', stagger('125ms', [
+          animate('350ms ease-in', keyframes([
+            style({ opacity: 0, transform: 'translateX(-20%)', offset: 0 }),
+            style({ opacity: 0.5, transform: 'translateX(5%)', offset: 0.3 }),
+            style({ opacity: 1, transform: 'translateX(0)', offset: 1.0 })
+          ]))
+        ]), { optional: true })
+      ])
+    ]),
+
+  ]
 })
 export class ProjectsComponent implements OnInit {
-  big_projects: Project[];
-  small_projects: Project[];
-  constructor(private api: ApiService) {
-    
-    this.big_projects = this.api.getProjects("big");
-    this.small_projects = this.api.getProjects("small");
+
+  projects: ProjectGroup;
+
+
+  constructor(pd: PortfolioDataService) {
+    this.projects = pd.getProjects();
+
   }
 
   ngOnInit(): void {
