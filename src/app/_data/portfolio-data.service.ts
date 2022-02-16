@@ -5,15 +5,17 @@ import { Navbar } from '../_interfaces/navbar';
 import { Profile } from '../_interfaces/profile';
 import { Project } from '../_interfaces/project';
 import { Resource } from '../_interfaces/resource';
+import { UtilsService } from '../_services/utils.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PortfolioDataService {
 
-  constructor() { }
+  constructor(private ut: UtilsService) {
+  }
 
- 
+
 
   private _projects: Array<Project> = [
     { id: "attiapp", type: "big", name: "Attia APP", img: "attiapp.jpg", description: "Web Application where you can manage the essential information of a business.", website: "", platform: ["Web Application"], stack: ["Angular", "PHP", "mySQL"], imgs: ["attiapp.jpg", "preview_1.jpeg", "preview_2.jpeg", "preview_3.jpeg", "preview_4.jpeg", "preview_5.jpeg", "preview_6.jpeg", "preview_7.jpeg", "preview_8.jpeg", "preview_9.jpeg"], in_development: false },
@@ -261,7 +263,8 @@ export class PortfolioDataService {
   ];
 
 
-  public getProfile(lang: any = "en"): any {
+  public getProfile(): any {
+    const lang = this.ut.lang;
     const profiles = this._profile;
     let profile = null;
     for (let i = 0; i < profiles.length && !profile; i++) {
@@ -273,7 +276,8 @@ export class PortfolioDataService {
     return profile;
   }
 
-  public getNavbar(lang: any = "en"): any {
+  public getNavbar(): any {
+    const lang = this.ut.lang;
     const navbar = this._navbar;
     let navs = null;
     for (let i = 0; i < navbar.length && !navs; i++) {

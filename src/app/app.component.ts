@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(private ut: UtilsService) {
     ut.webpageLanguage();
-    ut.lang = sessionStorage.getItem("language");
+    ut.lang = localStorage.getItem("language");
   }
 
 

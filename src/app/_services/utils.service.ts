@@ -22,19 +22,19 @@ export class UtilsService {
   public webpageLanguage() {
     const language = navigator.language;
     const languages_available = ["es", "en"];
-    const localstorage_language = sessionStorage.getItem("language");
+    const localstorage_language = localStorage.getItem("language");
 
     if (!localstorage_language) {
       if (language.includes(languages_available[0])) {
-        sessionStorage.setItem("language", languages_available[0]);
+        localStorage.setItem("language", languages_available[0]);
       } else {
-        sessionStorage.setItem("language", languages_available[1]);
+        localStorage.setItem("language", languages_available[1]);
       }
     }
   }
 
   changeLanguage(key: string) {
-    sessionStorage.setItem("language", key);
+    localStorage.setItem("language", key);
     this._lang = key;
   }
 

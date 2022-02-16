@@ -11,9 +11,9 @@ import { UtilsService } from 'src/app/_services/utils.service';
 export class HomeComponent implements OnInit {
 
   portfolio: Profile;
-  
+
   constructor(pd: PortfolioDataService, ut: UtilsService) {
-    this.portfolio = pd.getProfile(ut.lang);
+    this.portfolio = pd.getProfile();
   }
 
   ngOnInit(): void {
