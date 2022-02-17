@@ -1,12 +1,12 @@
 <div class="mx-auto p-2" id="resources-content">
     <div class="d-flex align-items-center justify-content-between  header">
-        <div class="title">Resources</div>
-        <div class="t-resources">{{le}} resources found</div>
+        <div class="title">{{text.data[0]}}</div>
+        <div class="t-resources">{{le}} {{text.data[1]}}</div>
     </div>
     <div class="mt-2 d-flex align-items-center flex-wrap justify-content-between mx-1 filter-row">
         <div class="category-filter-active">{{this.getCategoryName(id).name}}</div>
         <div class="d-flex align-items-center flex-wrap category-filter">
-            <div class="category py-1 px-2 m-1" *ngFor="let c of categories" (click)="filterByCategory(c.id)">
+            <div class="category py-1 px-2 m-1" *ngFor="let c of categories.data" (click)="filterByCategory(c.id)">
                 {{c.name}}
             </div>
         </div>
@@ -17,8 +17,8 @@
             <div class="category-filter-active mobile-version mx-2">{{this.getCategoryName(id).name}}</div>
             <div class="t-resources mobile-version">{{le}} resources found</div>
         </div>
-        <div class="row " [@enterAnimation] >
-            <div class="col-xl-4 pt-4"  *ngFor="let r of resources | resourceFilter:id ; "  >
+        <div class="row " [@enterAnimation]>
+            <div class="col-xl-4 pt-4" *ngFor="let r of resources | resourceFilter:id ; ">
                 <div class="rs">
                     <a href="{{r.url}}" target="_blank" rel="noopener noreferrer">
                         <div class="position-relative">

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Project } from '../_interfaces/project';
 import { Blog } from '../_interfaces/blog';
 import { Resource } from '../_interfaces/resource';
-import { Category } from '../_interfaces/category';
+import { Category, CategoryGroup } from '../_interfaces/category';
 import { PortfolioDataService } from '../_data/portfolio-data.service';
 
 
@@ -11,12 +11,12 @@ import { PortfolioDataService } from '../_data/portfolio-data.service';
 })
 export class ApiService {
   
-  private categories: Array<Category>;
+  private categories: CategoryGroup;
   private resources: Array<Resource>;
   private blog: Array<Blog>;
  
   constructor(dt: PortfolioDataService) {
-    this.categories = dt.categories;
+    this.categories = dt.getCategories();
     this.resources = dt.resources;
     this.blog = dt.blog;
   }
@@ -26,7 +26,7 @@ export class ApiService {
   getCategories(id: string = ""): any {
     const categories = this.categories;
     if (id != "") {
-      let category = categories.find(element => element.id === id);
+      let category = categories.data.find(element => element.id === id);
       return category;
 
     } else {
@@ -60,7 +60,7 @@ export class ApiService {
 
   getResources(id: string = ''): Array<Resource> {
     const resources = this.resources;
-    if (id != '' && id != this.categories[0].id) {
+    if (id != '' && id != this.categories.data[0].id) {
       const filterResources = resources.filter(r => {
         let category = r.category;
         return category.includes(id);

@@ -1,8 +1,11 @@
 import { animate, keyframes, query, stagger, state, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 import { Category } from 'src/app/_interfaces/category';
+import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
 import { Resource } from 'src/app/_interfaces/resource';
 import { ApiService } from 'src/app/_services/api.service';
+import { UtilsService } from 'src/app/_services/utils.service';
 
 @Component({
   selector: 'app-resources',
@@ -28,7 +31,7 @@ import { ApiService } from 'src/app/_services/api.service';
         ]), { optional: true })
       ])
     ]),
-   
+
   ]
 })
 export class ResourcesComponent implements OnInit {
@@ -36,11 +39,14 @@ export class ResourcesComponent implements OnInit {
   public categories;
   le: number;
   id: string = 'c0';
+  text: LanguageTextGroup;
 
-  constructor(private api: ApiService) {
+
+  constructor(private api: ApiService, private pd: PortfolioDataService, private ut: UtilsService) {
     this.resources = this.api.getResources();
-    this.categories = this.api.getCategories();
+    this.categories = pd.getCategories();
     this.le = this.resources.length;
+    this.text = this.getLanguageText();
   }
 
   ngOnInit(): void {
@@ -49,12 +55,32 @@ export class ResourcesComponent implements OnInit {
 
 
   getCategoryName(id: string) {
-    return this.api.getCategories(id);
+    return this.pd.getCategory(id);
   }
 
   filterByCategory(id: string) {
     this.id = id;
     this.le = this.api.getResources(id).length;
-    
+
   }
+
+  // LanguageTexts Resources
+  private languageTexts: Array<LanguageTextGroup> = [
+    { lang: "es", data: ["Recursos", "recursos encontrados"] },
+    { lang: "en", data: ["Resources", "resources found"] }
+  ]
+
+  private getLanguageText(): any {
+    const lang = this.ut.lang;
+    const languageTexts = this.languageTexts;
+    let languageTextGroup = null;
+    for (let i = 0; i < languageTexts.length && !languageTextGroup; i++) {
+      if (languageTexts[i].lang == lang) {
+        languageTextGroup = languageTexts[i];
+      }
+    }
+
+    return languageTextGroup;
+  }
+
 }
