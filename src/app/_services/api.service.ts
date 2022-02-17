@@ -12,12 +12,10 @@ import { PortfolioDataService } from '../_data/portfolio-data.service';
 export class ApiService {
   
   private categories: CategoryGroup;
-  private resources: Array<Resource>;
   private blog: Array<Blog>;
  
   constructor(dt: PortfolioDataService) {
     this.categories = dt.getCategories();
-    this.resources = dt.resources;
     this.blog = dt.blog;
   }
 
@@ -58,17 +56,5 @@ export class ApiService {
     return null;
   }
 
-  getResources(id: string = ''): Array<Resource> {
-    const resources = this.resources;
-    if (id != '' && id != this.categories.data[0].id) {
-      const filterResources = resources.filter(r => {
-        let category = r.category;
-        return category.includes(id);
-      });
-      return filterResources;
-    } else {
-      return resources;
-    }
-
-  }
+  
 }

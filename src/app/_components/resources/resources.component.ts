@@ -1,9 +1,9 @@
 import { animate, keyframes, query, stagger, state, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
-import { Category } from 'src/app/_interfaces/category';
+import { Category, CategoryGroup } from 'src/app/_interfaces/category';
 import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
-import { Resource } from 'src/app/_interfaces/resource';
+import { Resource, ResourceGroup } from 'src/app/_interfaces/resource';
 import { ApiService } from 'src/app/_services/api.service';
 import { UtilsService } from 'src/app/_services/utils.service';
 
@@ -35,17 +35,17 @@ import { UtilsService } from 'src/app/_services/utils.service';
   ]
 })
 export class ResourcesComponent implements OnInit {
-  public resources: Array<Resource>;
-  public categories;
+  public resources: ResourceGroup;
+  public categories: CategoryGroup;
   le: number;
   id: string = 'c0';
   text: LanguageTextGroup;
 
 
   constructor(private api: ApiService, private pd: PortfolioDataService, private ut: UtilsService) {
-    this.resources = this.api.getResources();
+    this.resources = pd.getResources();
     this.categories = pd.getCategories();
-    this.le = this.resources.length;
+    this.le = this.resources.data.length;
     this.text = this.getLanguageText();
   }
 
@@ -60,7 +60,7 @@ export class ResourcesComponent implements OnInit {
 
   filterByCategory(id: string) {
     this.id = id;
-    this.le = this.api.getResources(id).length;
+    this.le = this.pd.filterResources(id).length;
 
   }
 

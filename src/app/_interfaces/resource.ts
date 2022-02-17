@@ -1,3 +1,8 @@
+export interface ResourceGroup {
+    lang: String;
+    data: Array<Resource>;
+}
+
 export interface Resource {
     name: string;
     img: string;
