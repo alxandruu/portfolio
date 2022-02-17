@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Blog } from 'src/app/_interfaces/blog';
-import { ApiService } from 'src/app/_services/api.service';
 
 @Component({
   selector: 'app-bl-view',
@@ -10,11 +9,9 @@ import { ApiService } from 'src/app/_services/api.service';
 })
 export class BlViewComponent implements OnInit {
   blog!: Blog;
-  constructor(private ar: ActivatedRoute, private api: ApiService) {
-    this.ar.params.subscribe(params => {
-      this.blog = this.api.getOneBlog(params['id']);
-    });
-   
+  constructor(private ar: ActivatedRoute) {
+
+
   }
 
 

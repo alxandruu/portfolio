@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
 import { Project } from 'src/app/_interfaces/project';
-import { ApiService } from 'src/app/_services/api.service';
 import { UtilsService } from 'src/app/_services/utils.service';
 
 @Component({

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiService } from '../../_services/api.service';
-import { Project, ProjectGroup } from '../../_interfaces/project';
+import { ProjectGroup } from '../../_interfaces/project';
 import { animate, keyframes, query, stagger, style, transition, trigger } from '@angular/animations';
 import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 

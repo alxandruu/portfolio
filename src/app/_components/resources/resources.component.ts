@@ -1,10 +1,9 @@
 import { animate, keyframes, query, stagger, state, style, transition, trigger } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
-import { Category, CategoryGroup } from 'src/app/_interfaces/category';
+import { CategoryGroup } from 'src/app/_interfaces/category';
 import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
-import { Resource, ResourceGroup } from 'src/app/_interfaces/resource';
-import { ApiService } from 'src/app/_services/api.service';
+import { ResourceGroup } from 'src/app/_interfaces/resource';
 import { UtilsService } from 'src/app/_services/utils.service';
 
 @Component({
@@ -42,7 +41,7 @@ export class ResourcesComponent implements OnInit {
   text: LanguageTextGroup;
 
 
-  constructor(private api: ApiService, private pd: PortfolioDataService, private ut: UtilsService) {
+  constructor(private pd: PortfolioDataService, private ut: UtilsService) {
     this.resources = pd.getResources();
     this.categories = pd.getCategories();
     this.le = this.resources.data.length;
