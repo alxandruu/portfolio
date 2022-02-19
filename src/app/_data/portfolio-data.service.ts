@@ -270,6 +270,12 @@ export class PortfolioDataService {
       lang: "es",
       data: [
         {
+          name: 'Criado por Lobos',
+          img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
+          description: "Una raza de androides tiene la tarea de criar a niños humanos en un misterioso planeta.",
+          url: 'https://www.hbo.com/euphoria',
+          category: "c1"
+        }, {
           name: 'Euphoria',
           img: 'https://televisionpromos.com/wp-content/uploads/2019/03/Euphoria-HBO-key-art-logo-740x416.jpg',
           description: "Advertencia: En esta serie hay escenas violentas sobre drogas, sexo, y salud mental. La superestrella Zendaya protagoniza esta serie de HBO sobre un grupo de estudiantes de instituto.",
@@ -401,6 +407,12 @@ export class PortfolioDataService {
       lang: "en",
       data: [
         {
+          name: 'Raised by Wolves',
+          img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
+          description: "Androids are tasked with raising human children on a mysterious planet.",
+          url: 'https://www.imdb.com/title/tt9170108/',
+          category: "c1"
+        }, {
           name: 'Euphoria',
           img: 'https://televisionpromos.com/wp-content/uploads/2019/03/Euphoria-HBO-key-art-logo-740x416.jpg',
           description: "Euphoria follows a group of high school students as they navigate love and friendships in a world of drugs, sex, trauma and social media.",
