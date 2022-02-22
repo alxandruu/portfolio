@@ -27,7 +27,7 @@
     }
 
     .category-filter-active.mobile-version {
-        font-size: 1.25rem;
+        font-size: 0.85rem;
         letter-spacing: 1px;
     }
     .category-filter {
@@ -44,7 +44,7 @@
             transition: transform 0.3s ease;
 
             @media screen and (max-width: 767.5px) {
-                font-size: 0.7rem;
+                font-size: 0.85rem;
                 &:active {
                     transform: scale(0.9);
                     transition: transform 0.1s ease;
