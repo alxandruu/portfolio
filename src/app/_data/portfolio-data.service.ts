@@ -270,6 +270,19 @@ export class PortfolioDataService {
       lang: "es",
       data: [
         {
+          name: 'Star Wars Jedi: Fallen Order',
+          img: 'https://nosomosnonos.com/wp-content/uploads/2019/10/Star-Wars-Jedi-Fallen-Order.jpg',
+          description: "Después de la Orden 66, que inició la purga de la Orden Jedi en toda la galaxia, los jugadores toman el control del Padawan Cal Kestis (interpretado por Cameron Monaghan), uno de los últimos Jedi supervivientes. Durante la historia, Cal se somete a duras pruebas en su camino para superar el traumático pasado, que dejó como secuela el fin de la guerra de los clones.",
+          url: 'https://www.youtube.com/watch?v=lw3tTKYGwr8',
+          category: "c3"
+        }, {
+          name: 'The White Lotus',
+          img: 'https://popculturetimes.com/wp-content/uploads/2021/08/the-white-lotus.jpg',
+          description: "Retrata las vacaciones de varios huéspedes de un resort tropical durante una semana mientras se relajan y rejuvenecen en el paraíso. Pero cada día que pasa, surge una complejidad más oscura en la vida de estos viajeros perfectos, los risueños empleados del hotel y ese lugar idílico.",
+          url: 'https://www.youtube.com/watch?v=6UK2zs2wElI',
+          category: "c1"
+        },
+        {
           name: 'Criado por Lobos',
           img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
           description: "Una raza de androides tiene la tarea de criar a niños humanos en un misterioso planeta.",
@@ -406,6 +419,19 @@ export class PortfolioDataService {
     }, {
       lang: "en",
       data: [
+        {
+          name: 'Star Wars Jedi: Fallen Order',
+          img: 'https://nosomosnonos.com/wp-content/uploads/2019/10/Star-Wars-Jedi-Fallen-Order.jpg',
+          description: "After Order 66, which initiated the purge of the Jedi Order throughout the galaxy, players take control of Padawan Cal Kestis (played by Cameron Monaghan), one of the last surviving Jedi. During the story, Cal undergoes harsh tests on his way to overcome the traumatic past, which left as a sequel the end of the Clone Wars.",
+          url: 'https://www.youtube.com/watch?v=0GLbwkfhYZk',
+          category: "c3"
+        }, {
+          name: 'The White Lotus',
+          img: 'https://popculturetimes.com/wp-content/uploads/2021/08/the-white-lotus.jpg',
+          description: "It portrays the vacations of several guests of a tropical resort for a week while relaxing and rejuvenating in paradise. But with each passing day, a darker complexity emerges in the lives of these perfect travelers, the laughing hotel employees, and that idyllic place.",
+          url: 'https://www.youtube.com/watch?v=TGLq7_MonZ4',
+          category: "c1"
+        },
         {
           name: 'Raised by Wolves',
           img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
