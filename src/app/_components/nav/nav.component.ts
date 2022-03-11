@@ -12,7 +12,7 @@ export class NavComponent implements OnInit {
 
   navbar: Navbar;
 
-  constructor(pd: PortfolioDataService, ut: UtilsService) {
+  constructor(pd: PortfolioDataService, private ut: UtilsService) {
     this.navbar = pd.getNavbar();
   }
 
@@ -25,5 +25,9 @@ export class NavComponent implements OnInit {
     document.querySelector('.hambBtn')?.classList.toggle('active');
   }
 
+  changeLang(key: string) {
+    this.ut.changeLanguage(key);
+    window.location.reload();
+  }
 
 }
