@@ -436,39 +436,39 @@ export class PortfolioDataService {
           name: 'Raised by Wolves',
           img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
           description: "Androids are tasked with raising human children on a mysterious planet.",
-          url: 'https://www.imdb.com/title/tt9170108/',
+          url: 'https://www.youtube.com/watch?v=rE92bDAlPXI',
           category: "c1"
         }, {
           name: 'Euphoria',
           img: 'https://televisionpromos.com/wp-content/uploads/2019/03/Euphoria-HBO-key-art-logo-740x416.jpg',
           description: "Euphoria follows a group of high school students as they navigate love and friendships in a world of drugs, sex, trauma and social media.",
-          url: 'https://www.hbo.com/euphoria',
+          url: 'https://www.youtube.com/watch?v=teCrVa0J8v4&t=2s',
           category: "c1"
         }, {
           name: 'Control',
           img: 'https://www.spieltimes.com/wp-content/uploads/2019/08/basic.jpg',
           description: "The game revolves around the Federal Bureau of Control (FBC), a secret U.S. government agency tasked with containing and studying phenomena that violate the laws of reality. As Jesse Faden (Courtney Hope), the Bureau's new Director, the player explores the Oldest House – the FBC's paranormal headquarters – and utilizes powerful abilities in order to defeat a deadly enemy known as the Hiss, which has invaded and corrupted reality.",
-          url: 'https://store.steampowered.com/app/870780/Control_Ultimate_Edition/',
+          url: 'https://www.youtube.com/watch?v=PT5yMfC9LQM',
           category: "c3"
         }, {
           name: 'The Mitchells vs. the Machines',
           img: 'https://img.search.brave.com/zKIITOhiqZl2wyAn_RCnHKILSs3NzVMq7RGQaMv_Ut8/rs:fit:1200:675:1/g:ce/aHR0cHM6Ly9hcmVh/anVnb25lcy5zcG9y/dC5lcy93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy9sb3Mt/bWl0Y2hlbGwtY29u/dHJhLWxhcy1tYXF1/aW5hcy5qcGVn',
           description: "A robotic apocalypse puts a stop to their cross-country road trip. Now, the future of humanity depends on the Mitchells: the weirdest family in the world.",
-          url: 'https://www.imdb.com/title/tt7979580/',
+          url: 'https://www.youtube.com/watch?v=_ak5dFt8Ar0',
           category: "c5"
         },
         {
           name: 'Blade Runner: Black Lotus',
           img: 'https://th.bing.com/th/id/OIP.tUaZrRP1HKj0tBCEf7SkiwHaD8?pid=ImgDet&rs=1',
           description: "Los Angeles, 2032. Elle, a young replicant with no memories and lethal abilities, goes in search of discovering her lost identity. His only clues are: a locked memory device and a tattoo of a black lotus on his right shoulder.",
-          url: 'https://www.imdb.com/title/tt9359796/',
+          url: 'https://www.youtube.com/watch?v=eUu3lK_Z8VM',
           category: "c1"
         },
         {
           name: 'The Girl Next Door',
           img: 'https://imgmedia.wapa.pe/420x210/wapa/migration/imagen/2018/03/13/noticia-recuerdas-la-chica-de-al-lado-dejo-la-actuacion-por-esta-razon.png',
           description: "A teen's dream comes true when a former porn star moves in next door and they fall in love.",
-          url: 'https://www.imdb.com/title/tt0265208/',
+          url: 'https://www.youtube.com/watch?v=s_b2APr9D48',
           category: "c5"
         },
         {
@@ -508,61 +508,61 @@ export class PortfolioDataService {
           name: 'The Expanse',
           img: "https://img.winfuture.de/teaser/1920/41233.jpg",
           description: "The series is set in a future where humanity has colonized the Solar System. It follows a disparate band of protagonists and place themselves at the center of a conspiracy.",
-          url: "https://www.filmaffinity.com/en/film757227.html",
+          url: "https://www.youtube.com/watch?v=kQuTAPWJxNo",
           category: "c1"
         }, {
           name: 'Beyond Good & Evil',
           img: "https://cdn.cloudflare.steamstatic.com/steam/apps/15130/header.jpg?t=1620749841",
           description: "The story follows the adventures of Jade, an investigative reporter and martial artist, who works with a resistance movement to reveal a planet-wide alien conspiracy.",
-          url: "https://store.steampowered.com/app/15130/Beyond_Good_and_Evil/",
+          url: "https://www.youtube.com/watch?v=Wg4CDpo0aw0",
           category: "c3"
         }, {
           name: 'Deus Ex: Human Revolution',
           img: "https://www.escapistmagazine.com/v2/wp-content/uploads/2020/08/deusexhumanrevolution1.jpg",
           description: "Is set in 2027, just as human augmentation begins to enter mainstream life. These mechanical augmentations act as replacements for natural body parts, and allow the wearer to gain enhanced abilities, such as super strength or super stamina.",
-          url: "https://store.steampowered.com/app/238010/Deus_Ex_Human_Revolution__Directors_Cut/",
+          url: "https://www.youtube.com/watch?v=Kq5KWLqUewc",
           category: "c3"
         }, {
           name: 'Dishonored 2',
           img: "https://th.bing.com/th/id/R.fd072c3141f259b3be287e14124f5a7a?rik=APEyEPMVm9Lfxw&pid=ImgRaw&r=0",
           description: "Fifteen years after the events of the first game, Emily Kaldwin is dethroned by an otherworldly conspirator forcing herself, or her father, Corvo to go on a journey to clear her name and reinstate her rightful title as Empress.",
-          url: "https://store.steampowered.com/app/403640/Dishonored_2/",
+          url: "https://www.youtube.com/watch?v=l1jyUAtxh-8",
           category: "c3"
         }, {
           name: 'Prey',
           img: "https://th.bing.com/th/id/R.504c052ae9b1fe3999a9a16727b35dc6?rik=kvoFfTWqmLq4eQ&riu=http%3a%2f%2fwww.hdwallpapers.in%2fdownload%2fprey_2017-1920x1200.jpg&ehk=RtG5vsdWUGYCS4GRQeVtoJz9nBEy2hyNt2Jiz01vNoM%3d&risl=&pid=ImgRaw&r=0",
           description: "In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted.",
-          url: "https://store.steampowered.com/app/480490/Prey/",
+          url: "https://www.youtube.com/watch?v=LNHZ9WAertc",
           category: "c3"
         }, {
           name: 'Quantum Break',
           img: "https://17kgroup.it/wp-content/uploads/2018/03/quantum-break-remedy-lavoro-per-risolvere-problemi-della-versione-xbox-one-x-v5-322817.jpg",
           description: "In the aftermath of a split second of destruction that fractures time itself, two people find they have changed and gained extraordinary abilities. One of them travels through time and becomes hell-bent on controlling this power. The other uses these new abilities to attempt to defeat him – and fix time before it tears itself irreparably apart.",
-          url: "https://store.steampowered.com/app/474960/Quantum_Break/",
+          url: "https://www.youtube.com/watch?v=ruY1eT9bXiw",
           category: "c3"
         }, {
           name: 'Cobra Kai',
           img: "https://upload.wikimedia.org/wikipedia/it/1/12/Cobra_Kai.png",
           description: "Sequel of the original The Karate Kid films.Set 34 years later, Cobra Kai re-examines the narrative from Johnny's point of view, his decision to reopen the Cobra Kai karate dojo, and the rekindling of his old rivalry with Daniel.",
-          url: "https://www.netflix.com/es/title/81002370",
+          url: "https://www.youtube.com/watch?v=lkaIYfA1WOs",
           category: "c1"
         }, {
           name: 'Reminiscence',
           img: "https://th.bing.com/th/id/OIP.6L8KibveXA7umWl1IqCfsAHaEK?pid=ImgDet&rs=1",
           description: "A scientist discovers a way to relive the past and uses technology to search for his long-lost love.",
-          url: "https://www.imdb.com/title/tt3272066/",
+          url: "https://www.youtube.com/watch?v=_BggT--yxf0",
           category: "c5"
         }, {
           name: "Schindler's List",
           img: "https://picfiles.alphacoders.com/224/224155.jpg",
           description: "In German-occupied Poland during World War II, industrialist Oskar Schindler worries about his Jewish workers after witnessing their persecution by the Nazis.",
-          url: "https://www.imdb.com/title/tt0108052/",
+          url: "https://www.youtube.com/watch?v=mxphAlJID9U",
           category: "c5"
         }, {
           name: "Blue Valentine",
           img: "https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/archivo-peliculas/blue-valentine/galeria/blue-valentine/13724094-1-esl-ES/blue-valentine.jpg",
           description: "The relationship of a marriage through the years interspersing different periods.",
-          url: "https://www.imdb.com/title/tt1120985/",
+          url: "https://www.youtube.com/watch?v=aILx69WrRhQ",
           category: "c5"
         }
       ]
