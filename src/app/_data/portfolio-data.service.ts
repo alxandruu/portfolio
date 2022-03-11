@@ -270,6 +270,13 @@ export class PortfolioDataService {
       lang: "es",
       data: [
         {
+          name: 'Playdede',
+          img: 'https://th.bing.com/th/id/R.1c97b527f3fe9684449dec49a892fb91?rik=xZTiS92QFzIkvw&pid=ImgRaw&r=0',
+          description: "Plataforma online donde ver películas, series y anime gratuitamente. ADVERTENCIA: se recomienda usar con un Adblock.",
+          url: 'https://playdede.com/',
+          category: "c2"
+        },
+        {
           name: 'Star Wars Jedi: Fallen Order',
           img: 'https://nosomosnonos.com/wp-content/uploads/2019/10/Star-Wars-Jedi-Fallen-Order.jpg',
           description: "Después de la Orden 66, que inició la purga de la Orden Jedi en toda la galaxia, los jugadores toman el control del Padawan Cal Kestis (interpretado por Cameron Monaghan), uno de los últimos Jedi supervivientes. Durante la historia, Cal se somete a duras pruebas en su camino para superar el traumático pasado, que dejó como secuela el fin de la guerra de los clones.",
@@ -286,39 +293,39 @@ export class PortfolioDataService {
           name: 'Criado por Lobos',
           img: 'https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg',
           description: "Una raza de androides tiene la tarea de criar a niños humanos en un misterioso planeta.",
-          url: 'https://www.hbo.com/euphoria',
+          url: 'https://www.youtube.com/watch?v=4MLnZdMjteI',
           category: "c1"
         }, {
           name: 'Euphoria',
           img: 'https://televisionpromos.com/wp-content/uploads/2019/03/Euphoria-HBO-key-art-logo-740x416.jpg',
           description: "Advertencia: En esta serie hay escenas violentas sobre drogas, sexo, y salud mental. La superestrella Zendaya protagoniza esta serie de HBO sobre un grupo de estudiantes de instituto.",
-          url: 'https://www.hbo.com/euphoria',
+          url: 'https://www.youtube.com/watch?v=nqSQUrlnB9s&t=25s',
           category: "c1"
         }, {
           name: 'Control',
           img: 'https://www.spieltimes.com/wp-content/uploads/2019/08/basic.jpg',
           description: "¿Puedes enfrentarte a los secretos oscuros de la Agencia? Desentraña una lucha épica sobrenatural llena de personajes inesperados y sucesos extraños mientras buscas a tu hermano desaparecido. Descubre la verdad que te ha traído hasta aquí.",
-          url: 'https://store.steampowered.com/app/870780/Control_Ultimate_Edition/',
+          url: 'https://www.youtube.com/watch?v=AwQJRHBvF8w',
           category: "c3"
         }, {
           name: 'Los Mitchells contra las Máquinas',
           img: 'https://img.search.brave.com/zKIITOhiqZl2wyAn_RCnHKILSs3NzVMq7RGQaMv_Ut8/rs:fit:1200:675:1/g:ce/aHR0cHM6Ly9hcmVh/anVnb25lcy5zcG9y/dC5lcy93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy9sb3Mt/bWl0Y2hlbGwtY29u/dHJhLWxhcy1tYXF1/aW5hcy5qcGVn',
           description: "Un apocalipsis robótico pone freno a su viaje por carretera a través del país. Ahora, el futuro de la humanidad depende de los Mitchell: la familia más rarita del mundo.",
-          url: 'https://www.imdb.com/title/tt7979580/',
+          url: 'https://www.youtube.com/watch?v=uh1XOu2GQcw',
           category: "c5"
         },
         {
           name: 'Blade Runner: El Loto Negro',
           img: 'https://th.bing.com/th/id/OIP.tUaZrRP1HKj0tBCEf7SkiwHaD8?pid=ImgDet&rs=1',
           description: "Los Ángeles, 2032. Una joven con habilidades mortales y sin recuerdos persigue a los responsables de su brutal pasado para descubrir la verdad sobre su identidad. Sus únicas pistas: un dispositivo de datos bloqueado y un tatuaje de un loto negro. Serie de animación producida por Shin'ichirō Watanabe (Cowboy Bebop) y ambientada diecisiete años antes de la película \"Blade Runner 2049\".",
-          url: 'https://www.imdb.com/title/tt9359796/',
+          url: 'https://www.youtube.com/watch?v=FPjOuFvzp5k',
           category: "c1"
         },
         {
           name: 'La Vecina de al Lado',
           img: 'https://imgmedia.wapa.pe/420x210/wapa/migration/imagen/2018/03/13/noticia-recuerdas-la-chica-de-al-lado-dejo-la-actuacion-por-esta-razon.png',
           description: "A pesar de su juventud, Matthew Kidman (Emile Hirsch), un joven de dieciocho años, tiene las cosas muy claras en la vida. Su aspiración es la de convertirse en político y sabe que para conseguirlo tiene que trabajar duro. Todo en su vida está dirigido con gran rigidez y exactitud, siendo la responsabilidad su máxima diaria. No obstante, su firme rutina se ve alterada cuando una encantadora y guapísima joven, Danielle (Elisha Cuthbert), se va a vivir al lado de su casa.",
-          url: 'https://www.imdb.com/title/tt0265208/',
+          url: 'https://www.youtube.com/watch?v=0rD3Qkh-238',
           category: "c5"
         },
         {
@@ -352,67 +359,67 @@ export class PortfolioDataService {
           name: 'El Invierno del Mundo',
           img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Open_book_nae_02.svg/1280px-Open_book_nae_02.svg.png",
           description: "Los hijos de las cinco familias protagonistas deLa caída de los gigantes forjarán su destino en los años turbulentos de la Segunda Guerra Mundial, la guerra civil española, el bombardeo de Pearl Harbor y la era de la bomba atómica.",
-          url: "https://ken-follett.com/books/winter-of-the-world-2/",
+          url: "https://www.casadellibro.com/libro-el-invierno-del-mundo/9788401353192/2000241",
           category: "c4"
         }, {
           name: 'The Expanse',
           img: "https://img.winfuture.de/teaser/1920/41233.jpg",
           description: "En el siglo XXIII, una chica desaparecida vincula a un detective del cinturón de asteroides, al capitán de un carguero de hielo y a una diplomática en contra de la guerra.",
-          url: "https://www.filmaffinity.com/en/film757227.html",
+          url: "https://www.youtube.com/watch?v=7Gudikaq5Hc",
           category: "c1"
         }, {
           name: 'Beyond Good & Evil',
           img: "https://cdn.cloudflare.steamstatic.com/steam/apps/15130/header.jpg?t=1620749841",
           description: "Durante siglos, el planeta Hillys ha sido bombardeado por una implacable raza alienígena. Extrañada ante la inhabilidad de su gobierno para repeler a los invasores, la reportera de acción Jade sale a las calles a buscar la verdad. Armada con su cámara, su bastón dai-jo y una fiera determinación, descubrirá pruebas sorprendentes que desvelan una horrible conspiración dentro del gobierno, por lo que se verá obligada a enfrentarse a un mal que no puede ni imaginar.",
-          url: "https://store.steampowered.com/app/15130/Beyond_Good_and_Evil/",
+          url: "https://www.youtube.com/watch?v=dex8cuLnZyA",
           category: "c3"
         }, {
           name: 'Deus Ex: Human Revolution',
           img: "https://www.escapistmagazine.com/v2/wp-content/uploads/2020/08/deusexhumanrevolution1.jpg",
           description: "Juegas como Adam Jensen, un ex SWAT al que han escogido para supervisar las necesidades defensivas de una de las empresas de biotecnología más experimentales de América. Tu trabajo consiste en proteger los secretos de la empresa, pero, cuando irrumpe un equipo de operaciones encubiertas y mata a los mismos científicos que debías proteger, lo que creías saber sobre tu trabajo cambia totalmente.",
-          url: "https://store.steampowered.com/app/238010/Deus_Ex_Human_Revolution__Directors_Cut/",
+          url: "https://www.youtube.com/watch?v=RbDQiNYRwgQ",
           category: "c3"
         }, {
           name: 'Dishonored 2',
           img: "https://th.bing.com/th/id/R.fd072c3141f259b3be287e14124f5a7a?rik=APEyEPMVm9Lfxw&pid=ImgRaw&r=0",
           description: "Dishonored 2 tiene lugar 15 años después de la derrota del lord Regente. La temible peste ha pasado a la historia y un usurpador de otro mundo se ha hecho con el trono de la emperatriz Emily Kaldwin. El futuro de las islas pende de un hilo. Asume el papel de Emily o Corvo, y viaja más allá de las legendarias calles de Dunwall hasta Karnaca, una ciudad costera antaño deslumbrante, que alberga la clave para devolver a Emily al poder. Usa la marca del Forastero, así como nuevas y poderosas habilidades, para dar caza a tus enemigos y recuperar lo que te pertenece por derecho.",
-          url: "https://store.steampowered.com/app/403640/Dishonored_2/",
+          url: "https://www.youtube.com/watch?v=6ODdWLysD6g",
           category: "c3"
         }, {
           name: 'Prey',
           img: "https://th.bing.com/th/id/R.504c052ae9b1fe3999a9a16727b35dc6?rik=kvoFfTWqmLq4eQ&riu=http%3a%2f%2fwww.hdwallpapers.in%2fdownload%2fprey_2017-1920x1200.jpg&ehk=RtG5vsdWUGYCS4GRQeVtoJz9nBEy2hyNt2Jiz01vNoM%3d&risl=&pid=ImgRaw&r=0",
           description: "En Prey te despertarás a bordo de la Talos I, una estación espacial en órbita alrededor de la Luna en el año 2032. Eres el sujeto clave de un experimento que espera cambiar la humanidad para siempre... pero las cosas se han complicado de forma terrible. La estación espacial ha sido invadida por alienígenas hostiles que quieren darte caza. Mientras investigas los oscuros secretos de la Talos I y de tu propio pasado, tendrás que sobrevivir gracias a las herramientas que encuentres en la estación, así como a tu ingenio, armas e increíbles habilidades. El destino de Talos I y de todos los que están a bordo se encuentra en tus manos.",
-          url: "https://store.steampowered.com/app/480490/Prey/",
+          url: "https://www.youtube.com/watch?v=n1uTBTKrccw",
           category: "c3"
         }, {
           name: 'Quantum Break',
           img: "https://17kgroup.it/wp-content/uploads/2018/03/quantum-break-remedy-lavoro-per-risolvere-problemi-della-versione-xbox-one-x-v5-322817.jpg",
           description: "Como consecuencia de una fracción de segundo de destrucción que resquebrajó el mismo tiempo, dos hombres descubren que obtuvieron poderes extraordinarios. Uno de ellos puede viajar en el tiempo y pondrá todo lo que está a su disposición por controlar este poder. El otro usará sus nuevas habilidades para derrotarlo y reparar el tiempo antes de desgarrarse por completo.",
-          url: "https://store.steampowered.com/app/474960/Quantum_Break/",
+          url: "https://www.youtube.com/watch?v=g4Gfm5H-lkk&t=1s",
           category: "c3"
         }, {
           name: 'Cobra Kai',
           img: "https://upload.wikimedia.org/wikipedia/it/1/12/Cobra_Kai.png",
           description: "Décadas después del torneo que les cambió la vida, la rivalidad entre Johnny y Daniel resurge en esta secuela de las películas de ‘Karate Kid’.",
-          url: "https://www.netflix.com/es/title/81002370",
+          url: "https://www.youtube.com/watch?v=CfOuYm8EnBA",
           category: "c1"
         }, {
           name: 'Reminiscencia',
           img: "https://th.bing.com/th/id/OIP.6L8KibveXA7umWl1IqCfsAHaEK?pid=ImgDet&rs=1",
           description: "Nick Bannister, un detective privado de la mente, se adentra en el seductor mundo del pasado cuando Mae, una nueva clienta, cambia su vida por completo.",
-          url: "https://www.imdb.com/title/tt3272066/",
+          url: "https://www.youtube.com/watch?v=5MvFknvMabU&t=38s",
           category: "c5"
         }, {
           name: "La Lista de Schindler",
           img: "https://picfiles.alphacoders.com/224/224155.jpg",
           description: "Oskar Schindler, un empresario alemán de gran talento para las relaciones públicas, busca ganarse la simpatía de los nazis de cara a su beneficio personal. Después de la invasión de Polonia por los alemanes en 1939, Schindler consigue, gracias a sus relaciones con los altos jerarcas nazis, la propiedad de una fábrica de Cracovia. Allí emplea a cientos de operarios judíos, cuya explotación le hace prosperar rápidamente, gracias sobre todo a su gerente Itzhak Stern, también judío.",
-          url: "https://www.imdb.com/title/tt0108052/",
+          url: "https://www.youtube.com/watch?v=BmkchuRJ82w",
           category: "c5"
         }, {
           name: "Blue Valentine",
           img: "https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/archivo-peliculas/blue-valentine/galeria/blue-valentine/13724094-1-esl-ES/blue-valentine.jpg",
           description: "Dean (Ryan Gosling) y Cindy (Michelle Williams) son padres de una maravillosa hija, pero su relación ha pasado por mejores momentos desde que tienen que compaginar las demandas y expectativas del trabajo y la vida familiar.",
-          url: "https://www.imdb.com/title/tt1120985/",
+          url: "https://www.youtube.com/watch?v=vYgfQyP3o2I",
           category: "c5"
         }
       ]
