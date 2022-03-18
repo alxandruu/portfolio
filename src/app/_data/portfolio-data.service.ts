@@ -269,6 +269,34 @@ export class PortfolioDataService {
     {
       lang: "es",
       data: [
+		{
+          name: 'Perdida',
+          img: 'https://image.tmdb.org/t/p/w1280/8e9zHFNRGZgvpAuTPYaK2kB9zGt.jpg',
+          description: "El día de su quinto aniversario de boda, Nick Dunne informa a la policía de la misteriosa desaparición de su esposa Amy. Pronto, la presión mediática hace que el retrato de felicidad doméstica que ofrece Nick empiece a tambalearse. Además, su extraña conducta lo convierte en sospechoso, y todo el mundo comienza a preguntase si fue él quien mató a su esposa.",
+          url: 'https://www.youtube.com/watch?v=GixiBubhXJg',
+          category: "c4"
+        },
+		{
+          name: 'Savior',
+          img: 'https://image.tmdb.org/t/p/original/iLyQVeo4Jm9UmLM8YEWStdgTuV4.jpg',
+          description: "Tras la muerte de su mujer y su hijo en un atentado islámico, Guy se alista en la Legión Extranjera. Cuando estalla la guerra en Bosnia decide unirse al bando serbio como mercenario.",
+          url: 'https://www.youtube.com/watch?v=glXdHKeNc7I&t=46s',
+          category: "c4"
+        },
+		{
+          name: 'Protonmail',
+          img: 'https://th.bing.com/th/id/R.80305ecd0c411e221ea11a07887d7f25?rik=vbDTTJgJdtRrNw&riu=http%3a%2f%2fwww.zdnet.de%2fwp-content%2fuploads%2f2015%2f11%2fprotonmail.jpg&ehk=r68HyFH0DMtxXc3Sm1x3tIsaMulAPLzhdP3GIlLCsk8%3d&risl=&pid=ImgRaw&r=0',
+          description: "ProtonMail es un servicio de correo electrónico cifrado, creado en 2013 por los científicos e ingenieros del CERN Jason Stockman, Andy Yen, y Wei Sun. A raíz de las revelaciones del extrabajador de la NSA, Edward Snowden, sobre las prácticas de vigilancia masiva de las agencias de seguridad estadounidenses.",
+          url: 'https://protonmail.com/',
+          category: "c2"
+        },
+		{
+          name: 'Bitwarden',
+          img: 'https://www.justgeek.fr/wp-content/uploads/2018/01/bitwarden.jpg',
+          description: "Bitwarden es un gestor de contraseñas gratuito y open-source. Tambien almacena información sensitiva como credenciales de forma encriptada.",
+          url: 'https://bitwarden.com/',
+          category: "c2"
+        },
         {
           name: 'Playdede',
           img: 'https://th.bing.com/th/id/R.1c97b527f3fe9684449dec49a892fb91?rik=xZTiS92QFzIkvw&pid=ImgRaw&r=0',
@@ -426,6 +454,34 @@ export class PortfolioDataService {
     }, {
       lang: "en",
       data: [
+		{
+          name: 'Gone Girl',
+          img: 'https://image.tmdb.org/t/p/w1280/8e9zHFNRGZgvpAuTPYaK2kB9zGt.jpg',
+          description: "Gone Girl is a 2014 American psychological thriller film. Set in Missouri, the story is a postmodern mystery that follows the events surrounding Nick Dunne (Ben Affleck), who becomes the prime suspect in the sudden disappearance of his wife Amy (Rosamund Pike).",
+          url: 'https://www.youtube.com/watch?v=2-_-1nJf8Vg',
+          category: "c4"
+        },
+		{
+          name: 'Savior',
+          img: 'https://image.tmdb.org/t/p/original/iLyQVeo4Jm9UmLM8YEWStdgTuV4.jpg',
+          description: "Savior is a 1998 war film. It is about a U.S. mercenary escorting a Bosnian Serb woman and her newborn child to a United Nations safe zone during the Bosnian War.",
+          url: 'https://www.youtube.com/watch?v=ONDaW2rd7uM',
+          category: "c4"
+        },
+		{
+          name: 'Protonmail',
+          img: 'https://th.bing.com/th/id/R.80305ecd0c411e221ea11a07887d7f25?rik=vbDTTJgJdtRrNw&riu=http%3a%2f%2fwww.zdnet.de%2fwp-content%2fuploads%2f2015%2f11%2fprotonmail.jpg&ehk=r68HyFH0DMtxXc3Sm1x3tIsaMulAPLzhdP3GIlLCsk8%3d&risl=&pid=ImgRaw&r=0',
+          description: "ProtonMail is an end-to-end encrypted email service founded in 2013 in Geneva, Switzerland.[5] ProtonMail uses client-side encryption to protect email content and user data before they are sent to ProtonMail servers, unlike other common email providers such as Gmail and Outlook.com.",
+          url: 'https://protonmail.com/',
+          category: "c2"
+        },
+		{
+          name: 'Bitwarden',
+          img: 'https://www.justgeek.fr/wp-content/uploads/2018/01/bitwarden.jpg',
+          description: "Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.",
+          url: 'https://bitwarden.com/',
+          category: "c2"
+        },
         {
           name: 'Star Wars Jedi: Fallen Order',
           img: 'https://nosomosnonos.com/wp-content/uploads/2019/10/Star-Wars-Jedi-Fallen-Order.jpg',
