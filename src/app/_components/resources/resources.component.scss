@@ -3,6 +3,7 @@
     width: 75%;
     opacity: 0;
     animation: slide-in 1s ease-in forwards;
+    color: var(--dark-color);
     .header {
         .title {
             font-size: 2rem;
@@ -82,10 +83,9 @@ a {
     }
     .subject {
         background-color: rgba($color: #cc2936, $alpha: 0.8);
-        color: var(--light-color);
+        color: #fff;
         border-bottom-right-radius: 10px;
         border-top-left-radius: 10px;
-        font-weight: bold;
         font-size: 0.9rem;
         text-transform: capitalize;
     }

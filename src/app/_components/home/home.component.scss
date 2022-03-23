@@ -9,6 +9,7 @@
     width: 50vw;
     opacity: 0;
     animation: slide-in 1s ease-in forwards;
+    color: var(--dark-color);
 }
 
 // Header Section
@@ -36,7 +37,7 @@
     .title {
         font-weight: bold;
         padding-bottom: 0.2rem;
-        border-bottom: 3px solid #2a2d34;
+        border-bottom: 3px solid var(--dark-color);
     }
     .text {
         .section {
@@ -63,8 +64,8 @@
             transition: all 0.2s ease-in-out;
             display: flex;
             align-items: center;
-            background-color: #2a2d34;
-            color: #f2fbe0;
+            background-color: var(--dark-color);
+            color: var(--light-color);
             i {
                 font-size: 1.25rem;
             }

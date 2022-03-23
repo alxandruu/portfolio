@@ -1,7 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --dark-color: #2a2d34;
-    --light-color: #f2fbe0;
+    // --dark-color: #2a2d34;
+    // --light-color: #f2fbe0;
+    --dark-color: #948882;
+    --dark-color-rgb: 148,136,130;
+    --light-color: #1E1C23;
+    --body-background-color: #1E1C27;
+    --nav-background-color: #1E1C23;
+    --footer-color: #4B4240;
 }
 ::selection {
     color: var(--light-color);
@@ -16,7 +22,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba($color: #2a2d34, $alpha: 0.6);
+    -webkit-box-shadow: inset 0 0 6px rgba(var(--dark-color-rgb),  0.6);
     background-color: var(--light-color);
 }
 
@@ -29,7 +35,7 @@
 }
 
 body {
-    background-color: rgba($color: #f2fbe0, $alpha: 0.6) !important;
+    background-color: var(--body-background-color) !important;
 }
 
 * {
