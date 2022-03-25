@@ -59,8 +59,8 @@ a {
         }
     }
     ul {
-        border: 1px solid var(--dark-color);
-        background-color: var(--nav-background-color);
+      
+        background-color: var(--nav-hamb-background-color);
         border-radius: 10px;
         position: absolute;
         width: 200px;
@@ -72,13 +72,13 @@ a {
             width: 100%;
             text-align: center;
             * {
-                color: var(--dark-color);
+                color: var(--nav-hamb-color);
             }
             margin: 1.5rem 0;
 
             a {
                 &:active {
-                    border-bottom: 2px solid var(--dark-color);
+                    border-bottom: 2px solid var(--nav-hamb-color);
                 }
             }
         }

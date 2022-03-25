@@ -1,6 +1,6 @@
 // Navigation Menu
 #nav {
-    background-color: var(--nav-background-color);
+    background-color: rgba(var(--nav-background-color-rgba)) !important;
     box-shadow: rgba(var(--dark-color-rgb), 0.05) 0px 6px 24px 0px, rgba(var(--dark-color-rgb), 0.08) 0px 0px 0px 1px;
     z-index: 1;
 }
