@@ -2,13 +2,23 @@
 :root {
     // --dark-color: #2a2d34;
     // --light-color: #f2fbe0;
-    --dark-color: #948882;
-    --dark-color-rgb: 148,136,130;
+    --dark-color: #ECDBBA;
+    --dark-color-rgb: 236,219,186;
     --light-color: #1E1C23;
     --body-background-color: #1E1C27;
     --nav-background-color: #1E1C23;
-    --footer-color: #4B4240;
+    --footer-color: #746B67;
 }
+
+[data-theme="dark"]{
+    --dark-color: #ECDBBA;
+    --dark-color-rgb: 236,219,186;
+    --light-color: #1E1C23;
+    --body-background-color: #1E1C27;
+    --nav-background-color: #1E1C23;
+    --footer-color: #746B67;
+}
+
 ::selection {
     color: var(--light-color);
     background: var(--dark-color);
