@@ -3,6 +3,24 @@
     background-color: rgba(var(--nav-background-color-rgba)) !important;
     box-shadow: rgba(var(--dark-color-rgb), 0.05) 0px 6px 24px 0px, rgba(var(--dark-color-rgb), 0.08) 0px 0px 0px 1px;
     z-index: 1;
+    .theme-switcher {
+        .switcher {
+            color: var(--dark-color);
+            font-size: 1.15rem;
+            display: none;
+            .text {
+                font-size: 1rem;
+            }
+            &.active {
+                display: flex;
+                align-items: center;
+                animation: animation-enter 1000ms forwards;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 // Footer
@@ -24,5 +42,15 @@
     }
     .lang-selector + .lang-selector {
         margin-left: 1rem;
+    }
+}
+
+
+@keyframes animation-enter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

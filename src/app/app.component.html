@@ -1,7 +1,15 @@
 <!-- Navigation Menu -->
-<div class="position-fixed start-0 top-0 w-100" id="nav">
+<div class="position-fixed start-0 top-0 w-100 d-flex align-items-center" id="nav">
   <div class="container">
     <app-nav></app-nav>
+  </div>
+  <div class="theme-switcher unselectable pe-4">
+    <div class="switcher light text-center" (click)="switchTheme('dark')">
+      <span class="text">Light</span> <i class="fas fa-sun ms-2"></i>
+    </div>
+    <div class="switcher dark text-center" (click)="switchTheme('light')">
+      <span class="text">Dark</span> <i class="fas fa-moon ms-2"></i>
+    </div>
   </div>
 </div>
 

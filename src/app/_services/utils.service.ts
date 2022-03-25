@@ -5,8 +5,8 @@ import { Injectable } from '@angular/core';
 })
 export class UtilsService {
   private _lang: any;
-
-
+  private _theme: any;
+ 
   constructor() {
     this._lang = "en";
   }
@@ -18,6 +18,14 @@ export class UtilsService {
   public set lang(value: any) {
     this._lang = value;
   }
+
+  public get theme(): any {
+    return this._theme;
+  }
+  public set theme(value: any) {
+    this._theme = value;
+  }
+
 
   public webpageLanguage() {
     const language = navigator.language;
@@ -38,5 +46,28 @@ export class UtilsService {
     this._lang = key;
   }
 
+  public webpageTheme() {
+    const localstorage_theme = localStorage.getItem("theme");
+    let key;
+    let keyActive;
+    if (!localstorage_theme) {
+      const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+      if (darkThemeMq.matches) {
+        // Theme set to dark.
+        key = "dark";
+        keyActive = "light";
+      } else {
+        // Theme set to light.
+        key = "light";
+        keyActive = "dark";
+      }
+    } else {
+      key = localstorage_theme;
+      keyActive = (key == "dark" ? "light" : "dark");
+    }
+    document.documentElement.setAttribute('data-theme', key);
+    localStorage.setItem('theme', key);
+    this.theme = key;
+  }
 
 }
