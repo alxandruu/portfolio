@@ -65,9 +65,14 @@ export class UtilsService {
       key = localstorage_theme;
       keyActive = (key == "dark" ? "light" : "dark");
     }
+    console.log(key);
+    console.log(keyActive);
+    this.theme = key;
     document.documentElement.setAttribute('data-theme', key);
     localStorage.setItem('theme', key);
-    this.theme = key;
+    
   }
+
+  
 
 }
