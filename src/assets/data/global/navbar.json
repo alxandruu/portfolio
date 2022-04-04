@@ -1,0 +1,36 @@
+[
+    {
+        "lang": "en",
+        "navs": [
+            {
+                "text": "Projects",
+                "url": "projects"
+            },
+            {
+                "text": "Blog",
+                "url": "blog"
+            },
+            {
+                "text": "Resources",
+                "url": "resources"
+            }
+        ]
+    },
+    {
+        "lang": "es",
+        "navs": [
+            {
+                "text": "Proyectos",
+                "url": "projects"
+            },
+            {
+                "text": "Blog",
+                "url": "blog"
+            },
+            {
+                "text": "Recursos",
+                "url": "resources"
+            }
+        ]
+    }
+]

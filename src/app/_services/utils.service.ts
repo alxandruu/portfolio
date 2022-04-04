@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { LanguageTextGroup } from '../_interfaces/language-text-group';
 
 @Injectable({
   providedIn: 'root'
@@ -70,9 +71,18 @@ export class UtilsService {
     this.theme = key;
     document.documentElement.setAttribute('data-theme', key);
     localStorage.setItem('theme', key);
-    
   }
 
-  
+  public getLanguageText(languageTexts: Array<LanguageTextGroup>): any {
+    const lang = this.lang;
+    let languageTextGroup = null;
+    for (let i = 0; i < languageTexts.length && !languageTextGroup; i++) {
+      if (languageTexts[i].lang == lang) {
+        languageTextGroup = languageTexts[i];
+      }
+    }
+
+    return languageTextGroup;
+  }
 
 }

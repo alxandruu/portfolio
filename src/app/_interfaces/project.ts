@@ -1,6 +1,5 @@
 export interface ProjectGroup {
     lang: String;
-    title: String;
     data: Array<Project>;
 }
 

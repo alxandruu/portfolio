@@ -5,6 +5,8 @@ import { CategoryGroup } from 'src/app/_interfaces/category';
 import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
 import { ResourceGroup } from 'src/app/_interfaces/resource';
 import { UtilsService } from 'src/app/_services/utils.service';
+import languageData from 'src/assets/data/global/global_resources.json';
+
 
 @Component({
   selector: 'app-resources',
@@ -40,15 +42,17 @@ export class ResourcesComponent implements OnInit {
   id: string = 'c0';
   text: LanguageTextGroup;
 
-
   constructor(private pd: PortfolioDataService, private ut: UtilsService) {
     this.resources = pd.getResources();
     this.categories = pd.getCategories();
     this.le = this.resources.data.length;
-    this.text = this.getLanguageText();
+    this.text = this.ut.getLanguageText(languageData);
+
+
   }
 
   ngOnInit(): void {
+
 
   }
 
@@ -60,26 +64,5 @@ export class ResourcesComponent implements OnInit {
   filterByCategory(id: string) {
     this.id = id;
     this.le = this.pd.filterResources(id).length;
-
   }
-
-  // LanguageTexts Resources
-  private languageTexts: Array<LanguageTextGroup> = [
-    { lang: "es", data: ["Recursos", "recursos encontrados"] },
-    { lang: "en", data: ["Resources", "resources found"] }
-  ]
-
-  private getLanguageText(): any {
-    const lang = this.ut.lang;
-    const languageTexts = this.languageTexts;
-    let languageTextGroup = null;
-    for (let i = 0; i < languageTexts.length && !languageTextGroup; i++) {
-      if (languageTexts[i].lang == lang) {
-        languageTextGroup = languageTexts[i];
-      }
-    }
-
-    return languageTextGroup;
-  }
-
 }

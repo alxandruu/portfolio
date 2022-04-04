@@ -1,0 +1,23 @@
+[
+    {
+      "lang": "es",
+      "data": [
+        { "id": "c0", "name": "Todas las Categorías" },
+        { "id": "c1", "name": "Series TV" },
+        { "id": "c2", "name": "Apps" },
+        { "id": "c3", "name": "Videojuegos" },
+        { "id": "c4", "name": "Libros" },
+        { "id": "c5", "name": "Películas" }
+      ]
+    }, {
+      "lang": "en",
+      "data": [
+        { "id": "c0", "name": "All Categories" },
+        { "id": "c1", "name": "TV Series" },
+        { "id": "c2", "name": "Apps" },
+        { "id": "c3", "name": "Videogames" },
+        { "id": "c4", "name": "Books" },
+        { "id": "c5", "name": "Films" }
+      ]
+    }
+  ]

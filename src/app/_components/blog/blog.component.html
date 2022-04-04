@@ -1,6 +1,6 @@
 <div class="mx-auto" id="blog-content">
     <div class="section p-2">
-        <div class="title mb-2"><span>Latest Posts</span></div>
+        <div class="title mb-2"><span>{{text.data[0]}}</span></div>
         <div class="content ">
             <div class="row">
                 <div class="col-xl-4 pt-4" *ngFor="let b of latestblogs">
@@ -16,7 +16,7 @@
         <hr>
     </div>
     <div class="section p-2">
-        <div class="title mb-2"><span>All Posts</span></div>
+        <div class="title mb-2"><span>{{text.data[1]}}</span></div>
         <div class="content ">
             <div class="row">
                 <div class="col-xl-4 pt-4" *ngFor="let b of allblogs">

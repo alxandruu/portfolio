@@ -2,6 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectGroup } from '../../_interfaces/project';
 import { animate, keyframes, query, stagger, style, transition, trigger } from '@angular/animations';
 import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
+import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
+import { UtilsService } from 'src/app/_services/utils.service';
+import languageData from 'src/assets/data/global/global_projects.json';
 
 @Component({
   selector: 'app-projects',
@@ -26,11 +29,12 @@ import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 export class ProjectsComponent implements OnInit {
 
   projects: ProjectGroup;
+  text: LanguageTextGroup;
+ 
 
-
-  constructor(pd: PortfolioDataService) {
+  constructor(pd: PortfolioDataService, private ut: UtilsService) {
     this.projects = pd.getProjects();
-
+    this.text = this.ut.getLanguageText(languageData);
   }
 
   ngOnInit(): void {
