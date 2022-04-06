@@ -1,0 +1,227 @@
+[
+  {
+    "lang": "es",
+    "data": [
+      {
+        "id": "pwa-or-exe",
+        "date": "04.05.2022",
+        "type": "tech",
+        "image": "proto.jpg",
+        "title": "Why do I prefer PWAs, rather than .EXE?",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inve aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "proto.jpg"
+          },
+          {
+            "class": "header",
+            "text": "Where can I run it?"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "proto.jpg"
+          }
+        ]
+      },
+      {
+        "id": "dollarFiat",
+        "date": "12.12.2020",
+        "type": "economy",
+        "image": "dollar.jpg",
+        "title": "The meaning of Money",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "dollar.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "dollar.jpg"
+          }
+        ]
+      },
+      {
+        "id": "bitcoin",
+        "date": "12.23.2020",
+        "type": "economy",
+        "image": "bitcoin.jpg",
+        "title": "What offers Crypto? And why is important for the future?",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "bitcoin.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "bitcoin.jpg"
+          }
+        ]
+      },
+      {
+        "id": "madridcity",
+        "date": "12.29.2020",
+        "type": "Travel",
+        "image": "madrid.jpg",
+        "title": "Places to visit in Madrid",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "madrid.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "madrid.jpg"
+          }
+        ]
+      }
+    ]
+  },{
+    "lang": "en",
+    "data": [
+      {
+        "id": "pwa-or-exe",
+        "date": "04.05.2022",
+        "type": "tech",
+        "image": "proto.jpg",
+        "title": "Why do I prefer PWAs, rather than .EXE?",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inve aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "proto.jpg"
+          },
+          {
+            "class": "header",
+            "text": "Where can I run it?"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "proto.jpg"
+          }
+        ]
+      },
+      {
+        "id": "dollarFiat",
+        "date": "12.12.2020",
+        "type": "economy",
+        "image": "dollar.jpg",
+        "title": "The meaning of Money",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "dollar.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "dollar.jpg"
+          }
+        ]
+      },
+      {
+        "id": "bitcoin",
+        "date": "12.23.2020",
+        "type": "economy",
+        "image": "bitcoin.jpg",
+        "title": "What offers Crypto? And why is important for the future?",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "bitcoin.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "bitcoin.jpg"
+          }
+        ]
+      },
+      {
+        "id": "madridcity",
+        "date": "12.29.2020",
+        "type": "Travel",
+        "image": "madrid.jpg",
+        "title": "Places to visit in Madrid",
+        "description": "PWAs are web applications that can be installed on any device with internet access, while the .EXE are applications that have to be compatible with the device in terms of hardware.",
+        "content": [
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "madrid.jpg"
+          },
+          {
+            "class": "text",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam inventore alias blanditiis sint, suscipit rerum fugiat iste harum dolor odio, fuga maxime eaque qui modi dolore aperiam est quis cum? Quidem culpa cumque ab aperiam illum ipsam reiciendis fugiat mollitia eos repellendus, ipsa quasi optio assumenda quod dolorum repudiandae magni placeat tempora fugit impedit ad atque asperiores delectus earum! Id. A sequi tempora mollitia vel animi libero rerum officia quaerat dolorem, totam corrupti? Ab, unde? Nam minima eligendi officiis doloremque obcaecati omnis quam, inventore quibusdam voluptas ea veniam, reiciendis culpa! Itaque exercitationem aperiam soluta officiis tempora dolor rerum tenetur nostrum iste eum voluptate fugit accusamus distinctio perspiciatis magni, nulla officia! Nesciunt ut minima culpa.Ipsum facilis recusandae consequatur quo dolorum. Illum, architecto aliquid eius dolore recusandae placeat quaerat quasi fugit, consectetur, fugiat impedit? Ab repellendus qui in optio ut cupiditate nam neque temporibus voluptas, quod eligendi, doloribus, sapiente sunt aliquam. Cupiditate laborum rerum aliquid officiis aut deserunt, voluptatum odio asperiores rem error iste. Itaque cumque ullam id deleniti eaque similique, nesciunt recusandae distinctio quae labore officiis cupiditate dicta sunt non? Rerum omnis voluptate soluta quod perspiciatis totam quidem pariatur doloremque nemo porro ea sed repellendus officia, odit impedit aliquam alias expedita.Ut fugit soluta unde, corporis molestias tenetur perferendis voluptates. Voluptates recusandae, quaerat facilis fugit consectetur saepe praesentium aut est totam corporis, nam aperiam, id unde quam fugiat laudantium nesciunt assumenda optio enim error officiis ab quo maiores? Dolore, tempora! Numquam non necessitatibus accusantium possimus? Placeat illum molestiae, repellendus soluta veritatis odit labore, ea nostrum laboriosam ipsam corrupti deserunt repellat perferendis error ab similique laborum praesentium vel ad.Itaque, nam! Quam fuga veritatis hic natus aliquam.Corporis maxime, impedit tenetur adipisci sapiente sit dolorum est inventore, esse illum vel explicabo ex deserunt fugit optio placeat magnam? Quos deleniti sint non."
+          },
+          {
+            "class": "image",
+            "text": "madrid.jpg"
+          }
+        ]
+      }
+    ]
+  }
+]

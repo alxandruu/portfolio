@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Blog } from '../_interfaces/blog';
+import { Blog, BlogGroup } from '../_interfaces/blog';
 import { Category, CategoryGroup } from '../_interfaces/category';
 import { Navbar } from '../_interfaces/navbar';
 import { Profile } from '../_interfaces/profile';
-import { Project, ProjectGroup } from '../_interfaces/project';
+import { ProjectGroup } from '../_interfaces/project';
 import { Resource, ResourceGroup } from '../_interfaces/resource';
 import { UtilsService } from '../_services/utils.service';
 
@@ -13,6 +13,8 @@ import projects from 'src/assets/data/projects.json';
 import resources from 'src/assets/data/resources/resources.json';
 import resources_categories from 'src/assets/data/resources/categories.json';
 import global_navbar from 'src/assets/data/global/navbar.json';
+import blogs from 'src/assets/data/blog/blogs.json';
+
 
 @Injectable({
   providedIn: 'root'
@@ -25,7 +27,23 @@ export class PortfolioDataService {
     this._resources = resources;
     this._categories = resources_categories;
     this._navbar = global_navbar;
+    this._blogs = this.formatBlogs(blogs);
   }
+
+  private formatBlogs(blogs: any) {
+    let outputBlogs: Array<BlogGroup> = blogs.map(function (x: any) {
+      x.data = x.data.map(function (y: any) {
+        y.date = new Date(y.date);
+        return y;
+      });
+      return x;
+    });
+    return outputBlogs;
+  }
+
+
+
+
 
   public getProfile(): any {
     const lang = this.ut.lang;
@@ -77,6 +95,33 @@ export class PortfolioDataService {
     }
     return null;
   }
+
+
+  // Blog Functions
+  public getBlogs(): any {
+    const lang = this.ut.lang;
+    const blogs = this._blogs;
+    let blog_group!: BlogGroup;
+    for (let i = 0; i < blogs.length && !blog_group; i++) {
+      if (blogs[i].lang == lang) {
+        blog_group = blogs[i];
+      }
+    }
+    blog_group.data = blog_group.data.sort((a, b) => b.date.getTime() - a.date.getTime());
+    return blog_group;
+  }
+
+  public getBlog(id: string): any {
+    const blogs: BlogGroup = this.getBlogs();
+    for (let i = 0; i < blogs.data.length; i++) {
+      if (blogs.data[i].id == id) {
+        return blogs.data[i];
+      }
+    }
+    return null;
+  }
+
+
 
 
   // Categories Functions
@@ -131,6 +176,10 @@ export class PortfolioDataService {
       return resources.data;
     }
   }
+
+
+
+  private _blogs: Array<BlogGroup>;
 
   private _navbar: Array<Navbar>;
 

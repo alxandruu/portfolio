@@ -9,6 +9,7 @@ import { Blog } from 'src/app/_interfaces/blog';
 })
 export class BlViewComponent implements OnInit {
   blog!: Blog;
+  
   constructor(private ar: ActivatedRoute) {
 
 

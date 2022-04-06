@@ -1,3 +1,9 @@
+export interface BlogGroup {
+    lang: String;
+    data: Array<Blog>;
+}
+
+
 export interface Blog {
     id: string;
     date: Date;

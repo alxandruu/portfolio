@@ -1,4 +1,5 @@
 .blog {
+    color: var(--dark-color);
     & > div {
         transform: scale(1);
         transition: transform 0.3s ease;
@@ -33,10 +34,9 @@
         }
         .subject {
             background-color: rgba($color: #cc2936, $alpha: 0.8);
-            color: var(--light-color);
+            color: #fff;
             border-bottom-right-radius: 10px;
-            border-top-left-radius: 10px;
-            font-weight: bold;
+            border-top-left-radius: 10px;    
             font-size: 0.9rem;
             text-transform: capitalize;
         }
@@ -44,13 +44,22 @@
     .title {
         text-align: left;
         font-weight: bold;
+        @media screen and (min-width: 1200px) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
     }
     .description {
         font-size: 0.9rem;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
+        @media screen and (min-width: 1200px) {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+        }
     }
 }

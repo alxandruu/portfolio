@@ -1,8 +1,8 @@
 <div class="blog position-relative">
     <div>
         <div class="mb-1 mx-2 d-flex align-items-center ">
-            <div class="date">{{("0" + bl.date.getDate()).slice(-2)}}.{{("0" + (bl.date.getMonth() +
-                1)).slice(-2)}}.{{bl.date.getFullYear()}}</div>
+            <div class="date">{{("0" + outDate.getDate()).slice(-2)}}.{{("0" + (outDate.getMonth() +
+                1)).slice(-2)}}.{{outDate.getFullYear()}}</div>
             <div *ngIf="this.isNew()" class="new-blog p-1 ms-1">New</div>
         </div>
         <div class="image mb-3 position-relative">

@@ -7,13 +7,18 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BlComponent implements OnInit {
   @Input() bl: any = [];
-  constructor() { }
+  outDate!: Date;
+  constructor() {
+  }
 
   ngOnInit(): void {
+    this.outDate = new Date(this.bl.date);
+
   }
 
   isNew() {
-    console.log(this.bl.date.getTime() - new Date().getTime());
-    return new Date().getTime() - this.bl.date.getTime() <= 7 * 86400000;
+    let date: Date = new Date(this.bl.date);
+    console.log(date.getTime() - new Date().getTime(), date);
+    return new Date().getTime() - date.getTime() <= 7 * 86400000;
   }
 }
