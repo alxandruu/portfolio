@@ -29,7 +29,13 @@ export class BlogComponent implements OnInit {
 
   private recentBlogs(): Array<Blog> {
     const blogs: Array<Blog> = this.pd.getBlogs().data;
+    const today: Date = new Date();
+    const todayLastMonth: Date = new Date(today.setMonth(today.getMonth() - 1));
+  
+    let output: Array<Blog> = blogs.filter(function (blog: Blog) {
+      return todayLastMonth.getTime() < blog.date.getTime()
+    });
 
-    return blogs;
+    return output;
   }
 }

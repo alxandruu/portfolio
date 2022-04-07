@@ -2,6 +2,7 @@
 #bl-view-content {
     width: 50vw;
     animation: slide-in 0.8s ease-in forwards;
+    color: var(--dark-color);
 }
 a {
     text-decoration: none;
@@ -23,6 +24,7 @@ a {
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 // Date
