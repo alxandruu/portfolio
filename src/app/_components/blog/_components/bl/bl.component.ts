@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 
 @Component({
   selector: 'app-bl',
@@ -8,7 +9,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BlComponent implements OnInit {
   @Input() bl: any = [];
   outDate!: Date;
-  constructor() {
+  constructor(private pd: PortfolioDataService) {
   }
 
   ngOnInit(): void {
@@ -20,5 +21,10 @@ export class BlComponent implements OnInit {
     let date: Date = new Date(this.bl.date);
     console.log(date.getTime() - new Date().getTime(), date);
     return new Date().getTime() - date.getTime() <= 7 * 86400000;
+  }
+
+  getCategoryName(id: string) {
+    console.log(id);
+    return this.pd.getBlogCategory(id);
   }
 }

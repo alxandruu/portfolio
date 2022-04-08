@@ -6,19 +6,24 @@
 }
 a {
     text-decoration: none;
-    color: #d17b0f;
-    &:hover {
-        color: #e8d33f;
-        border-bottom: 1px solid #e8d33f;
-    }
 }
 
-// Breadcumb
+//
+
 .breadcumb {
     font-size: 1.35rem;
     text-align: left;
 }
 
+.return-button a {
+    color: var(--blog-categories-color);
+    font-size: 1rem;
+    font-weight: bold;
+    &:hover {
+        border-bottom: 1px solid var(--blog-categories-color);
+    }
+    letter-spacing: 1px;
+}
 //Title
 .title {
     font-size: 2rem;
@@ -65,10 +70,10 @@ a {
     }
 }
 
-//Preview Header 
+//Preview Header
 .h-text {
-   font-size: 1.75rem;
-   font-weight: bold;
+    font-size: 1.75rem;
+    font-weight: bold;
 }
 //Media Queries
 @media screen and (max-width: 767.5px) {

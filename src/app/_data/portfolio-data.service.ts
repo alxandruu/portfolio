@@ -14,7 +14,7 @@ import resources from 'src/assets/data/resources/resources.json';
 import resources_categories from 'src/assets/data/resources/categories.json';
 import global_navbar from 'src/assets/data/global/navbar.json';
 import blogs from 'src/assets/data/blog/blogs.json';
-
+import blogs_categories from 'src/assets/data/blog/blog_categories.json';
 
 @Injectable({
   providedIn: 'root'
@@ -28,6 +28,7 @@ export class PortfolioDataService {
     this._categories = resources_categories;
     this._navbar = global_navbar;
     this._blogs = this.formatBlogs(blogs);
+    this._blogsCategories = blogs_categories;
   }
 
   private formatBlogs(blogs: any) {
@@ -121,6 +122,28 @@ export class PortfolioDataService {
     return null;
   }
 
+  getBlogCategories(): any {
+    const lang = this.ut.lang;
+    const categories = this._blogsCategories;
+    let category_group = null;
+    for (let i = 0; i < categories.length && !category_group; i++) {
+      if (categories[i].lang == lang) {
+        category_group = categories[i];
+      }
+    }
+
+    return category_group;
+  }
+
+  getBlogCategory(id: string): any {
+    const categories: CategoryGroup = this.getBlogCategories();
+    for (let i = 0; i < categories.data.length; i++) {
+      if (categories.data[i].id == id) {
+        return categories.data[i];
+      }
+    }
+    return null;
+  }
 
 
 
@@ -178,6 +201,7 @@ export class PortfolioDataService {
   }
 
 
+  private _blogsCategories: Array<CategoryGroup>;
 
   private _blogs: Array<BlogGroup>;
 

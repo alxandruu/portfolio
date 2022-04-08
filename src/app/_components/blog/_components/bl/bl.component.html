@@ -1,12 +1,15 @@
 <div class="blog position-relative">
     <div>
-        <div class="mb-1 mx-2 d-flex align-items-center ">
+        <div class="mb-1 mx-2 d-flex align-items-center justify-content-between date-and-type">
             <div class="date">{{("0" + outDate.getDate()).slice(-2)}}.{{("0" + (outDate.getMonth() +
                 1)).slice(-2)}}.{{outDate.getFullYear()}}</div>
+            <div class="type">
+                #<span>{{this.getCategoryName(bl.type).name}}</span>
+            </div>
         </div>
         <div class="image mb-3 position-relative">
             <img src="{{bl.image}}" alt="Bog Image Proto" class="unselectable" loading="lazy">
-            <span class="position-absolute end-0 bottom-0 px-3 py-2 subject">{{bl.type}}</span>
+            <!-- <span class="position-absolute end-0 bottom-0 px-3 py-2 subject">{{bl.type}}</span> -->
         </div>
         <div class="title mb-1">{{bl.title}}</div>
         <div class="description">{{bl.description}}</div>
