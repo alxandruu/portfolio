@@ -1,13 +1,15 @@
 import { Injectable } from '@angular/core';
 import { LanguageTextGroup } from '../_interfaces/language-text-group';
 
+
+
 @Injectable({
   providedIn: 'root'
 })
 export class UtilsService {
   private _lang: any;
   private _theme: any;
- 
+
   constructor() {
     this._lang = "en";
   }

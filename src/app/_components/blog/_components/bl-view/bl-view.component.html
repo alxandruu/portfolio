@@ -2,8 +2,7 @@
     <!-- <div class="breadcumb"><a [routerLink]="['/blog']">Blog</a> > {{blog.title}}</div> -->
     <div class="d-flex p-0 ms-0 mt-2 align-items-center justify-content-between">
         <div class="date ">
-            {{("0" + blog.date.getDate()).slice(-2)}}.{{("0" + (blog.date.getMonth() +
-            1)).slice(-2)}}.{{blog.date.getFullYear()}}
+            {{date}}
         </div>
         <div class="return-button"><a [routerLink]="['/blog']">{{text.data[0]}}</a></div>
     </div>

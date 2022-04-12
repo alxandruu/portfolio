@@ -27,9 +27,9 @@
         color: var(--dark-color);
     }
 
-    .category-filter-active.mobile-version {
+    .category-filter-active.mobile-version,
+    .t-resources.mobile-version {
         font-size: 0.85rem;
-        letter-spacing: 1px;
     }
     .category-filter {
         @media screen and (min-width: 767.5px) {
@@ -82,12 +82,10 @@ a {
         object-fit: cover;
     }
     .subject {
-        background-color: rgba($color: #cc2936, $alpha: 0.8);
-        color: #fff;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 10px;
-        font-size: 0.9rem;
+        color: var(--secondary-color);
+        letter-spacing: 1px;
         text-transform: capitalize;
+        font-weight: bold;
     }
     .name {
         font-size: 1.25rem;
@@ -147,5 +145,15 @@ a {
         .filter-row {
             margin: auto 0 !important;
         }
+    }
+}
+
+@media screen and (max-width: 325.5px) {
+    
+    .category-filter-active.mobile-version,
+    .t-resources.mobile-version {
+        display: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
     }
 }
