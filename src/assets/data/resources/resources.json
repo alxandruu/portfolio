@@ -3,6 +3,34 @@
         "lang": "es",
         "data": [
             {
+                "name": "The Neon Demon",
+                "img": "https://image.tmdb.org/t/p/original/8h7hJtOpZQGQL5zEVqlGWo9UN2H.jpg",
+                "description": "Jesse, aspirante a modelo, se muda a Los Ángeles, donde es reclutada como musa de un magnate de la moda. Al entrar a la industria, se encuentra con que su vitalidad y juventud son devorados por un grupo de mujeres obsesionadas con la belleza, que se valdrán de cualquier medio para conseguir lo que tiene.",
+                "url": "https://www.youtube.com/watch?v=q6FNMOx-QPs",
+                "category": "c5"
+            },
+            {
+                "name": "The Wolf Among Us",
+                "img": "https://th.bing.com/th/id/R.dd666bcbba3785767c64bddb8558cad5?rik=r9vaDs1XZ3LMQg&pid=ImgRaw&r=0",
+                "description": "Como Bigby Wolf – EL Gran Lobo Malvado – descubrirás que un brutal y sangriento asesino es solo una muestra de lo que vendrá en una serie donde cada una de tus decisiones pueden tener enormes consecuencias.",
+                "url": "https://www.youtube.com/watch?v=kQmvhdsFIOA",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 3",
+                "img": "https://images3.alphacoders.com/269/269959.jpg",
+                "description": "Max Payne 3 continúa la historia del exdetective de Nueva York, Max Payne. Aún atormentado por los recuerdos de su traumático pasado, Max inicia una nueva vida trabajando en seguridad privada junto con su amigo Raúl Passos, protegiendo a la familia Branco en São Paulo, Brasil.",
+                "url": "https://www.youtube.com/watch?v=Bj_lEBUUnrw",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 2",
+                "img": "https://th.bing.com/th/id/OIP.uczVWa4xMlmrc-2Mv_NR8QHaEK?pid=ImgDet&rs=1",
+                "description": "Años después de los acontecimientos del primer juego, Max Payne ha dejado su trabajo en la DEA y ha vuelto a su antiguo trabajo como detective en el departamento de policía de Nueva York. Una noche, Max debe acudir a un almacén donde se han escuchado unos disparos, varias personas han sido asesinadas, a manos de unas personas disfrazadas de limpiadores, entre ellas una supuesta traficante de armas.",
+                "url": "https://www.youtube.com/watch?v=AK28OqMxQGs",
+                "category": "c3"
+            },
+            {
                 "name": "Perdida",
                 "img": "https://image.tmdb.org/t/p/w1280/8e9zHFNRGZgvpAuTPYaK2kB9zGt.jpg",
                 "description": "El día de su quinto aniversario de boda, Nick Dunne informa a la policía de la misteriosa desaparición de su esposa Amy. Pronto, la presión mediática hace que el retrato de felicidad doméstica que ofrece Nick empiece a tambalearse. Además, su extraña conducta lo convierte en sospechoso, y todo el mundo comienza a preguntase si fue él quien mató a su esposa.",
@@ -13,12 +41,12 @@
                 "name": "Savior",
                 "img": "https://image.tmdb.org/t/p/original/iLyQVeo4Jm9UmLM8YEWStdgTuV4.jpg",
                 "description": "Tras la muerte de su mujer y su hijo en un atentado islámico, Guy se alista en la Legión Extranjera. Cuando estalla la guerra en Bosnia decide unirse al bando serbio como mercenario.",
-                "url": "https://www.youtube.com/watch?v=glXdHKeNc7I&t=46s",
+                "url": "https://www.youtube.com/watch?v=glXdHKeNc7I",
                 "category": "c5"
             },
             {
                 "name": "Protonmail",
-                "img": "https://th.bing.com/th/id/R.80305ecd0c411e221ea11a07887d7f25?rik=vbDTTJgJdtRrNw&riu=http%3a%2f%2fwww.zdnet.de%2fwp-content%2fuploads%2f2015%2f11%2fprotonmail.jpg&ehk=r68HyFH0DMtxXc3Sm1x3tIsaMulAPLzhdP3GIlLCsk8%3d&risl=&pid=ImgRaw&r=0",
+                "img": "https://th.bing.com/th/id/OIP.4vUyVIK8J3JEJyzTXKF6tAHaD8?pid=ImgDet&rs=1",
                 "description": "ProtonMail es un servicio de correo electrónico cifrado, creado en 2013 por los científicos e ingenieros del CERN Jason Stockman, Andy Yen, y Wei Sun. A raíz de las revelaciones del extrabajador de la NSA, Edward Snowden, sobre las prácticas de vigilancia masiva de las agencias de seguridad estadounidenses.",
                 "url": "https://protonmail.com/",
                 "category": "c2"
@@ -158,7 +186,7 @@
             },
             {
                 "name": "Prey",
-                "img": "https://th.bing.com/th/id/R.504c052ae9b1fe3999a9a16727b35dc6?rik=kvoFfTWqmLq4eQ&riu=http%3a%2f%2fwww.hdwallpapers.in%2fdownload%2fprey_2017-1920x1200.jpg&ehk=RtG5vsdWUGYCS4GRQeVtoJz9nBEy2hyNt2Jiz01vNoM%3d&risl=&pid=ImgRaw&r=0",
+                "img": "https://geeksofdoom.com/GoD/img/2016/08/prey-arkane-studios-e1470359984607.jpg",
                 "description": "En Prey te despertarás a bordo de la Talos I, una estación espacial en órbita alrededor de la Luna en el año 2032. Eres el sujeto clave de un experimento que espera cambiar la humanidad para siempre... pero las cosas se han complicado de forma terrible. La estación espacial ha sido invadida por alienígenas hostiles que quieren darte caza. Mientras investigas los oscuros secretos de la Talos I y de tu propio pasado, tendrás que sobrevivir gracias a las herramientas que encuentres en la estación, así como a tu ingenio, armas e increíbles habilidades. El destino de Talos I y de todos los que están a bordo se encuentra en tus manos.",
                 "url": "https://www.youtube.com/watch?v=n1uTBTKrccw",
                 "category": "c3"
@@ -204,6 +232,34 @@
         "lang": "en",
         "data": [
             {
+                "name": "The Neon Demon",
+                "img": "https://image.tmdb.org/t/p/original/8h7hJtOpZQGQL5zEVqlGWo9UN2H.jpg",
+                "description": "Jesse, an aspiring model, moves to Los Angeles, where she is recruited as a fashion mogul's muse. Upon entering the industry, she finds that her vitality and youth are devoured by a group of women obsessed with beauty, who will use any means to get what they want.",
+                "url": "https://www.youtube.com/watch?v=cipOTUO0CmU",
+                "category": "c5"
+            },
+            {
+                "name": "The Wolf Among Us",
+                "img": "https://th.bing.com/th/id/R.dd666bcbba3785767c64bddb8558cad5?rik=r9vaDs1XZ3LMQg&pid=ImgRaw&r=0",
+                "description": "As Bigby Wolf – The Great Evil Wolf – you will discover that a brutal and bloody killer is just a sample of what is to come in a series where each of your decisions can have enormous consequences.",
+                "url": "https://www.youtube.com/watch?v=kQmvhdsFIOA",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 3",
+                "img": "https://images3.alphacoders.com/269/269959.jpg",
+                "description": "Max Payne 3 continues the story of a former New York detective Max Payne. Still haunted by memories of his traumatic past, Max starts a new life working in private security alongside his friend Raul Passos, protecting the Branco family in São Paulo, Brazil.",
+                "url": "https://www.youtube.com/watch?v=4Uc_dbG7MR8",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 2",
+                "img": "https://th.bing.com/th/id/OIP.uczVWa4xMlmrc-2Mv_NR8QHaEK?pid=ImgDet&rs=1",
+                "description": "Years after the events of the first game, Max Payne has quit his job at the DEA and returned to his old job as a detective in the New York Police Department. One night, Max must go to a warehouse where gunshots have been heard, several people have been killed, at the hands of people disguised as cleaners, including an alleged arms dealer.",
+                "url": "https://www.youtube.com/watch?v=wkBbLqgcQco",
+                "category": "c3"
+            },
+            {
                 "name": "Gone Girl",
                 "img": "https://image.tmdb.org/t/p/w1280/8e9zHFNRGZgvpAuTPYaK2kB9zGt.jpg",
                 "description": "Gone Girl is a 2014 American psychological thriller film. Set in Missouri, the story is a postmodern mystery that follows the events surrounding Nick Dunne (Ben Affleck), who becomes the prime suspect in the sudden disappearance of his wife Amy (Rosamund Pike).",
@@ -219,8 +275,8 @@
             },
             {
                 "name": "Protonmail",
-                "img": "https://th.bing.com/th/id/R.80305ecd0c411e221ea11a07887d7f25?rik=vbDTTJgJdtRrNw&riu=http%3a%2f%2fwww.zdnet.de%2fwp-content%2fuploads%2f2015%2f11%2fprotonmail.jpg&ehk=r68HyFH0DMtxXc3Sm1x3tIsaMulAPLzhdP3GIlLCsk8%3d&risl=&pid=ImgRaw&r=0",
-                "description": "ProtonMail is an end-to-end encrypted email service founded in 2013 in Geneva, Switzerland.[5] ProtonMail uses client-side encryption to protect email content and user data before they are sent to ProtonMail servers, unlike other common email providers such as Gmail and Outlook.com.",
+                "img": "https://th.bing.com/th/id/OIP.4vUyVIK8J3JEJyzTXKF6tAHaD8?pid=ImgDet&rs=1",
+                "description": "ProtonMail is an end-to-end encrypted email service founded in 2013 in Geneva, Switzerland. ProtonMail uses client-side encryption to protect email content and user data before they are sent to ProtonMail servers, unlike other common email providers such as Gmail and Outlook.com.",
                 "url": "https://protonmail.com/",
                 "category": "c2"
             },
@@ -352,7 +408,7 @@
             },
             {
                 "name": "Prey",
-                "img": "https://th.bing.com/th/id/R.504c052ae9b1fe3999a9a16727b35dc6?rik=kvoFfTWqmLq4eQ&riu=http%3a%2f%2fwww.hdwallpapers.in%2fdownload%2fprey_2017-1920x1200.jpg&ehk=RtG5vsdWUGYCS4GRQeVtoJz9nBEy2hyNt2Jiz01vNoM%3d&risl=&pid=ImgRaw&r=0",
+                "img": "https://geeksofdoom.com/GoD/img/2016/08/prey-arkane-studios-e1470359984607.jpg",
                 "description": "In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted.",
                 "url": "https://www.youtube.com/watch?v=LNHZ9WAertc",
                 "category": "c3"

@@ -3,6 +3,31 @@
         "lang": "es",
         "data": [
             {
+                "id": "portfolio",
+                "type": "big",
+                "name": "Portfolio",
+                "img": "preview_1.jpg",
+                "description": "Página Web orientada a crear un portfolio personal. Debe de ser escalable y adaptable a cualquier persona.",
+                "website": "https://alxandru.netlify.app/",
+                "platform": [
+                    "Página Web"
+                ],
+                "stack": [
+                    "Angular 12",
+                    "Firebase 9",
+                    "Netlify",
+                    "JSON"
+                ],
+                "imgs": [
+                    "portfolio.jpg",
+                    "preview_1.jpg",
+                    "preview_2.jpg",
+                    "preview_3.jpg",
+                    "preview_4.jpg"
+                ],
+                "in_development": false
+            },
+            {
                 "id": "attiapp",
                 "type": "big",
                 "name": "Attia APP",
@@ -101,6 +126,31 @@
     {
         "lang": "en",
         "data": [
+            {
+                "id": "portfolio",
+                "type": "big",
+                "name": "Portfolio",
+                "img": "preview_1.jpg",
+                "description": "Website aimed at creating a personal portfolio. It must be scalable and adaptable to anyone.",
+                "website": "https://alxandru.netlify.app/",
+                "platform": [
+                    "Website"
+                ],
+                "stack": [
+                    "Angular 12",
+                    "Firebase 9",
+                    "Netlify",
+                    "JSON"
+                ],
+                "imgs": [
+                    "portfolio.jpg",
+                    "preview_1.jpg",
+                    "preview_2.jpg",
+                    "preview_3.jpg",
+                    "preview_4.jpg"
+                ],
+                "in_development": false
+            },
             {
                 "id": "attiapp",
                 "type": "big",

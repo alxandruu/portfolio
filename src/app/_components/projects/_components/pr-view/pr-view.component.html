@@ -14,7 +14,8 @@
                     <span class="href_name">{{project.name}}</span>
                 </a>
                 <ng-template #notdeployed>
-                    <span class="notdeployed" *ngIf="project.in_development == false; else DevelopmentBlock ">{{text.data[4]}}</span>
+                    <span class="notdeployed"
+                        *ngIf="project.in_development == false; else DevelopmentBlock ">{{text.data[4]}}</span>
                     <ng-template #DevelopmentBlock>
                         <span class="notdeployed">{{text.data[5]}}</span>
                     </ng-template>
@@ -31,6 +32,7 @@
             <span class="ms-2 stack-group"><span *ngFor="let st of project.stack">{{st}}</span></span>
         </div>
     </div>
+
     <div class="images mt-5">
         <div class="mt-4" *ngFor="let img of project.imgs">
             <img src="assets/img/projects/{{project.id}}/{{img}}" alt="Attiapp Image #1" class="unselectable">

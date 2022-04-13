@@ -7,14 +7,13 @@
 }
 a {
     text-decoration: none;
-    color: #d17b0f;
+    color: var(--secondary-color);
     &:hover {
-        color: #e8d33f;
-        border-bottom: 1px solid #e8d33f;
+        border-bottom: 1px solid var(--secondary-color);
     }
 }
 .notdeployed {
-    color: #d7263d;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -24,7 +23,7 @@ a {
 }
 
 // Description
-.description::first-letter {
+.description {
     margin-left: 0.75rem;
 }
 
