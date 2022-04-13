@@ -87,4 +87,28 @@ export class UtilsService {
     return languageTextGroup;
   }
 
+
+  // Data Management
+  public getDataByLang(data: any): any {
+    const lang = this.lang;
+    let output = null;
+    for (let i = 0; i < data.length && !output; i++) {
+      if (data[i].lang == lang) {
+        output = data[i];
+      }
+    }
+
+    return output;
+  }
+
+  public getObjectFromData(data: any, id: string): any {
+    const dataGroup: any = this.getDataByLang(data);
+    for (let i = 0; i < dataGroup.data.length; i++) {
+      if (dataGroup.data[i].id == id) {
+        return dataGroup.data[i];
+      }
+    }
+    return null;
+  }
+
 }

@@ -10,11 +10,7 @@ import { NavComponent } from './_components/nav/nav.component';
 import { ProjectsComponent } from './_components/projects/projects.component';
 import { PrComponent } from './_components/projects/_components/pr/pr.component';
 import { PrViewComponent } from './_components/projects/_components/pr-view/pr-view.component';
-import { BlogComponent } from './_components/blog/blog.component';
-import { BlComponent } from './_components/blog/_components/bl/bl.component';
-import { BlViewComponent } from './_components/blog/_components/bl-view/bl-view.component';
 import { ResourcesComponent } from './_components/resources/resources.component';
-import { CreationsComponent } from './_components/creations/creations.component';
 import { ResourceFilterPipe } from './_pipes/resourceFilter.pipe';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
@@ -26,11 +22,7 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     ProjectsComponent,
     PrComponent,
     PrViewComponent,
-    BlogComponent,
-    BlComponent,
-    BlViewComponent,
     ResourcesComponent,
-    CreationsComponent,
     ResourceFilterPipe,
   ],
   imports: [

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 import { Navbar } from 'src/app/_interfaces/navbar';
 import { UtilsService } from 'src/app/_services/utils.service';
+import global_navbar from 'src/assets/data/global/navbar.json'
 
 @Component({
   selector: 'app-nav',
@@ -12,8 +12,9 @@ export class NavComponent implements OnInit {
 
   navbar: Navbar;
 
-  constructor(pd: PortfolioDataService, private ut: UtilsService) {
-    this.navbar = pd.getNavbar();
+  constructor(private ut: UtilsService) {
+    this.navbar = ut.getDataByLang(global_navbar);
+    console.log(this.navbar);
   }
 
   ngOnInit(): void {

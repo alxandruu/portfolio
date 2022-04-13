@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
 import { Project } from 'src/app/_interfaces/project';
 import { UtilsService } from 'src/app/_services/utils.service';
+import projectsGroups from 'src/assets/data/projects.json';
+
 
 @Component({
   selector: 'app-pr-view',
@@ -14,9 +15,9 @@ export class PrViewComponent implements OnInit {
   project!: Project;
   text: LanguageTextGroup;
 
-  constructor(private ar: ActivatedRoute, pd: PortfolioDataService, private ut: UtilsService) {
+  constructor(private ar: ActivatedRoute, private ut: UtilsService) {
     this.ar.params.subscribe(params => {
-      this.project = pd.getProject(params['id']);
+      this.project = ut.getObjectFromData(projectsGroups, params['id']);
     });
     this.text = this.getLanguageText();
   }

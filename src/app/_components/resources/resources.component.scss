@@ -85,7 +85,6 @@ a {
         color: var(--secondary-color);
         letter-spacing: 1px;
         text-transform: capitalize;
-        font-weight: bold;
     }
     .name {
         font-size: 1.25rem;
@@ -149,7 +148,6 @@ a {
 }
 
 @media screen and (max-width: 325.5px) {
-    
     .category-filter-active.mobile-version,
     .t-resources.mobile-version {
         display: none !important;

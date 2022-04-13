@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { PortfolioDataService } from 'src/app/_data/portfolio-data.service';
 import { Profile } from 'src/app/_interfaces/profile';
 import { UtilsService } from 'src/app/_services/utils.service';
+import profile from 'src/assets/data/profile.json';
 
 @Component({
   selector: 'app-home',
@@ -12,8 +12,8 @@ export class HomeComponent implements OnInit {
 
   portfolio: Profile;
 
-  constructor(pd: PortfolioDataService, ut: UtilsService) {
-    this.portfolio = pd.getProfile();
+  constructor(ut: UtilsService) {
+    this.portfolio = ut.getDataByLang(profile);
   }
 
   ngOnInit(): void {
