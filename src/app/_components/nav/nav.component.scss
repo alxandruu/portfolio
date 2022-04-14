@@ -22,20 +22,12 @@ a {
 #menu {
     li {
         a {
-            &.text:hover {
-                color: var(--dark-color);
-                border-bottom: 1px solid var(--dark-color);
-            }
-        }
-
-        &:hover {
-            cursor: pointer;
-            a.text {
-                color: var(--dark-color);
-                border-bottom: 1px solid var(--dark-color);
-            }
-            span {
-                border-bottom: 1px solid var(--dark-color);
+            &:hover {
+                cursor: pointer;
+                &.text {
+                    color: var(--dark-color);
+                    border-bottom: 1px solid var(--dark-color);
+                }
             }
         }
     }

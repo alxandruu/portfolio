@@ -1,14 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-:root {
-    --dark-color: #2a2d34;
-    --dark-color-rgb: 42, 45, 52;
-    --light-color: #f2fbe0;
-    --body-background-color: #f2fbe0;
-    --nav-background-color-rgba: 242, 251, 224, 0.95;
-    --nav-hamb-background-color: #2a2d34;
-    --nav-hamb-color: #f2fbe0;
-    --footer-color: #66676b;
-}
+
 
 [data-theme="light"] {
     --dark-color: #2a2d34;
@@ -31,8 +22,9 @@
     --nav-hamb-background-color: #1e1c23;
     --nav-hamb-color: #ecdbba;
     --footer-color: #746b67;
-    --secondary-color: #AAF683;
+    --secondary-color: #aaf683;
 }
+
 
 ::selection {
     color: var(--light-color);
@@ -49,7 +41,6 @@
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(var(--dark-color-rgb), 0.6);
     background-color: var(--light-color);
-   
 }
 
 .unselectable {
