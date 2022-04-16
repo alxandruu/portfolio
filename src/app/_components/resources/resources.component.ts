@@ -24,13 +24,6 @@ import resources from 'src/assets/data/resources/resources.json';
             style({ opacity: 1, transform: 'translateX(0)', offset: 1.0 })
           ]))
         ]), { optional: true }),
-        query(':leave', stagger('100ms', [
-          animate('350ms ease-in', keyframes([
-            style({ opacity: 1, transform: 'translateX(0)', offset: 0 }),
-            style({ opacity: 0.5, transform: 'translateX(5%)', offset: 0.3 }),
-            style({ opacity: 0, transform: 'translateX(-20%)', offset: 1.0 })
-          ]))
-        ]), { optional: true })
       ])
     ]),
 

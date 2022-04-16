@@ -17,7 +17,7 @@
             <div class="category-filter-active mobile-version mx-2">{{this.getCategoryName(id).name}}</div>
             <div class="t-resources mobile-version">{{le}} {{text.data[1]}}</div>
         </div>
-        <div class="row " [@enterAnimation]>
+        <div class="row m-0 p-0 " [@enterAnimation]>
             <div class="col-xl-4 pt-4" *ngFor="let r of resources.data | resourceFilter:id ; ">
                 <div class="rs">
 

@@ -3,10 +3,10 @@
     width: 75%;
     opacity: 0;
     animation: slide-in 1s ease-in forwards;
+    color: var(--dark-color);
     .title {
         font-size: 2rem;
         font-weight: bold;
-        color: var(--dark-color);
     }
 }
 a {
@@ -21,7 +21,7 @@ a {
     }
     .section {
         border: none !important;
-
+        box-sizing: border-box;
         .title {
             text-align: center;
             font-size: 1.8rem;
