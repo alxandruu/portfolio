@@ -5,8 +5,10 @@
         </a>
     </div>
     <div id="mobile_menu" class="position-relative">
-        <div class="btn hambBtn" (click)="hamburguer()">
-            <i class="fas fa-bars"></i>
+        <div class="btn hambBtn m-0 p-0" (click)="hamburguer()">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
         </div>
         <ul class="px-4 py-2 " id="hamb_menu">
             <li *ngFor="let nav of navbar.navs"><a href="/{{nav.url}}" class="mobile-text">{{nav.text}}</a></li>
