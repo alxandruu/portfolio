@@ -21,12 +21,27 @@ a {
 }
 #menu {
     li {
-        a {
+        .link {
+            position: relative;
+            text-decoration: none;
+            color: var(--dark-color);
+            &::after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: var(--dark-color);
+                border-radius: 4px;
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform 0.25s ease;
+            }
             &:hover {
                 cursor: pointer;
-                &.text {
-                    color: var(--dark-color);
-                    border-bottom: 1px solid var(--dark-color);
+                &::after {
+                    transform: scaleX(1);
                 }
             }
         }
@@ -40,7 +55,7 @@ a {
     display: none;
 
     .hambBtn {
-        transform: scale(0.7);
+        transform: scale(0.65);
         background-color: transparent;
         .line {
             display: block;
