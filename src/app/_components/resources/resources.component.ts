@@ -13,7 +13,7 @@ import resources from 'src/assets/data/resources/resources.json';
   selector: 'app-resources',
   templateUrl: './resources.component.html',
   styleUrls: ['./resources.component.scss'],
-  
+
 })
 export class ResourcesComponent implements OnInit {
   public resources: ResourceGroup;
@@ -62,5 +62,10 @@ export class ResourcesComponent implements OnInit {
     } else {
       return resources.data;
     }
+  }
+
+  showResources(): void {
+    document.querySelector(".category-filter")?.classList.toggle("show");
+    document.querySelector('.category-filter-mobile')?.classList.toggle('active');
   }
 }

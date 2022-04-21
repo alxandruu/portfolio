@@ -1,13 +1,21 @@
 <div class="mx-auto p-2" id="resources-content">
-    <div class="d-flex align-items-center justify-content-between  header">
+    <!-- Header Section -->
+    <div class="header">
         <div class="title">{{text.data[0]}}</div>
         <div class="t-resources">{{le}} {{text.data[1]}}</div>
+        <div class="category-filter-mobile py-1 px-2" (click)="showResources()">
+            <span>Filtrar</span>
+            <i class="fas fa-angle-down ms-2"></i>
+        </div>
     </div>
-    <div class="mt-2 d-flex align-items-center flex-wrap justify-content-between mx-1 filter-row">
+
+    <div class="mt-2  mx-1 filter-row ">
         <div class="category-filter-active">{{this.getCategoryName(id).name}}</div>
-        <div class="d-flex align-items-center flex-wrap category-filter">
-            <div class="category py-1 px-2 m-1" *ngFor="let c of categories.data" (click)="filterByCategory(c.id)">
-                {{c.name}}
+        <div class="category-filter">
+            <div class="d-flex align-items-center" id="category-container">
+                <div class="category py-1 px-2 m-1" *ngFor="let c of categories.data" (click)="filterByCategory(c.id)">
+                    {{c.name}}
+                </div>
             </div>
         </div>
     </div>
