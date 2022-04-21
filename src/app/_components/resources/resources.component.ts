@@ -13,21 +13,7 @@ import resources from 'src/assets/data/resources/resources.json';
   selector: 'app-resources',
   templateUrl: './resources.component.html',
   styleUrls: ['./resources.component.scss'],
-  animations: [
-    trigger('enterAnimation', [
-      transition('* => *', [
-        query(':enter', style({ opacity: 0 }), { optional: true }),
-        query(':enter', stagger('100ms', [
-          animate('350ms ease-in', keyframes([
-            style({ opacity: 0, transform: 'translateX(-20%)', offset: 0 }),
-            style({ opacity: 0.5, transform: 'translateX(5%)', offset: 0.3 }),
-            style({ opacity: 1, transform: 'translateX(0)', offset: 1.0 })
-          ]))
-        ]), { optional: true }),
-      ])
-    ]),
-
-  ]
+  
 })
 export class ResourcesComponent implements OnInit {
   public resources: ResourceGroup;
