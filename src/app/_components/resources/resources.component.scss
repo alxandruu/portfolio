@@ -63,7 +63,15 @@ a {
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
-        
+
+        @media screen and (min-width: 767.5px) and (max-width: 1199.5px) {
+            flex-direction: column;
+            align-items: flex-start;
+            .category-filter-active {
+                margin-bottom: 0.75rem;
+            }
+        }
+
         .category-filter {
             &.show {
                 display: block !important;
@@ -81,7 +89,7 @@ a {
                 transform: scale(1);
                 transition: transform 0.3s ease;
 
-                @media screen and (max-width: 767.5px) {
+                @media screen and (max-width: 1199.5px) {
                     font-size: 0.85rem;
                     &:active {
                         transform: scale(0.9);
@@ -93,7 +101,7 @@ a {
                     border: 1px solid var(--dark-color);
                     color: var(--dark-color);
                 }
-                @media screen and (min-width: 767.5px) {
+                @media screen and (min-width: 1199.5px) {
                     &:hover {
                         cursor: pointer;
                         transform: scale(0.9);
