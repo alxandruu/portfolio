@@ -3,14 +3,16 @@
         "lang": "es",
         "data": [
             "Recursos",
-            "recursos encontrados"
+            "recursos encontrados",
+            "Filtrar"
         ]
     },
     {
         "lang": "en",
         "data": [
             "Resources",
-            "resources found"
+            "resources found",
+            "Filter"
         ]
     }
 ]
