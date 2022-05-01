@@ -3,6 +3,48 @@
         "lang": "es",
         "data": [
             {
+                "name": "Prisioneros",
+                "img": "https://www.silenzine.com/wp-content/uploads/2013/10/prisioneros.jpg",
+                "description": "Keller Dover se enfrenta a la peor de las pesadillas: Anna, su hija de seis años, ha desaparecido con su amiga Joy y, a medida que pasa el tiempo, el pánico lo va dominando. Desesperado, decide ocuparse personalmente del asunto. Pero, ¿hasta dónde está dispuesto a llegar para averiguar el paradero de su hija?",
+                "url": "https://www.youtube.com/watch?v=Fy4LsPx4zac",
+                "category": "c5"
+            },
+            {
+                "name": "Vivarium",
+                "img": "https://gfx.videobuster.de/archive/v/cozuDwUaKuPOceaUKi11k2Qcz0lMkawsCUyRjA0JTJGaW1hmSUyRmpwZWclMkZlYmE5YmXIZLJhxt6r5fFiZaxmYf1kMy5qcGcmcj137zg/vivarium-poster.jpg",
+                "description": "Gemma (Imogen Poots) y Tom (Jesse Eisenberg) son una joven pareja que se ha planteado la compra de su primera casa. Para ello visitan una inmobiliaria donde los recibe un extraño agente de ventas, que les acompaña a Yonder (una nueva, misteriosa y peculiar urbanización donde todas las casas son idénticas), para mostrarles una vivienda unifamiliar para ellos.",
+                "url": "https://www.youtube.com/watch?v=Nii4Evq-NzA",
+                "category": "c5"
+            },
+            {
+                "name": "Dante's Inferno",
+                "img": "https://2.bp.blogspot.com/-_3bt1gSBF-o/UZGDp1aj0FI/AAAAAAAAAP0/n1MoMrZbwO4/w1200-h630-p-k-no-nu/Dante%2527s+Inferno+Wallpaper.jpg",
+                "description": "Dante's Inferno está basado en el Infierno, primera parte de La Divina Comedia de Dante Alighieri. El jugador controla a Dante, un veterano de la Tercera Cruzada, que intenta alcanzar a su amada Beatriz y liberar su alma de Lucifer, quien necesita contraer nupcias con un alma destinada al Cielo para liberarse del Infierno e intentar tomar el trono de Dios.",
+                "url": "https://www.youtube.com/watch?v=UUOZRRU_Dyg",
+                "category": "c3"
+            },
+            {
+                "name": "Focus",
+                "img": "https://th.bing.com/th/id/R.e418ad002a8125782630452d9411c596?rik=nxtV2OhHZFd7tA&pid=ImgRaw&r=0",
+                "description": "Un veterano estafador acoge a una atractiva joven bajo su protectorado, pero las cosas se complican cuando ambos comienzan un romance.",
+                "url": "https://www.youtube.com/watch?v=7GfoyOLy4r8",
+                "category": "c5"
+            },
+            {
+                "name": "Dead Space 2",
+                "img": "https://th.bing.com/th/id/OIP.MXt4ycN_9Ym00yIQEkaWGgHaEK?pid=ImgDet&rs=1",
+                "description": "En Dead Space™ 2, te vuelves a poner en la piel de Isaac Clarke, el ingeniero de sistemas de Dead Space, tras despertarse tres años después de los horribles sucesos ocurridos en la USG Ishimura. La Ishimura era una nave minera de categoría Destructor de Planetas asediada por los grotescos cadáveres vivientes de su tripulación, conocidos como los “Necromorfos”.",
+                "url": "https://www.youtube.com/watch?v=oxK0UxaDfa8",
+                "category": "c3"
+            },
+            {
+                "name": "Psychonauts 2",
+                "img": "https://cdn.wccftech.com/wp-content/uploads/2017/02/Psychonauts-2-2060x963.png",
+                "description": "Razputin \"Raz\" Aquato, joven circense adiestrado y con habilidades psíquicas, cumplió el sueño de toda su vida: ¡unirse a la organización internacional de espionaje conocida como Psychonauts! Sin embargo, los superespías psíquicos se encuentran en problemas. Su líder no es el mismo desde que lo rescataron de un secuestro, y lo que es peor, un infiltrado se oculta en los cuarteles generales.",
+                "url": "https://www.youtube.com/watch?v=yp12nQBrY2Y",
+                "category": "c3"
+            },
+            {
                 "name": "The Neon Demon",
                 "img": "https://image.tmdb.org/t/p/original/8h7hJtOpZQGQL5zEVqlGWo9UN2H.jpg",
                 "description": "Jesse, aspirante a modelo, se muda a Los Ángeles, donde es reclutada como musa de un magnate de la moda. Al entrar a la industria, se encuentra con que su vitalidad y juventud son devorados por un grupo de mujeres obsesionadas con la belleza, que se valdrán de cualquier medio para conseguir lo que tiene.",
@@ -231,6 +273,48 @@
     {
         "lang": "en",
         "data": [
+            {
+                "name": "Prisioners",
+                "img": "https://www.silenzine.com/wp-content/uploads/2013/10/prisioneros.jpg",
+                "description": "Keller Dover faces the worst of nightmares: Anna, his six-year-old daughter, has disappeared with her friend Joy and, as time goes on, panic dominates him. Desperate, he decides to take care of the matter personally. But how far are you willing to go to find out the whereabouts of your daughter?",
+                "url": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
+                "category": "c5"
+            },
+            {
+                "name": "Vivarium",
+                "img": "https://gfx.videobuster.de/archive/v/cozuDwUaKuPOceaUKi11k2Qcz0lMkawsCUyRjA0JTJGaW1hmSUyRmpwZWclMkZlYmE5YmXIZLJhxt6r5fFiZaxmYf1kMy5qcGcmcj137zg/vivarium-poster.jpg",
+                "description": "Gemma (Imogen Poots) and Tom (Jesse Eisenberg) are a young couple who have considered buying their first home. To do this, they visit a real estate agency where they are received by a strange sales agent, who accompanies them to Yonder (a new, mysterious and peculiar urbanization where all the houses are identical), to show them a single-family home for them.",
+                "url": "https://www.youtube.com/watch?v=U3Xy2x9NDrw",
+                "category": "c5"
+            },
+            {
+                "name": "Dante's Inferno",
+                "img": "https://2.bp.blogspot.com/-_3bt1gSBF-o/UZGDp1aj0FI/AAAAAAAAAP0/n1MoMrZbwO4/w1200-h630-p-k-no-nu/Dante%2527s+Inferno+Wallpaper.jpg",
+                "description": "Dante's Inferno is based on Hell, the first part of Dante Alighieri's The Divine Comedy. The player controls Dante, a veteran of the Third Crusade, who tries to reach his beloved Beatrice and free his soul from Lucifer, who needs to marry a soul destined for Heaven to free himself from Hell and try to take the throne of God.",
+                "url": "https://www.youtube.com/watch?v=UUOZRRU_Dyg",
+                "category": "c3"
+            },
+            {
+                "name": "Focus",
+                "img": "https://th.bing.com/th/id/R.e418ad002a8125782630452d9411c596?rik=nxtV2OhHZFd7tA&pid=ImgRaw&r=0",
+                "description": "A veteran swindler takes an attractive young woman under his protectorate, but things get complicated when the two begin a romance.",
+                "url": "https://www.youtube.com/watch?v=MoWPbrT6qdk",
+                "category": "c5"
+            },
+            {
+                "name": "Dead Space 2",
+                "img": "https://th.bing.com/th/id/OIP.MXt4ycN_9Ym00yIQEkaWGgHaEK?pid=ImgDet&rs=1",
+                "description": "In Dead Space™ 2, you put yourself back in the shoes of Isaac Clarke, the systems engineer of Dead Space, after waking up three years after the horrific events at USG Ishimura. The Ishimura was a Planet Destroyer mining ship besieged by the grotesque living corpses of its crew, known as the \"Necromorphs\".",
+                "url": "https://www.youtube.com/watch?v=776fi2I8e6U",
+                "category": "c3"
+            },
+            {
+                "name": "Psychonauts 2",
+                "img": "https://cdn.wccftech.com/wp-content/uploads/2017/02/Psychonauts-2-2060x963.png",
+                "description": "Razputin \"Raz\" Aquato, a trained circus boy with psychic abilities, fulfilled his lifelong dream: to join the international spy organization known as Psychonauts! However, psychic superspies are in trouble. Their leader is not the same since he was rescued from a kidnapping, and what is worse, an infiltrator hides in the headquarters.",
+                "url": "https://www.youtube.com/watch?v=mBi9rqCZ4os",
+                "category": "c3"
+            },
             {
                 "name": "The Neon Demon",
                 "img": "https://image.tmdb.org/t/p/original/8h7hJtOpZQGQL5zEVqlGWo9UN2H.jpg",
