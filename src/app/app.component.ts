@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 import { UtilsService } from './_services/utils.service';
 
+declare let $: any; //jQuery
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   public year = new Date().getFullYear();
 
@@ -39,4 +42,21 @@ export class AppComponent {
     document.documentElement.setAttribute('data-theme', keyTheme);
     localStorage.setItem('theme', keyTheme);
   }
+
+  scrollTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 }
+
+$(window).scroll(function () {
+  console.log($(window).scrollTop(), $(document).height());
+  if ($(window).scrollTop() < 250 || $(window).scrollTop() >= $(document).height()) {
+    $('.scrollTopButton').hide(250);
+  }
+  else {
+    $('.scrollTopButton').show(250);
+  }
+});
