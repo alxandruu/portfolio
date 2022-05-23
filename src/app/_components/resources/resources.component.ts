@@ -21,21 +21,25 @@ export class ResourcesComponent implements OnInit {
   le: number;
   id: string = 'c0';
   text: LanguageTextGroup;
+  viewerSelected: string;
 
   constructor(private ut: UtilsService) {
     this.resources = ut.getDataByLang(resources);
     this.categories = ut.getDataByLang(resources_categories);
     this.le = this.resources.data.length;
     this.text = this.ut.getLanguageText(languageData);
-
+    this.viewerSelected = this.initViewer();
 
   }
 
   ngOnInit(): void {
-
-
   }
 
+
+  changeViewer(type: string): void {
+    localStorage.setItem("resources-viewer", type);
+    this.viewerSelected = type;
+  }
 
   getCategoryName(id: string) {
     return this.ut.getObjectFromData(resources_categories, id);
@@ -68,4 +72,20 @@ export class ResourcesComponent implements OnInit {
     document.querySelector(".category-filter")?.classList.toggle("show");
     document.querySelector('.category-filter-mobile')?.classList.toggle('active');
   }
+
+
+  // INIT METHODS
+  private initViewer(): string {
+    let viewerSelectedLocalStorage = localStorage.getItem("resources-viewer");
+    console.log(window.innerWidth);
+    if (viewerSelectedLocalStorage == null || window.innerWidth < 1200) {
+      localStorage.setItem("resources-viewer", "card");
+      return "card";
+    } else {
+      return viewerSelectedLocalStorage as string;
+    }
+
+  }
 }
+
+
