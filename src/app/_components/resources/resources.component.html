@@ -22,7 +22,7 @@
     <hr />
 
     <!-- Viewer Selector -->
-    <div  id="viewer-selector">
+    <div id="viewer-selector">
         <div class="viewer-icon " (click)="changeViewer('list')">
             <i class="fas fa-list"></i>
         </div>
@@ -43,7 +43,7 @@
                 *ngFor="let r of resources.data | resourceFilter:id ; ">
                 <div class="row my-4 py-1 px-2 rs">
                     <div class="col-4">
-                        <div class=" name d-flex align-items-center"> <img src="{{r.img}}" class="unselectable me-2"
+                        <div class=" name d-flex align-items-center"> <img src="{{r.img}}" class="unselectable me-3"
                                 loading="lazy"> {{r.name}}
                         </div>
                     </div>
