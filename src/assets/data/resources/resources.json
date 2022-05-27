@@ -3,6 +3,62 @@
         "lang": "es",
         "data": [
             {
+                "name": "Tokyo Vice",
+                "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Tokyo_Vice.jpg",
+                "description": "Un periodista occidental que trabaja para una publicación en Tokio se enfrenta a uno de los jefes criminales más poderosos de la ciudad.",
+                "url": "https://www.youtube.com/watch?v=BUd1Vin8MuA",
+                "category": "c1"
+            },
+            {
+                "name": "Shadow of the Tomb Raider",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg?t=1644931091",
+                "description": "Mientras Lara Croft trata de salvar el mundo de un apocalipsis maya, deberá convertirse en la saqueadora de tumbas que está destinada a ser.",
+                "url": "https://www.youtube.com/watch?v=H5hFiItax4U",
+                "category": "c3"
+            },
+            {
+                "name": "Mini Motorways",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1127500/header.jpg?t=1631584782",
+                "description": "Mini Motorways es un juego de simulación y estrategia donde diseñarás el mapa de carreteras de una ciudad en crecimiento. Crea la red de tráfico vía a vía y logra una animada metrópolis.",
+                "url": "https://www.youtube.com/watch?v=RHX0CfcgOas",
+                "category": "c3"
+            },
+            {
+                "name": "Siete Hermanas",
+                "img": "https://i.blogs.es/68ee95/cartel-siete-hermanas/840_560.jpg",
+                "description": "En un futuro distópico en el que la sobrepoblación y la hambruna han obligado al gobierno a implantar una política de un único hijo, siete hermanas, cada una con el nombre de un día de la semana, luchan por sobrevivir y pasar inadvertidas haciéndose pasar por una sola persona cuando salen a la calle: Karen Settman.",
+                "url": "https://www.youtube.com/watch?v=ECoekuLodFg",
+                "category": "c5"
+            },
+            {
+                "name": "Love Death & Robots",
+                "img": "https://th.bing.com/th/id/R.84941913ddc665f2fd55bc2865b197a6?rik=zl5mwKnak1Zmyg&pid=ImgRaw&r=0",
+                "description": "Antología de diferentes cortos de animación que abarcan varios géneros; ciencia ficción, fantasía, terror y comedia. Orientado para un público adulto.",
+                "url": "https://www.youtube.com/watch?v=gXGazwdKPNc",
+                "category": "c1"
+            },
+            {
+                "name": "Battletoads",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244950/header.jpg?t=1626266138",
+                "description": "¡Se acabó la espera! Rash, Zitz y Pimple por fin han vuelto para abrirse paso a puñetazos por una aventura totalmente nueva llena de acción y de caos coreografiado. Las partidas cooperativas en el sofá nunca volverán a ser como antes.",
+                "url": "https://www.youtube.com/watch?v=FU3o1ikaJA4",
+                "category": "c3"
+            },
+            {
+                "name": "Black Mirror",
+                "img": "https://media.vozpopuli.com/2021/02/Black-Mirror-vuelve-serie-tecnologia_1248185173_13458821_1020x574.jpg",
+                "description": "Serie antológica que muestra el lado oscuro de la tecnología y cómo esta afecta y puede alterar nuestra vida, a veces con consecuencias tan impredecibles como aterradoras.",
+                "url": "https://www.youtube.com/watch?v=nOuebtOSzME",
+                "category": "c1"
+            },
+            {
+                "name": "Shutter Island",
+                "img": "https://image.tmdb.org/t/p/w1280/n9eeQTNHY6Ry80QbDGygIupL0Z9.jpg",
+                "description": "En el verano de 1954, los agentes judiciales Teddy Daniels y Chuck Aule son destinados a una remota isla del puerto de Boston para investigar la desaparición de una peligrosa asesina que estaba recluida en el hospital psiquiátrico Ashecliffe, un centro penitenciario para criminales perturbados dirigido por el siniestro doctor John Cawley. ",
+                "url": "https://www.youtube.com/watch?v=sybSFbmzyUg",
+                "category": "c5"
+            },
+            {
                 "name": "Prisioneros",
                 "img": "https://www.silenzine.com/wp-content/uploads/2013/10/prisioneros.jpg",
                 "description": "Keller Dover se enfrenta a la peor de las pesadillas: Anna, su hija de seis años, ha desaparecido con su amiga Joy y, a medida que pasa el tiempo, el pánico lo va dominando. Desesperado, decide ocuparse personalmente del asunto. Pero, ¿hasta dónde está dispuesto a llegar para averiguar el paradero de su hija?",
@@ -102,7 +158,7 @@
             },
             {
                 "name": "Playdede",
-                "img": "https://th.bing.com/th/id/R.1c97b527f3fe9684449dec49a892fb91?rik=xZTiS92QFzIkvw&pid=ImgRaw&r=0",
+                "img": "https://www.adslzone.net/app/uploads-adslzone.net/2021/02/playdede-series.jpg",
                 "description": "Plataforma online donde ver películas, series y anime gratuitamente. ADVERTENCIA: se recomienda usar con un Adblock.",
                 "url": "https://playdede.com/",
                 "category": "c2"
@@ -273,6 +329,62 @@
     {
         "lang": "en",
         "data": [
+            {
+                "name": "Tokyo Vice",
+                "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Tokyo_Vice.jpg",
+                "description": "A western journalist working in Tokyo confronts one of the city's most powerful crime bosses.",
+                "url": "https://www.youtube.com/watch?v=l3oWrNQo_Ng",
+                "category": "c1"
+            },
+            {
+                "name": "Shadow of the Tomb Raider",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg?t=1644931091",
+                "description": "As Lara Croft tries to save the world from a Mayan apocalypse, she must become the tomb raider she is meant to be.",
+                "url": "https://www.youtube.com/watch?v=XYtyeqVQnRI",
+                "category": "c3"
+            },
+            {
+                "name": "Mini Motorways",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1127500/header.jpg?t=1631584782",
+                "description": "Mini Motorways is a simulation and strategy game where you will design the road map of a growing city.",
+                "url": "https://www.youtube.com/watch?v=RHX0CfcgOas",
+                "category": "c3"
+            },
+            {
+                "name": "What Happened to Monday?",
+                "img": "https://i.blogs.es/68ee95/cartel-siete-hermanas/840_560.jpg",
+                "description": "In a dystopian future in which overpopulation and famine have forced the government to implement a policy of one child, seven sisters, each named after a day of the week, struggle to survive and go unnoticed by posing as one person when they take to the streets: Karen Settman.",
+                "url": "https://www.youtube.com/watch?v=-ii5iFf7-tY",
+                "category": "c5"
+            },
+            {
+                "name": "Love Death & Robots",
+                "img": "https://th.bing.com/th/id/R.84941913ddc665f2fd55bc2865b197a6?rik=zl5mwKnak1Zmyg&pid=ImgRaw&r=0",
+                "description": "Anthology of different animated shorts spanning various genres; science fiction, fantasy, horror and comedy. Oriented for an adult audience.",
+                "url": "https://www.youtube.com/watch?v=wUFwunMKa4E",
+                "category": "c1"
+            },
+            {
+                "name": "Battletoads",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244950/header.jpg?t=1626266138",
+                "description": "The wait is over! Rash, Zitz and Pimple are finally back to punch their way through a whole new adventure full of action and choreographed chaos. Cooperative games on the couch will never be the same again.",
+                "url": "https://www.youtube.com/watch?v=pwPB6_g3sq4",
+                "category": "c3"
+            },
+            {
+                "name": "Black Mirror",
+                "img": "https://media.vozpopuli.com/2021/02/Black-Mirror-vuelve-serie-tecnologia_1248185173_13458821_1020x574.jpg",
+                "description": "Anthology series that shows the dark side of technology and how it affects and can alter our lives, sometimes with consequences as unpredictable as they are terrifying.",
+                "url": "https://www.youtube.com/watch?v=jROLrhQkK78",
+                "category": "c1"
+            },
+            {
+                "name": "Shutter Island",
+                "img": "https://image.tmdb.org/t/p/w1280/n9eeQTNHY6Ry80QbDGygIupL0Z9.jpg",
+                "description": "In the summer of 1954, bailiffs Teddy Daniels and Chuck Aule are sent to a remote island in Boston Harbor to investigate the disappearance of a dangerous killer who was being held at Ashecliffe Psychiatric Hospital, a prison for disturbed criminals run by the sinister Dr. John Cawley.",
+                "url": "https://www.youtube.com/watch?v=5iaYLCiq5RM",
+                "category": "c5"
+            },
             {
                 "name": "Prisioners",
                 "img": "https://www.silenzine.com/wp-content/uploads/2013/10/prisioneros.jpg",
