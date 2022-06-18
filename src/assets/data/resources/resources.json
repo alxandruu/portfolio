@@ -3,6 +3,27 @@
         "lang": "es",
         "data": [
             {
+                "name": "Stranger Things",
+                "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
+                "description": "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
+                "url": "https://www.youtube.com/watch?v=x7Yq9MJUqjY",
+                "category": "c1"
+            },
+            {
+                "name": "The Boys",
+                "img": "https://fr.web.img2.acsta.net/pictures/18/10/09/13/20/0995916.jpg",
+                "description": "Está ambientada en un universo en el que los individuos superpoderosos son reconocidos como héroes por el público en general y trabajan para la poderosa corporación Vought International, que los comercializa y monetiza.",
+                "url": "https://www.youtube.com/watch?v=GXM7SRdos2A",
+                "category": "c1"
+            },
+            {
+                "name": "Papers Please",
+                "img": "https://api.cdkeybay.com/static/4e2a6eaf7d9bf523c24323e5.jpg",
+                "description": "El estado comunista de Arstotzka ha concluido una guerra de 6 años contra la vecina Kolechia y ha reclamado la mitad que le pertenece de la ciudad fronteriza Grestin. Tu trabajo como inspector de inmigración es controlar el flujo humano que entra al lado arstotzko de Grestin desde Kolechia. Entre la marea de inmigrantes y visitantes en busca de trabajo se esconden falsificadores, espías y terroristas.",
+                "url": "https://www.youtube.com/watch?v=_QP5X6fcukM",
+                "category": "c3"
+            },
+            {
                 "name": "Tokyo Vice",
                 "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Tokyo_Vice.jpg",
                 "description": "Un periodista occidental que trabaja para una publicación en Tokio se enfrenta a uno de los jefes criminales más poderosos de la ciudad.",
@@ -16,20 +37,7 @@
                 "url": "https://www.youtube.com/watch?v=H5hFiItax4U",
                 "category": "c3"
             },
-            {
-                "name": "Mini Motorways",
-                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1127500/header.jpg?t=1631584782",
-                "description": "Mini Motorways es un juego de simulación y estrategia donde diseñarás el mapa de carreteras de una ciudad en crecimiento. Crea la red de tráfico vía a vía y logra una animada metrópolis.",
-                "url": "https://www.youtube.com/watch?v=RHX0CfcgOas",
-                "category": "c3"
-            },
-            {
-                "name": "Siete Hermanas",
-                "img": "https://i.blogs.es/68ee95/cartel-siete-hermanas/840_560.jpg",
-                "description": "En un futuro distópico en el que la sobrepoblación y la hambruna han obligado al gobierno a implantar una política de un único hijo, siete hermanas, cada una con el nombre de un día de la semana, luchan por sobrevivir y pasar inadvertidas haciéndose pasar por una sola persona cuando salen a la calle: Karen Settman.",
-                "url": "https://www.youtube.com/watch?v=ECoekuLodFg",
-                "category": "c5"
-            },
+
             {
                 "name": "Love Death & Robots",
                 "img": "https://th.bing.com/th/id/R.84941913ddc665f2fd55bc2865b197a6?rik=zl5mwKnak1Zmyg&pid=ImgRaw&r=0",
@@ -319,7 +327,7 @@
             },
             {
                 "name": "Blue Valentine",
-                "img": "https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/archivo-peliculas/blue-valentine/galeria/blue-valentine/13724094-1-esl-ES/blue-valentine.jpg",
+                "img": "https://th.bing.com/th/id/OIP.-nXp9EXUN-4yMybU1bDE6gHaF7?pid=ImgDet&rs=1",
                 "description": "Dean (Ryan Gosling) y Cindy (Michelle Williams) son padres de una maravillosa hija, pero su relación ha pasado por mejores momentos desde que tienen que compaginar las demandas y expectativas del trabajo y la vida familiar.",
                 "url": "https://www.youtube.com/watch?v=vYgfQyP3o2I",
                 "category": "c5"
@@ -329,6 +337,27 @@
     {
         "lang": "en",
         "data": [
+            {
+                "name": "Stranger Things",
+                "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
+                "description": "In the wake of a boy's disappearance, a village unravels a mystery related to secret experiments, terrifying supernatural forces, and a very strange girl.",
+                "url": "https://www.youtube.com/watch?v=mnd7sFt5c3A",
+                "category": "c1"
+            },
+            {
+                "name": "The Boys",
+                "img": "https://fr.web.img2.acsta.net/pictures/18/10/09/13/20/0995916.jpg",
+                "description": "It is set in a universe in which super-powerful individuals are recognized as heroes by the general public and work for the powerful Vought International corporation, which markets and monetizes them.",
+                "url": "https://www.youtube.com/watch?v=M1bhOaLV4FU",
+                "category": "c1"
+            },
+            {
+                "name": "Papers Please",
+                "img": "https://api.cdkeybay.com/static/4e2a6eaf7d9bf523c24323e5.jpg",
+                "description": "The communist state of Arstotzka has concluded a 6-year war against neighboring Kolechia and has claimed half of the border town of Grestin. Your job as an immigration inspector is to control the human flow that enters grestin's arstotzko side from Kolechia. Among the tide of immigrants and visitors looking for work are hiding counterfeiters, spies and terrorists.",
+                "url": "https://www.youtube.com/watch?v=_QP5X6fcukM",
+                "category": "c3"
+            },
             {
                 "name": "Tokyo Vice",
                 "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Tokyo_Vice.jpg",
@@ -342,20 +371,6 @@
                 "description": "As Lara Croft tries to save the world from a Mayan apocalypse, she must become the tomb raider she is meant to be.",
                 "url": "https://www.youtube.com/watch?v=XYtyeqVQnRI",
                 "category": "c3"
-            },
-            {
-                "name": "Mini Motorways",
-                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1127500/header.jpg?t=1631584782",
-                "description": "Mini Motorways is a simulation and strategy game where you will design the road map of a growing city.",
-                "url": "https://www.youtube.com/watch?v=RHX0CfcgOas",
-                "category": "c3"
-            },
-            {
-                "name": "What Happened to Monday?",
-                "img": "https://i.blogs.es/68ee95/cartel-siete-hermanas/840_560.jpg",
-                "description": "In a dystopian future in which overpopulation and famine have forced the government to implement a policy of one child, seven sisters, each named after a day of the week, struggle to survive and go unnoticed by posing as one person when they take to the streets: Karen Settman.",
-                "url": "https://www.youtube.com/watch?v=-ii5iFf7-tY",
-                "category": "c5"
             },
             {
                 "name": "Love Death & Robots",
@@ -639,7 +654,7 @@
             },
             {
                 "name": "Blue Valentine",
-                "img": "https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/archivo-peliculas/blue-valentine/galeria/blue-valentine/13724094-1-esl-ES/blue-valentine.jpg",
+                "img": "https://th.bing.com/th/id/OIP.-nXp9EXUN-4yMybU1bDE6gHaF7?pid=ImgDet&rs=1",
                 "description": "The relationship of a marriage through the years interspersing different periods.",
                 "url": "https://www.youtube.com/watch?v=aILx69WrRhQ",
                 "category": "c5"

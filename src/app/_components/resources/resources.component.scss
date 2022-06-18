@@ -153,7 +153,8 @@ a {
             text-align: left;
         }
         .description {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
+            text-align: left;
             @media screen and (min-width: 1200px) {
                 overflow: hidden;
                 text-overflow: ellipsis;
