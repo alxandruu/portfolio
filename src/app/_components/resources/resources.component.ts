@@ -77,7 +77,6 @@ export class ResourcesComponent implements OnInit {
   // INIT METHODS
   private initViewer(): string {
     let viewerSelectedLocalStorage = localStorage.getItem("resources-viewer");
-    console.log(window.innerWidth);
     if (viewerSelectedLocalStorage == null || window.innerWidth < 1200) {
       localStorage.setItem("resources-viewer", "card");
       return "card";

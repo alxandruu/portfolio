@@ -14,5 +14,13 @@
             "resources found",
             "Filter"
         ]
+    },
+    {
+        "lang": "ro",
+        "data": [
+            "Resurse",
+            "Resurse găsite",
+            "Filtru"
+        ]
     }
 ]

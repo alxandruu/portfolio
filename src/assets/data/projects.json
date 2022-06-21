@@ -14,7 +14,6 @@
                 ],
                 "stack": [
                     "Angular 12",
-                    "Firebase 9",
                     "Netlify",
                     "JSON"
                 ],
@@ -99,27 +98,6 @@
                     "preview_3.jpeg"
                 ],
                 "in_development": false
-            },
-            {
-                "id": "gestor",
-                "type": "big",
-                "name": "Gestor",
-                "img": "",
-                "description": "Aplicación Web donde un empleado manejar su información orientada a Recursos Humanos, a través de diferentes acciones. Como descargar nóminas o chatear con compañeros de trabajo.",
-                "website": "",
-                "platform": [
-                    "Aplicación Web"
-                ],
-                "stack": [
-                    "Angular",
-                    "Node",
-                    "MongoDB"
-                ],
-                "imgs": [
-                    "preview_1.jpeg",
-                    "preview_2.jpeg"
-                ],
-                "in_development": true
             }
         ]
     },
@@ -138,7 +116,6 @@
                 ],
                 "stack": [
                     "Angular 12",
-                    "Firebase 9",
                     "Netlify",
                     "JSON"
                 ],
@@ -223,27 +200,108 @@
                     "preview_3.jpeg"
                 ],
                 "in_development": false
-            },
+            }
+        ]
+    },
+    {
+        "lang": "ro",
+        "data": [
             {
-                "id": "gestor",
+                "id": "portfolio",
                 "type": "big",
-                "name": "Gestor",
-                "img": "",
-                "description": "Web Application where an employee can manage his HR information through different actions.",
-                "website": "",
+                "name": "Portfolio",
+                "img": "preview_1.jpg",
+                "description": "Site-ul are ca scop crearea unui portofoliu personal. Trebuie să fie scalabil și adaptabil oricui.",
+                "website": "https://alxandru.netlify.app/",
                 "platform": [
-                    "Web Application"
+                    "Pagină web"
                 ],
                 "stack": [
-                    "Angular",
-                    "Node",
-                    "MongoDB"
+                    "Angular 12",
+                    "Netlify",
+                    "JSON"
                 ],
                 "imgs": [
-                    "preview_1.jpeg",
-                    "preview_2.jpeg"
+                    "portfolio.jpg",
+                    "preview_1.jpg",
+                    "preview_2.jpg",
+                    "preview_3.jpg",
+                    "preview_4.jpg"
                 ],
-                "in_development": true
+                "in_development": false
+            },
+            {
+                "id": "attiapp",
+                "type": "big",
+                "name": "Attia APP",
+                "img": "attiapp.jpg",
+                "description": "Aplicație web în care să se ocupe de informațiile esențiale ale unei companii pentru a putea gestiona digital.",
+                "website": "",
+                "platform": [
+                    "Aplicație web"
+                ],
+                "stack": [
+                    "Angular 11",
+                    "PHP",
+                    "mySQL"
+                ],
+                "imgs": [
+                    "attiapp.jpg",
+                    "preview_1.jpeg",
+                    "preview_2.jpeg",
+                    "preview_3.jpeg",
+                    "preview_4.jpeg",
+                    "preview_5.jpeg",
+                    "preview_6.jpeg",
+                    "preview_7.jpeg",
+                    "preview_8.jpeg",
+                    "preview_9.jpeg"
+                ],
+                "in_development": false
+            },
+            {
+                "id": "ocaonline",
+                "type": "small",
+                "name": "La Oca Online",
+                "img": "laocaonline.jpg",
+                "description": "Versiunea online a popularului joc spaniol La Oca, este disponibil numai pentru doi jucători.",
+                "website": "https://alxandruu.github.io/daw-laocaonline/",
+                "platform": [
+                    "Aplicație web"
+                ],
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "imgs": [
+                    "laocaonline.jpg"
+                ],
+                "in_development": false
+            },
+            {
+                "id": "minatoshop",
+                "type": "small",
+                "name": "Minato Shop",
+                "img": "minatoshop.jpg",
+                "description": "E-Commerce unde puteți găsi haine și accesorii cu design minimalist la un preț accesibil.",
+                "website": "https://alxandruu.github.io/daw-escaparatevirtual/",
+                "platform": [
+                    "Aplicație web"
+                ],
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "JSON"
+                ],
+                "imgs": [
+                    "minatoshop.jpg",
+                    "preview_1.jpeg",
+                    "preview_2.jpeg",
+                    "preview_3.jpeg"
+                ],
+                "in_development": false
             }
         ]
     }

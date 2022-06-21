@@ -52,7 +52,6 @@ export class AppComponent {
 }
 
 $(window).scroll(function () {
-  console.log($(window).scrollTop(), $(document).height());
   if ($(window).scrollTop() < 250 || $(window).scrollTop() >= $(document).height()) {
     $('.scrollTopButton').hide(250);
   }

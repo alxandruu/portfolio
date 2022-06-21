@@ -32,12 +32,14 @@ export class UtilsService {
 
   public webpageLanguage() {
     const language = navigator.language;
-    const languages_available = ["es", "en"];
+    const languages_available = ["es", "en", "ro"];
     const localstorage_language = localStorage.getItem("language");
 
     if (!localstorage_language) {
       if (language.includes(languages_available[0])) {
         localStorage.setItem("language", languages_available[0]);
+      } else if (language.includes(languages_available[2])) {
+        localStorage.setItem("language", languages_available[2]);
       } else {
         localStorage.setItem("language", languages_available[1]);
       }
@@ -68,8 +70,7 @@ export class UtilsService {
       key = localstorage_theme;
       keyActive = (key == "dark" ? "light" : "dark");
     }
-    console.log(key);
-    console.log(keyActive);
+
     this.theme = key;
     document.documentElement.setAttribute('data-theme', key);
     localStorage.setItem('theme', key);

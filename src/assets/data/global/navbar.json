@@ -24,5 +24,18 @@
                 "url": "resources"
             }
         ]
+    },
+    {
+        "lang": "ro",
+        "navs": [
+            {
+                "text": "Proiecte",
+                "url": "projects"
+            },
+            {
+                "text": "Resurse",
+                "url": "resources"
+            }
+        ]
     }
 ]

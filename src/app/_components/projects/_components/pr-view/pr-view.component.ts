@@ -27,7 +27,8 @@ export class PrViewComponent implements OnInit {
 
   private languageTexts: Array<LanguageTextGroup> = [
     { lang: "es", data: ["Proyectos", "Sitio Web", "Plataforma", "Stack", "No Desplegado", "En Desarrollo"] },
-    { lang: "en", data: ["Projects", "Website", "Platform", "Stack", "Not Deployed", "In Development"] }
+    { lang: "en", data: ["Projects", "Website", "Platform", "Stack", "Not Deployed", "In Development"] },
+    { lang: "ro", data: ["Proiecte", "Site web", "Platforma", "Stack", "Nu implementat", "În dezvoltare"] }
   ]
 
   private getLanguageText(): any {

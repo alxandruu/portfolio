@@ -14,7 +14,6 @@ export class NavComponent implements OnInit {
 
   constructor(private ut: UtilsService) {
     this.navbar = ut.getDataByLang(global_navbar);
-    console.log(this.navbar);
   }
 
   ngOnInit(): void {
