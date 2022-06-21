@@ -9,7 +9,7 @@
             "texts": [
                 "Alexandru is a 21 years old boy who likes IT world. He has recently finished studies in Web Programming, where learned how to develop and deploy web applications.",
                 "During his life, has been moving from one place to another meeting different people and discovering interesting places. His first code was a \"Hello World!\" in Python, in that moment he realized that through programming you can create anything you want.",
-                "Recently has discovered a bit of economy and its ecosystem, through cryptocurrency, stocks and passive income; where has learnt what money (FIAT) means, how to obtain passive income through different investments, ETFs, Futures, blockchain, real estate, ..."
+                "Recently has discovered a bit of economy and its ecosystem, through cryptocurrency, stocks and passive income; where has learnt what money (FIAT) means, the operation of banks, ETFs, Futures, blockchain, real estate, ..."
             ]
         },
         "hobbies": {
@@ -82,7 +82,7 @@
             "texts": [
                 "Alexandru es un chico de 21 años al que le gusta el mundo de la informática. Recientemente ha finalizado sus estudios de Programación Web, donde aprendió a desarrollar y desplegar aplicaciones web.",
                 "Durante su vida, ha estado mudandose de un lugar a otro conociendo diferentes personas y descubriendo lugares interesantes. Su primer código fue un \"¡Hola mundo!\" en Python, en ese momento se dio cuenta de que a través de la programación puedes crear cosas interesantes.",
-                "Recientemente ha descubierto el mundo de la economía, a través de las criptomonedas, acciones e ingresos pasivos; donde ha aprendido el significado del dinero (FIAT), cómo obtener ingresos pasivos a través de diferentes inversiones, ETFs, Futuros, blockchain, bienes inmuebles,... "
+                "Recientemente ha descubierto el mundo de la economía, a través de las criptomonedas, acciones e ingresos pasivos; donde ha aprendido el significado del dinero (FIAT), el funcionamiento de los bancos, ETFs, Futuros, blockchain, bienes inmuebles,... "
             ]
         },
         "hobbies": {
@@ -126,6 +126,78 @@
         },
         "social_media": {
             "header": "Redes Sociales / Contacto",
+            "sections": [
+                {
+                    "icon": "fab fa-instagram",
+                    "text": "@alxandru_",
+                    "url": "https://www.instagram.com/alxandru_/"
+                },
+                {
+                    "icon": "fab fa-linkedin",
+                    "text": "Gabriel Alexandru Botas",
+                    "url": "https://www.linkedin.com/in/gabriel-alexandru-botas-795103204/"
+                },
+                {
+                    "icon": "fas fa-envelope-square",
+                    "text": "bgabrielalexandru@gmail.com",
+                    "url": "mailto:bgabrielalexandru@gmail.com"
+                }
+            ]
+        }
+    },{
+        "lang": "ro",
+        "name": "Gabriel Alexandru Botas",
+        "img": "portfolio.jpg",
+        "ocupation": "Programator full-stack",
+        "about_me": {
+            "header": "Despre mine",
+            "texts": [
+                "Alexandru este un băiat de 21 de ani căruia îi place lumea IT. Recent și-a terminat studiile în Programare Web, unde a învățat să dezvolte și să implementeze aplicații web.",
+                "De-a lungul vieții sale, el s-a mutat dintr-un loc în altul întâlnind oameni diferiți și descoperind locuri interesante. Primul său cod a fost un \"Hello World!\" în Python, moment în care și-a dat seama că prin programare puteți crea lucruri interesante.",
+                "El a descoperit recent lumea economiei, prin criptomonede, stocuri și venituri pasive; unde a învățat semnificația banilor (FIAT), funcționarea băncilor, ETF-urilor, futures, blockchain, imobiliare,..."
+            ]
+        },
+        "hobbies": {
+            "header": "Hobbies",
+            "array": [
+                "Artă",
+                "Muzică",
+                "Jocuri video",
+                "Filme",
+                "Călătorie"
+            ]
+        },
+        "history": {
+            "header": "Istorie",
+            "sections": [
+                {
+                    "year": "2000",
+                    "text": "Născut la Galați, România"
+                },
+                {
+                    "year": "2019",
+                    "text": "CFGM finalizat în sisteme și rețele de microcalculatoare"
+                },
+                {
+                    "year": "2019",
+                    "text": "Suport tehnic într-o consultanță IT"
+                },
+                {
+                    "year": "2021",
+                    "text": "CFGS finalizat în dezvoltarea de aplicații web"
+                },
+                {
+                    "year": "2021",
+                    "text": "Programator PHP cu PrestaShop"
+                },
+                {
+                    "year": "2022",
+                    "text": "Liferay 7.x Programator"
+                }
+            ]
+        },
+        "social_media": {
+            "header": "Retele sociale / Contact",
             "sections": [
                 {
                     "icon": "fab fa-instagram",

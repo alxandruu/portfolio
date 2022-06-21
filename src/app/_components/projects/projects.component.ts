@@ -32,7 +32,7 @@ export class ProjectsComponent implements OnInit {
   text: LanguageTextGroup;
 
 
-  constructor( private ut: UtilsService) {
+  constructor(private ut: UtilsService) {
     this.projects = ut.getDataByLang(projectsGroups);
     this.text = this.ut.getLanguageText(languageData);
   }

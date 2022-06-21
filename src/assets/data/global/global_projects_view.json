@@ -1,0 +1,35 @@
+[
+    {
+        "lang": "es",
+        "data": [
+            "Proyectos",
+            "Sitio Web",
+            "Plataforma",
+            "Stack",
+            "No Desplegado",
+            "En Desarrollo"
+        ]
+    },
+    {
+        "lang": "en",
+        "data": [
+            "Projects",
+            "Website",
+            "Platform",
+            "Stack",
+            "Not Deployed",
+            "In Development"
+        ]
+    },
+    {
+        "lang": "ro",
+        "data": [
+            "Proiecte",
+            "Site web",
+            "Platforma",
+            "Stack",
+            "Nu implementat",
+            "În dezvoltare"
+        ]
+    }
+]

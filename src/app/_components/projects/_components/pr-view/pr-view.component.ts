@@ -4,6 +4,7 @@ import { LanguageTextGroup } from 'src/app/_interfaces/language-text-group';
 import { Project } from 'src/app/_interfaces/project';
 import { UtilsService } from 'src/app/_services/utils.service';
 import projectsGroups from 'src/assets/data/projects.json';
+import languageData from 'src/assets/data/global/global_projects_view.json';
 
 
 @Component({
@@ -19,29 +20,11 @@ export class PrViewComponent implements OnInit {
     this.ar.params.subscribe(params => {
       this.project = ut.getObjectFromData(projectsGroups, params['id']);
     });
-    this.text = this.getLanguageText();
+    this.text = this.ut.getLanguageText(languageData);
   }
 
   ngOnInit(): void {
-  }
 
-  private languageTexts: Array<LanguageTextGroup> = [
-    { lang: "es", data: ["Proyectos", "Sitio Web", "Plataforma", "Stack", "No Desplegado", "En Desarrollo"] },
-    { lang: "en", data: ["Projects", "Website", "Platform", "Stack", "Not Deployed", "In Development"] },
-    { lang: "ro", data: ["Proiecte", "Site web", "Platforma", "Stack", "Nu implementat", "În dezvoltare"] }
-  ]
-
-  private getLanguageText(): any {
-    const lang = this.ut.lang;
-    const languageTexts = this.languageTexts;
-    let languageTextGroup = null;
-    for (let i = 0; i < languageTexts.length && !languageTextGroup; i++) {
-      if (languageTexts[i].lang == lang) {
-        languageTextGroup = languageTexts[i];
-      }
-    }
-
-    return languageTextGroup;
   }
 
 }

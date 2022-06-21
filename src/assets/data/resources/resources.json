@@ -660,5 +660,331 @@
                 "category": "c5"
             }
         ]
+    },{
+        "lang": "ro",
+        "data": [
+            {
+                "name": "Stranger Things",
+                "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
+                "description": "În urma dispariției unui băiat, un sat dezvăluie un mister legat de experimente secrete, forțe supranaturale terifiante și o fată foarte ciudată.",
+                "url": "https://www.youtube.com/watch?v=mnd7sFt5c3A",
+                "category": "c1"
+            },
+            {
+                "name": "The Boys",
+                "img": "https://fr.web.img2.acsta.net/pictures/18/10/09/13/20/0995916.jpg",
+                "description": "Acțiunea se desfășoară într-un univers în care indivizii super-puternici sunt recunoscuți ca eroi de către publicul larg și lucrează pentru puternica corporație Vought International, care le comercializează și le monetizează.",
+                "url": "https://www.youtube.com/watch?v=M1bhOaLV4FU",
+                "category": "c1"
+            },
+            {
+                "name": "Papers Please",
+                "img": "https://api.cdkeybay.com/static/4e2a6eaf7d9bf523c24323e5.jpg",
+                "description": "Statul comunist Arstotzka a încheiat un război de 6 ani împotriva kolechiei vecine și a revendicat jumătate din orașul de frontieră Grestin. Treaba ta ca un inspector de imigrare este de a controla fluxul uman care intră în partea arstotzko Grestin de la Kolechia. Printre valul de imigranți și vizitatori în căutarea unui loc de muncă se numără ascunderea falsificatorilor, spionilor și teroriștilor.",
+                "url": "https://www.youtube.com/watch?v=_QP5X6fcukM",
+                "category": "c3"
+            },
+            {
+                "name": "Tokyo Vice",
+                "img": "https://upload.wikimedia.org/wikipedia/en/5/55/Tokyo_Vice.jpg",
+                "description": "Un jurnalist occidental care lucrează în Tokyo se confruntă cu unul dintre cei mai puternici șefi ai crimei din oraș.",
+                "url": "https://www.youtube.com/watch?v=l3oWrNQo_Ng",
+                "category": "c1"
+            },
+            {
+                "name": "Shadow of the Tomb Raider",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg?t=1644931091",
+                "description": "În timp ce Lara Croft încearcă să salveze lumea de la o apocalipsă mayașă, ea trebuie să devină raiderul mormântului care este menit să fie.",
+                "url": "https://www.youtube.com/watch?v=XYtyeqVQnRI",
+                "category": "c3"
+            },
+            {
+                "name": "Love Death & Robots",
+                "img": "https://th.bing.com/th/id/R.84941913ddc665f2fd55bc2865b197a6?rik=zl5mwKnak1Zmyg&pid=ImgRaw&r=0",
+                "description": "Antologie de diferite scurtmetraje animate care acoperă diferite genuri; science fiction, fantasy, horror și comedie. Orientat pentru un public adult.",
+                "url": "https://www.youtube.com/watch?v=wUFwunMKa4E",
+                "category": "c1"
+            },
+            {
+                "name": "Battletoads",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244950/header.jpg?t=1626266138",
+                "description": "Așteptarea s-a terminat! Rash, Zitz și Pimple sunt în cele din urmă înapoi pentru a lovi cu pumnul drumul lor printr-o aventură cu totul nou plin de acțiune și haos coregrafia. Jocurile de cooperare pe canapea nu vor mai fi niciodată la fel.",
+                "url": "https://www.youtube.com/watch?v=pwPB6_g3sq4",
+                "category": "c3"
+            },
+            {
+                "name": "Black Mirror",
+                "img": "https://media.vozpopuli.com/2021/02/Black-Mirror-vuelve-serie-tecnologia_1248185173_13458821_1020x574.jpg",
+                "description": "Serii de antologie care arată partea întunecată a tehnologiei și modul în care aceasta ne afectează și ne poate schimba viața, uneori cu consecințe pe cât de imprevizibile, pe atât de terifiante.",
+                "url": "https://www.youtube.com/watch?v=jROLrhQkK78",
+                "category": "c1"
+            },
+            {
+                "name": "Shutter Island",
+                "img": "https://image.tmdb.org/t/p/w1280/n9eeQTNHY6Ry80QbDGygIupL0Z9.jpg",
+                "description": "În vara anului 1954, executorii judecătorești Teddy Daniels și Chuck Aule sunt trimiși pe o insulă îndepărtată din portul Boston pentru a investiga dispariția unui criminal periculos care a fost ținut la Spitalul de Psihiatrie Ashecliffe, o închisoare pentru infractorii deranjați condusă de sinistrul Dr. John Cawley.",
+                "url": "https://www.youtube.com/watch?v=5iaYLCiq5RM",
+                "category": "c5"
+            },
+            {
+                "name": "Prisioners",
+                "img": "https://www.silenzine.com/wp-content/uploads/2013/10/prisioneros.jpg",
+                "description": "Keller Dover se confruntă cu cel mai rău coșmar: Anna, fiica lui în vârstă de șase ani, a dispărut împreună cu prietenul ei Joy și, pe măsură ce trece timpul, panica îl domină. Disperat, el decide să se ocupe personal de această problemă. Dar cât de departe ești dispus să mergi pentru a afla unde se află fiica ta?",
+                "url": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
+                "category": "c5"
+            },
+            {
+                "name": "Vivarium",
+                "img": "https://gfx.videobuster.de/archive/v/cozuDwUaKuPOceaUKi11k2Qcz0lMkawsCUyRjA0JTJGaW1hmSUyRmpwZWclMkZlYmE5YmXIZLJhxt6r5fFiZaxmYf1kMy5qcGcmcj137zg/vivarium-poster.jpg",
+                "description": "Gemma (Imogen Poots) și Tom (Jesse Eisenberg) sunt un cuplu tânăr care s-a gândit să-și cumpere prima casă. Pentru a face acest lucru, ei vizitează o agenție imobiliară unde sunt primiți de un agent de vânzări ciudat, care îi însoțește la Yonder (o urbanizare nouă, misterioasă și ciudată în care toate casele sunt identice), pentru a le arăta o casă cu o singură familie pentru ei.",
+                "url": "https://www.youtube.com/watch?v=U3Xy2x9NDrw",
+                "category": "c5"
+            },
+            {
+                "name": "Dante's Inferno",
+                "img": "https://2.bp.blogspot.com/-_3bt1gSBF-o/UZGDp1aj0FI/AAAAAAAAAP0/n1MoMrZbwO4/w1200-h630-p-k-no-nu/Dante%2527s+Inferno+Wallpaper.jpg",
+                "description": "Infernul lui Dante se bazează pe Iad, prima parte a Comediei Divine a lui Dante Alighieri. Jucătorul îl controlează pe Dante, un veteran al cruciadei a treia, care încearcă să ajungă la iubita sa Beatrice și să-și elibereze sufletul de Lucifer, care trebuie să se căsătorească cu un suflet destinat Raiului pentru a se elibera de Iad și a încerca să ia tronul lui Dumnezeu.",
+                "url": "https://www.youtube.com/watch?v=UUOZRRU_Dyg",
+                "category": "c3"
+            },
+            {
+                "name": "Focus",
+                "img": "https://th.bing.com/th/id/R.e418ad002a8125782630452d9411c596?rik=nxtV2OhHZFd7tA&pid=ImgRaw&r=0",
+                "description": "Un escroc veteran ia o tânără atrăgătoare sub protectoratul său, dar lucrurile se complică atunci când cei doi încep o poveste de dragoste.",
+                "url": "https://www.youtube.com/watch?v=MoWPbrT6qdk",
+                "category": "c5"
+            },
+            {
+                "name": "Dead Space 2",
+                "img": "https://th.bing.com/th/id/OIP.MXt4ycN_9Ym00yIQEkaWGgHaEK?pid=ImgDet&rs=1",
+                "description": "În Dead Space™ 2, te pui din nou în pielea lui Isaac Clarke, inginerul de sisteme din Dead Space, după ce te-ai trezit la trei ani după evenimentele oribile de la USG Ishimura. Ishimura a fost o navă minieră Planet Destroyer asediată de cadavrele vii grotești ale echipajului său, cunoscută sub numele de \"Necromorphs\".",
+                "url": "https://www.youtube.com/watch?v=776fi2I8e6U",
+                "category": "c3"
+            },
+            {
+                "name": "Psychonauts 2",
+                "img": "https://cdn.wccftech.com/wp-content/uploads/2017/02/Psychonauts-2-2060x963.png",
+                "description": "Razputin \"Raz\" Aquato, un băiat de circ instruit cu abilități psihice, și-a îndeplinit visul de-a lungul vieții: să se alăture organizației internaționale de spionaj cunoscută sub numele de Psychonauts! Cu toate acestea, superspies psihice sunt în probleme. Liderul lor nu este același lucru de când a fost salvat de la o răpire și, ceea ce este mai rău, un infiltrator se ascunde în sediu.",
+                "url": "https://www.youtube.com/watch?v=mBi9rqCZ4os",
+                "category": "c3"
+            },
+            {
+                "name": "The Neon Demon",
+                "img": "https://image.tmdb.org/t/p/original/8h7hJtOpZQGQL5zEVqlGWo9UN2H.jpg",
+                "description": "Jesse, un model aspirant, se mută la Los Angeles, unde este recrutată ca muză a mogulului de modă. La intrarea în industrie, ea constată că vitalitatea și tinerețea ei sunt devorate de un grup de femei obsedate de frumusețe, care vor folosi orice mijloace pentru a obține ceea ce își doresc.",
+                "url": "https://www.youtube.com/watch?v=cipOTUO0CmU",
+                "category": "c5"
+            },
+            {
+                "name": "The Wolf Among Us",
+                "img": "https://th.bing.com/th/id/R.dd666bcbba3785767c64bddb8558cad5?rik=r9vaDs1XZ3LMQg&pid=ImgRaw&r=0",
+                "description": "Ca Bigby Wolf - Marele Lup Rău - veți descoperi că un criminal brutal și sângeroase este doar o mostră de ceea ce este de a veni într-o serie în cazul în care fiecare dintre deciziile tale pot avea consecințe enorme.",
+                "url": "https://www.youtube.com/watch?v=kQmvhdsFIOA",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 3",
+                "img": "https://images3.alphacoders.com/269/269959.jpg",
+                "description": "Max Payne 3 continuă povestea unui fost detectiv din New York Max Payne. Încă bântuit de amintiri din trecutul său traumatizant, Max începe o nouă viață lucrând în securitate privată alături de prietenul său Raul Passos, protejând familia Branco din São Paulo, Brazilia.",
+                "url": "https://www.youtube.com/watch?v=4Uc_dbG7MR8",
+                "category": "c3"
+            },
+            {
+                "name": "Max Payne 2",
+                "img": "https://th.bing.com/th/id/OIP.uczVWa4xMlmrc-2Mv_NR8QHaEK?pid=ImgDet&rs=1",
+                "description": "La câțiva ani după evenimentele din primul joc, Max Payne și-a dat demisia de la DEA și s-a întors la vechiul său loc de muncă ca detectiv în Departamentul de Poliție din New York. Într-o noapte, Max trebuie să meargă la un depozit unde s-au auzit focuri de armă, mai multe persoane au fost ucise, în mâinile unor oameni deghizați în curățători, inclusiv un presupus traficant de arme.",
+                "url": "https://www.youtube.com/watch?v=wkBbLqgcQco",
+                "category": "c3"
+            },
+            {
+                "name": "Gone Girl",
+                "img": "https://image.tmdb.org/t/p/w1280/8e9zHFNRGZgvpAuTPYaK2kB9zGt.jpg",
+                "description": "Gone Girl este un film thriller psihologic american din 2014. Plasată în Missouri, povestea este un mister postmodern care urmărește evenimentele din jurul lui Nick Dunne (Ben Affleck), care devine principalul suspect în dispariția bruscă a soției sale Amy (Rosamund Pike).",
+                "url": "https://www.youtube.com/watch?v=2-_-1nJf8Vg",
+                "category": "c5"
+            },
+            {
+                "name": "Savior",
+                "img": "https://image.tmdb.org/t/p/original/iLyQVeo4Jm9UmLM8YEWStdgTuV4.jpg",
+                "description": "Salvatorul este un film de război din 1998. Este vorba despre un mercenar american care escortează o sârbă bosniacă și copilul ei nou-născut într-o zonă sigură a Organizației Națiunilor Unite în timpul războiului bosniac.",
+                "url": "https://www.youtube.com/watch?v=ONDaW2rd7uM",
+                "category": "c5"
+            },
+            {
+                "name": "Protonmail",
+                "img": "https://th.bing.com/th/id/OIP.4vUyVIK8J3JEJyzTXKF6tAHaD8?pid=ImgDet&rs=1",
+                "description": "ProtonMail este un serviciu de e-mail criptat end-to-end fondat în 2013 în Geneva, Elveția. ProtonMail utilizează criptarea pe partea client pentru a proteja conținutul de e-mail și datele utilizatorilor înainte ca acestea să fie trimise către serverele ProtonMail, spre deosebire de alți furnizori de e-mail obișnuiți, cum ar fi Gmail și Outlook.com.",
+                "url": "https://protonmail.com/",
+                "category": "c2"
+            },
+            {
+                "name": "Bitwarden",
+                "img": "https://www.justgeek.fr/wp-content/uploads/2018/01/bitwarden.jpg",
+                "description": "Bitwarden este un serviciu gratuit și open-source de gestionare a parolelor care stochează informații sensibile, cum ar fi acreditările site-ului web într-un seif criptat.",
+                "url": "https://bitwarden.com/",
+                "category": "c2"
+            },
+            {
+                "name": "Star Wars Jedi: Fallen Order",
+                "img": "https://nosomosnonos.com/wp-content/uploads/2019/10/Star-Wars-Jedi-Fallen-Order.jpg",
+                "description": "După Ordinul 66, care a inițiat epurarea Ordinului Jedi în întreaga galaxie, jucătorii preiau controlul asupra Padawan Cal Kestis (interpretat de Cameron Monaghan), unul dintre ultimii supraviețuitori Jedi. În timpul poveștii, Cal este supus unor teste dure în drumul său de a depăși trecutul traumatizant, care a lăsat ca o continuare sfârșitul războaielor clonelor.",
+                "url": "https://www.youtube.com/watch?v=0GLbwkfhYZk",
+                "category": "c3"
+            },
+            {
+                "name": "The White Lotus",
+                "img": "https://wtfdetective.com/wp-content/uploads/2021/07/hbo-debuts-the-white-lotus-trailer-featuring-lots-of-stars-watch-now-1024x575.jpg",
+                "description": "Acesta prezintă vacanțele mai multor oaspeți ai unei stațiuni tropicale timp de o săptămână, în timp ce se relaxează și întineresc în paradis. Dar, cu fiecare zi care trece, o complexitate mai întunecată apare în viața acestor călători perfecți, a angajaților hotelului râzând și a acelui loc idilic.",
+                "url": "https://www.youtube.com/watch?v=TGLq7_MonZ4",
+                "category": "c1"
+            },
+            {
+                "name": "Raised by Wolves",
+                "img": "https://financerewind.com/wp-content/uploads/2020/08/raised-by-wolves-hbo-max.jpg",
+                "description": "Androizii au sarcina de a crește copii umani pe o planetă misterioasă.",
+                "url": "https://www.youtube.com/watch?v=rE92bDAlPXI",
+                "category": "c1"
+            },
+            {
+                "name": "Euphoria",
+                "img": "https://televisionpromos.com/wp-content/uploads/2019/03/Euphoria-HBO-key-art-logo-740x416.jpg",
+                "description": "Euforia urmărește un grup de elevi de liceu în timp ce navighează prin dragoste și prietenii într-o lume a drogurilor, sexului, traumelor și rețelelor de socializare.",
+                "url": "https://www.youtube.com/watch?v=teCrVa0J8v4&t=2s",
+                "category": "c1"
+            },
+            {
+                "name": "Control",
+                "img": "https://www.spieltimes.com/wp-content/uploads/2019/08/basic.jpg",
+                "description": "Jocul se învârte în jurul Biroului Federal de Control (FBC), o agenție guvernamentală secretă americană însărcinată cu limitarea și studierea fenomenelor care încalcă legile realității. Ca Jesse Faden (Courtney Hope), noul director al Biroului, jucătorul explorează Cea mai veche casă - sediul paranormal al FBC - și utilizează abilități puternice pentru a învinge un inamic mortal cunoscut sub numele de Hiss, care a invadat și corupt realitatea.",
+                "url": "https://www.youtube.com/watch?v=PT5yMfC9LQM",
+                "category": "c3"
+            },
+            {
+                "name": "The Mitchells vs. the Machines",
+                "img": "https://img.search.brave.com/zKIITOhiqZl2wyAn_RCnHKILSs3NzVMq7RGQaMv_Ut8/rs:fit:1200:675:1/g:ce/aHR0cHM6Ly9hcmVh/anVnb25lcy5zcG9y/dC5lcy93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy9sb3Mt/bWl0Y2hlbGwtY29u/dHJhLWxhcy1tYXF1/aW5hcy5qcGVn",
+                "description": "O apocalipsă robotică pune capăt călătoriei lor rutiere de cross-country. Acum, viitorul umanității depinde de Mitchells: cea mai ciudată familie din lume.",
+                "url": "https://www.youtube.com/watch?v=_ak5dFt8Ar0",
+                "category": "c5"
+            },
+            {
+                "name": "Blade Runner: Black Lotus",
+                "img": "https://th.bing.com/th/id/OIP.tUaZrRP1HKj0tBCEf7SkiwHaD8?pid=ImgDet&rs=1",
+                "description": "Los Angeles, 2032. Elle, o tânără replicantă fără amintiri și abilități letale, pleacă în căutarea descoperirii identității pierdute. Singurele sale indicii sunt: un dispozitiv de memorie blocat și un tatuaj al unui lotus negru pe umărul drept.",
+                "url": "https://www.youtube.com/watch?v=eUu3lK_Z8VM",
+                "category": "c1"
+            },
+            {
+                "name": "The Girl Next Door",
+                "img": "https://imgmedia.wapa.pe/420x210/wapa/migration/imagen/2018/03/13/noticia-recuerdas-la-chica-de-al-lado-dejo-la-actuacion-por-esta-razon.png",
+                "description": "Visul unui adolescent se implineste atunci cand o fosta vedeta porno se muta alaturi si se indragosteste.",
+                "url": "https://www.youtube.com/watch?v=s_b2APr9D48",
+                "category": "c5"
+            },
+            {
+                "name": "Recordcast",
+                "img": "https://visiongeek.pe/wp-content/uploads/RecordCast-un-grabador-de-pantalla-en-linea-y-gratuito-730x412.jpg",
+                "description": "Înregistrează ecranul și, de asemenea, permite editarea videoclipurilor fără a fi nevoie să îl instalați, tot prin browser. Ideal pentru utilizare ocazională și la ocazii speciale.",
+                "url": "https://www.recordcast.com/",
+                "category": "c2"
+            },
+            {
+                "name": "SmallPDF",
+                "img": "https://images-na.ssl-images-amazon.com/images/I/41nRS1hfqRL.png",
+                "description": "Oferă diferite funcții pentru gestionarea PDF-urilor. De la editarea și semnarea lor, pentru a le comprima sau converti în alte tipuri de fișiere. Și așa mai departe.",
+                "url": "https://smallpdf.com/",
+                "category": "c2"
+            },
+            {
+                "name": "AlternativeTo",
+                "img": "https://th.bing.com/th/id/OIP.AA7KEI6X920ckKLeLcWXCQHaDD?pid=ImgDet&rs=1",
+                "description": "Web platform where you can filter and find programs similar to another. For example, finding a free program similar to Photoshop.",
+                "url": "https://alternativeto.net/",
+                "category": "c2"
+            },
+            {
+                "name": "Snapdrop",
+                "img": "https://www.iphoned.nl/wp-content/uploads/2015/12/snapdrop-uitg-580x375.jpg",
+                "description": "Aplicație web unde puteți trimite fișiere sau mesaje în siguranță, între dispozitive conectate în aceeași rețea.",
+                "url": "https://snapdrop.net/",
+                "category": "c2"
+            },
+            {
+                "name": "Winter of The World",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Open_book_nae_02.svg/1280px-Open_book_nae_02.svg.png",
+                "description": " It is the second book in the Century Trilogy. The story follows characters from Germany, Britain, the United States and the Soviet Union, who become linked by events leading to World War II, and continues through the war and its immediate aftermath.",
+                "url": "https://ken-follett.com/books/winter-of-the-world-2/",
+                "category": "c4"
+            },
+            {
+                "name": "The Expanse",
+                "img": "https://img.winfuture.de/teaser/1920/41233.jpg",
+                "description": "Serialul are loc într-un viitor în care omenirea a colonizat Sistemul Solar. Urmează o trupă disparată de protagoniști și se plasează în centrul unei conspirații.",
+                "url": "https://www.youtube.com/watch?v=kQuTAPWJxNo",
+                "category": "c1"
+            },
+            {
+                "name": "Beyond Good & Evil",
+                "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/15130/header.jpg?t=1620749841",
+                "description": "Povestea urmărește aventurile lui Jade, un reporter de investigație și un artist marțial, care lucrează cu o mișcare de rezistență pentru a dezvălui o conspirație extraterestră la nivelul întregii planete.",
+                "url": "https://www.youtube.com/watch?v=Wg4CDpo0aw0",
+                "category": "c3"
+            },
+            {
+                "name": "Deus Ex: Human Revolution",
+                "img": "https://www.escapistmagazine.com/v2/wp-content/uploads/2020/08/deusexhumanrevolution1.jpg",
+                "description": "Acțiunea are loc în 2027, la fel cum augmentarea umană începe să intre în viața mainstream. Aceste augmentări mecanice acționează ca înlocuitori pentru părțile naturale ale corpului și permit purtătorului să obțină abilități îmbunătățite, cum ar fi super-rezistența sau super rezistența.",
+                "url": "https://www.youtube.com/watch?v=Kq5KWLqUewc",
+                "category": "c3"
+            },
+            {
+                "name": "Dishonored 2",
+                "img": "https://th.bing.com/th/id/R.fd072c3141f259b3be287e14124f5a7a?rik=APEyEPMVm9Lfxw&pid=ImgRaw&r=0",
+                "description": "La cincisprezece ani de la evenimentele din primul joc, Emily Kaldwin este detronată de un conspirator din altă lume care se forțează pe ea însăși sau pe tatăl ei, Corvo, să plece într-o călătorie pentru a-și șterge numele și a-și restabili titlul de împărăteasă de drept.",
+                "url": "https://www.youtube.com/watch?v=l1jyUAtxh-8",
+                "category": "c3"
+            },
+            {
+                "name": "Prey",
+                "img": "https://geeksofdoom.com/GoD/img/2016/08/prey-arkane-studios-e1470359984607.jpg",
+                "description": "În Prey, te trezești la bordul lui Talos I, o stație spațială care orbitează luna în anul 2032. Sunteți subiectul cheie al unui experiment menit să modifice umanitatea pentru totdeauna - dar lucrurile au mers teribil de greșit. Stația spațială a fost depășită de extratereștri ostili și acum sunteți vânați.",
+                "url": "https://www.youtube.com/watch?v=LNHZ9WAertc",
+                "category": "c3"
+            },
+            {
+                "name": "Quantum Break",
+                "img": "https://17kgroup.it/wp-content/uploads/2018/03/quantum-break-remedy-lavoro-per-risolvere-problemi-della-versione-xbox-one-x-v5-322817.jpg",
+                "description": "În urma unei fracțiuni de secundă de distrugere care fractură timpul în sine, doi oameni constată că s-au schimbat și au dobândit abilități extraordinare. Unul dintre ei călătorește în timp și devine aplecat spre controlul acestei puteri. Celălalt folosește aceste noi abilități pentru a încerca să-l învingă – și să fixeze timpul înainte de a se destrăma iremediabil.",
+                "url": "https://www.youtube.com/watch?v=ruY1eT9bXiw",
+                "category": "c3"
+            },
+            {
+                "name": "Cobra Kai",
+                "img": "https://upload.wikimedia.org/wikipedia/it/1/12/Cobra_Kai.png",
+                "description": "Continuarea filmelor originale The Karate Kid. Stabilit 34 de ani mai târziu, Cobra Kai re-examinează narațiunea din punctul de vedere al lui Johnny, decizia sa de a redeschide dojo-ul de karate Cobra Kai și reapariția vechii sale rivalități cu Daniel.",
+                "url": "https://www.youtube.com/watch?v=lkaIYfA1WOs",
+                "category": "c1"
+            },
+            {
+                "name": "Reminiscence",
+                "img": "https://th.bing.com/th/id/OIP.6L8KibveXA7umWl1IqCfsAHaEK?pid=ImgDet&rs=1",
+                "description": "Un om de știință descoperă o modalitate de a retrăi trecutul și folosește tehnologia pentru a-și căuta dragostea de mult pierdută.",
+                "url": "https://www.youtube.com/watch?v=_BggT--yxf0",
+                "category": "c5"
+            },
+            {
+                "name": "Schindler's List",
+                "img": "https://picfiles.alphacoders.com/224/224155.jpg",
+                "description": "În Polonia ocupată de germani în timpul celui de-al Doilea Război Mondial, industriașul Oskar Schindler își face griji cu privire la muncitorii săi evrei după ce a fost martor la persecuția lor de către naziști.",
+                "url": "https://www.youtube.com/watch?v=mxphAlJID9U",
+                "category": "c5"
+            },
+            {
+                "name": "Blue Valentine",
+                "img": "https://th.bing.com/th/id/OIP.-nXp9EXUN-4yMybU1bDE6gHaF7?pid=ImgDet&rs=1",
+                "description": "Relația unei căsnicii de-a lungul anilor intercalând diferite perioade.",
+                "url": "https://www.youtube.com/watch?v=aILx69WrRhQ",
+                "category": "c5"
+            }
+        ]
     }
 ]

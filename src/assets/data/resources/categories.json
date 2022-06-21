@@ -19,5 +19,15 @@
         { "id": "c4", "name": "Books" },
         { "id": "c5", "name": "Films" }
       ]
+    }, {
+      "lang": "ro",
+      "data": [
+        { "id": "c0", "name": "Toate categoriile" },
+        { "id": "c1", "name": "Seriale TV" },
+        { "id": "c2", "name": "Aplicații" },
+        { "id": "c3", "name": "Jocuri video" },
+        { "id": "c4", "name": "Cărţi" },
+        { "id": "c5", "name": "Filme" }
+      ]
     }
   ]
