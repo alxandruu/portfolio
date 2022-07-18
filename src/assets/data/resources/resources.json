@@ -3,6 +3,20 @@
         "lang": "es",
         "data": [
             {
+                "name": "Blade Runner 2049",
+                "img": "https://images.everyeye.it/img-notizie/blade-runner-2049-non-solo-migliori-film-sci-fi-streaming-v3-450355.jpg",
+                "description": "Treinta años después de los eventos del primer film, un nuevo blade runner, K (Ryan Gosling) descubre un secreto profundamente oculto que podría acabar con el caos que impera en la sociedad. El descubrimiento de K le lleva a iniciar la búsqueda de Rick Deckard (Harrison Ford), un blade runner al que se le perdió la pista hace 30 años.",
+                "url": "https://www.youtube.com/watch?v=PkqHVGFAhbU",
+                "category": "c5"
+            },
+            {
+                "name": "Westworld",
+                "img": "https://th.bing.com/th/id/OIP.Td_XKWd9DxrhlIA7iJGtfgHaEK?pid=ImgDet&rs=1",
+                "description": "Westworld es un parque de atracciones futurista y controlado por alta tecnología dirigido por el Dr. Robert Ford (Anthony Hopkins). Las instalaciones cuentan con androides cuya apariencia física es humana, y gracias a ellos los visitantes pueden dar rienda suelta a sus instintos y vivir cualquier tipo de aventura o fantasía, por muy oscura o peligrosa que sea, sabiendo que los robots no les harán daño.",
+                "url": "https://www.youtube.com/watch?v=g1qIP_q1O08",
+                "category": "c1"
+            },
+            {
                 "name": "Stranger Things",
                 "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
                 "description": "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
@@ -37,7 +51,6 @@
                 "url": "https://www.youtube.com/watch?v=H5hFiItax4U",
                 "category": "c3"
             },
-
             {
                 "name": "Love Death & Robots",
                 "img": "https://th.bing.com/th/id/R.84941913ddc665f2fd55bc2865b197a6?rik=zl5mwKnak1Zmyg&pid=ImgRaw&r=0",
@@ -337,6 +350,20 @@
     {
         "lang": "en",
         "data": [
+            {
+                "name": "Blade Runner 2049",
+                "img": "https://images.everyeye.it/img-notizie/blade-runner-2049-non-solo-migliori-film-sci-fi-streaming-v3-450355.jpg",
+                "description": "Thirty years after the events of the first film, a new blade runner, K (Ryan Gosling) discovers a deeply hidden secret that could end the chaos that prevails in society. K's discovery leads him to start the search for Rick Deckard (Harrison Ford), a blade runner who lost track 30 years ago.",
+                "url": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+                "category": "c5"
+            },
+            {
+                "name": "Westworld",
+                "img": "https://th.bing.com/th/id/OIP.Td_XKWd9DxrhlIA7iJGtfgHaEK?pid=ImgDet&rs=1",
+                "description": "Westworld is a futuristic, high-tech-controlled amusement park run by Dr. Robert Ford (Anthony Hopkins). The facilities have androids whose physical appearance is human, and thanks to them visitors can give free rein to their instincts and live any type of adventure or fantasy, no matter how dark or dangerous it is, knowing that robots will not harm them.",
+                "url": "https://www.youtube.com/watch?v=9BqKiZhEFFw",
+                "category": "c1"
+            },
             {
                 "name": "Stranger Things",
                 "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
@@ -660,9 +687,24 @@
                 "category": "c5"
             }
         ]
-    },{
+    },
+    {
         "lang": "ro",
         "data": [
+            {
+                "name": "Blade Runner 2049",
+                "img": "https://images.everyeye.it/img-notizie/blade-runner-2049-non-solo-migliori-film-sci-fi-streaming-v3-450355.jpg",
+                "description": "La treizeci de ani de la evenimentele din primul film, un nou Blade Runner, K (Ryan Gosling) descoperă un secret profund ascuns care ar putea pune capăt haosului care predomină în societate. Descoperirea lui K îl determină să înceapă căutarea lui Rick Deckard (Harrison Ford), un Blade Runner care a pierdut urma în urmă cu 30 de ani.",
+                "url": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+                "category": "c5"
+            },
+            {
+                "name": "Westworld",
+                "img": "https://th.bing.com/th/id/OIP.Td_XKWd9DxrhlIA7iJGtfgHaEK?pid=ImgDet&rs=1",
+                "description": "Westworld este un parc de distracții futurist, controlat de high-tech, condus de Dr. Robert Ford (Anthony Hopkins). Facilitățile au androizi al căror aspect fizic este uman, iar datorită lor vizitatorii pot da frâu liber instinctelor lor și pot trăi orice tip de aventură sau fantezie, indiferent cât de întunecată sau periculoasă este, știind că roboții nu le vor face rău.",
+                "url": "https://www.youtube.com/watch?v=9BqKiZhEFFw",
+                "category": "c1"
+            },
             {
                 "name": "Stranger Things",
                 "img": "https://th.bing.com/th/id/R.d2b2f092c6bd2f227a45bfa0176f0962?rik=%2bZMD22MDhn31eQ&pid=ImgRaw&r=0",
